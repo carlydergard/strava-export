@@ -1,0 +1,28 @@
+name: Strava Export
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 4 * * *"
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    env:
+      STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
+      STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - run: pip install requests icalendar
+
+      - run: |
+          python export_strava_activities.py
+          python json-to-html.py
+          python json-to-ics.py
