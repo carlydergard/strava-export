@@ -23,6 +23,7 @@ jobs:
         with:
           python-version: "3.11"
 
+      - run: pip install --upgrade pip
       - run: pip install requests icalendar pandas
 
       - run: |
