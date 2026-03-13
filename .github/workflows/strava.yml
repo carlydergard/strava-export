@@ -20,9 +20,19 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: pip install requests icalendar
+      - run: pip install requests icalendar pandas
 
       - run: |
           python export_strava_activities.py
+          python strengthlog-to-json.py
           python json-to-html.py
           python json-to-ics.py
+
+      # commit updated files back to repo
+      - name: Commit updated data
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add activities.json *.ics *.html
+          git commit -m "Automated export" || echo "No changes"
+          git push
