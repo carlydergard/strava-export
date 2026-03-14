@@ -10,6 +10,7 @@ OUTPUT_JSON = "activities.json"
 MAX_NEW_ACTIVITIES = None     # set to None to do all activities
 SAVE_EVERY = 25               # checkpoint frequency
 
+CLIENT_ID = os.environ["STRAVA_CLIENT_ID"]
 CLIENT_SECRET = os.environ["STRAVA_CLIENT_SECRET"]
 refresh_token = os.environ["STRAVA_REFRESH_TOKEN"]
 
