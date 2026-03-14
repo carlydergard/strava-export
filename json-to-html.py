@@ -54,7 +54,7 @@ def activity_icon_and_label(sport_type):
     return "❓", sport_type
 
 
-print("📖 Reading JSON…")
+print("Reading JSON…")
 with open(INPUT_JSON, "r", encoding="utf-8") as f:
     activities = json.load(f)
 
