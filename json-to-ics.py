@@ -6,7 +6,7 @@ from icalendar import Calendar, Event
 TIMEZONE = ZoneInfo("Europe/Stockholm")
 
 INPUT_JSON = "activities.json"
-OUTPUT_ICS = r"C:\Users\CarlYdergård\Dropbox\strava-calendar\activities.ics"
+OUTPUT_ICS = "activities.ics"
 
 EMOJI_BY_SPORT = {
     "Run": "🏃",
