@@ -88,7 +88,8 @@ def main():
             a["startTimeLocal"], "%Y-%m-%d %H:%M:%S"
         ).replace(tzinfo=TIMEZONE)
 
-        end = start + timedelta(seconds=a["elapsedDuration"])
+        duration = a.get("elapsedDuration", 0)
+        end = start + timedelta(seconds=duration)
 
         sport = a.get("sportType")
         emoji = EMOJI_BY_SPORT.get(sport, "❓")
