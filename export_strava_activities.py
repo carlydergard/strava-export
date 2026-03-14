@@ -10,8 +10,8 @@ OUTPUT_JSON = "activities.json"
 MAX_NEW_ACTIVITIES = None     # set to None to do all activities
 SAVE_EVERY = 25               # checkpoint frequency
 
-CLIENT_ID = "150851"
-CLIENT_SECRET = "45306ea5bf8da4c47e49072ceeb863e14745750a"
+CLIENT_ID = "x"
+CLIENT_SECRET = "x"
 
 # ==========================================
 
