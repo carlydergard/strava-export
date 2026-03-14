@@ -3,6 +3,7 @@ import json
 import time
 import requests
 from datetime import datetime, timezone, timedelta
+from zoneinfo import ZoneInfo
 
 # ================= CONFIG =================
 
@@ -39,15 +40,15 @@ def refresh_access_token():
 
     print("🔑 Tokens refreshed successfully.")
 
+LOCAL_TZ = ZoneInfo("Europe/Stockholm")
 
 def countdown(seconds):
-    end = datetime.now(timezone.utc) + timedelta(seconds=seconds)
-
-    while seconds > 0:
-        mins, secs = divmod(seconds, 60)
-        print(f"\r⏳ Waiting {mins:02}:{secs:02} (resumes {end:%H:%M:%S} UTC)", end="")
-        time.sleep(1)
-        seconds -= 1
+    end_utc = datetime.now(timezone.utc) + timedelta(seconds=seconds)
+    end_local = end_utc.astimezone(LOCAL_TZ)
+    mins = seconds // 60
+    secs = seconds % 60
+    print(f"⏳ Waiting {mins}m {secs}s (until {end_local:%H:%M:%S} local / {end_utc:%H:%M:%S} UTC)")
+    time.sleep(seconds)
 
     print()
 
