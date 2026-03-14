@@ -1,5 +1,33 @@
 [
   {
+    "activityId": 17718717315,
+    "activityName": "Recovery",
+    "startTimeLocal": "2026-03-14 13:02:18",
+    "startTimeGMT": "2026-03-14 12:02:18",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 6005.3,
+    "movingDuration": 2178,
+    "elapsedDuration": 2330,
+    "elevationGain": 83.0,
+    "averageSpeed": 2.757,
+    "averageHR": 143.0,
+    "maxHR": 162.0,
+    "sufferScore": 9.0,
+    "averageRunningCadenceInStepsPerMinute": 166,
+    "publicDescription": "⭕️",
+    "privateNote": "Recovery. Mål: Att ta det superlugnt! Dvs typ 6:20-tempo. Blev något snabbare men tog iofs 2 pauser för chins på Hvitfeldtska resp Mossen. Elapsed pace blev 6:28, tillräckligt lugnt tror jag!\n\nGlad π-dag! (2026-)03-14 ⭕️\nElapsed pace: 2xπ 🤯",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true
+  },
+  {
     "activityId": 17710337791,
     "activityName": "Med-long run 18 km",
     "startTimeLocal": "2026-03-13 16:56:08",
