@@ -44,8 +44,11 @@ for start_time, workout_df in df.groupby("start"):
                 weight = float(str(weight).replace(",", "."))
 
             reps_list.append(str(reps))
-            weight_list.append(str(int(weight)) if weight.is_integer() else str(weight))
-
+            if float(weight).is_integer():
+                weight_list.append(str(int(weight)))
+            else:
+                weight_list.append(str(weight))
+            
             total_volume += reps * weight
 
         # If no meaningful reps/weights → just show exercise name (e.g. planks)
