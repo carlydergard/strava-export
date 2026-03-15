@@ -14,6 +14,15 @@ DESCRIPTION:Notes:\n⭕️\n\nPrivate:\nRecovery. Mål: Att ta det superlu
   HR: 143 bpm\nElevation gain: 83 m\nSuffer score: 9
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🏋️ Lördag lunch: Chins
+DTSTART;TZID=Europe/Stockholm:20260314T121100
+DTEND;TZID=Europe/Stockholm:20260314T122800
+UID:strava-None@carlydergard
+DESCRIPTION:Private:\n=== Strengthlog ===\nExporterat från Strengthlog:\n
+ \nLördag lunch: Chins\nChins 4-3 reps\, 75-75 kg\nTotalvolym: 525 kg\n\nS
+ tats:\nTime: 17:00
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🏃 Med-long run 18 km
 DTSTART;TZID=Europe/Stockholm:20260313T165608
 DTEND;TZID=Europe/Stockholm:20260313T183517
@@ -32,8 +41,11 @@ DTSTART;TZID=Europe/Stockholm:20260312T114020
 DTEND;TZID=Europe/Stockholm:20260312T121932
 UID:strava-17695497537@carlydergard
 DESCRIPTION:Private:\nBaslyft helkropp. Omnia. Stabilt. Chins går framåt
- ! Övriga lyft marginal gains.\n\nStats:\nTime: 39:12\nAvg HR: 103 bpm\nSu
- ffer score: 4
+ ! Övriga lyft marginal gains.\n\n=== Strengthlog ===\nExporterat från St
+ rengthlog:\n\nGolden 5 light\nBänkpress 10-8-7 reps\, 20-40-45 kg\nChins 
+ 5-4-3 reps\, 75-75-75 kg\nKnäböj 10-8-4 reps\, 20-50-60 kg\nMarklyft 10-
+ 5-5 reps\, 50-80-90 kg\nPress 10-8-4 reps\, 20-25-30 kg\nTotalvolym: 4445 
+ kg\n\nStats:\nTime: 39:12\nAvg HR: 103 bpm\nSuffer score: 4
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏃 Gen-aerobic + speed 11 km
@@ -103,8 +115,11 @@ DTSTART;TZID=Europe/Stockholm:20260306T115656
 DTEND;TZID=Europe/Stockholm:20260306T131951
 UID:strava-17623728917@carlydergard
 DESCRIPTION:Private:\nBaslyft helkropp\, G5 light. Omnia. Bra pass! Glömd
- e stoppa klockan efter…\n\nStats:\nTime: 1:22:55\nAvg HR: 87 bpm\nSuffer
-  score: 7
+ e stoppa klockan efter…\n\n=== Strengthlog ===\nExporterat från Strengt
+ hlog:\n\nGolden 5 light\nBänkpress 10-8-2 reps\, 20-40-50 kg\nChins 5-3-3
+  reps\, 75-75-75 kg\nKnäböj 10-8-5 reps\, 20-52.5-57.5 kg\nMarklyft 8-4-
+ 3 reps\, 60-80-92.5 kg\nPress 10-8-3 reps\, 20-25-32.5 kg\nTotalvolym: 392
+ 7 kg\n\nStats:\nTime: 1:22:55\nAvg HR: 87 bpm\nSuffer score: 7
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏃 Recovery

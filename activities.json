@@ -28,6 +28,34 @@
     "hasMap": true
   },
   {
+    "activityId": null,
+    "activityName": "Lördag lunch: Chins",
+    "startTimeLocal": "2026-03-14 12:11:00",
+    "startTimeGMT": "2026-03-14 12:11:00",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 1020,
+    "elapsedDuration": 1020,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": null,
+    "maxHR": null,
+    "sufferScore": null,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "",
+    "privateNote": "=== Strengthlog ===\nExporterat från Strengthlog:\n\nLördag lunch: Chins\nChins 4-3 reps, 75-75 kg\nTotalvolym: 525 kg",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": true,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 17710337791,
     "activityName": "Med-long run 18 km",
     "startTimeLocal": "2026-03-13 16:56:08",
@@ -73,7 +101,7 @@
     "sufferScore": 4.0,
     "averageRunningCadenceInStepsPerMinute": null,
     "publicDescription": "",
-    "privateNote": "Baslyft helkropp. Omnia. Stabilt. Chins går framåt! Övriga lyft marginal gains. ",
+    "privateNote": "Baslyft helkropp. Omnia. Stabilt. Chins går framåt! Övriga lyft marginal gains.\n\n=== Strengthlog ===\nExporterat från Strengthlog:\n\nGolden 5 light\nBänkpress 10-8-7 reps, 20-40-45 kg\nChins 5-4-3 reps, 75-75-75 kg\nKnäböj 10-8-4 reps, 20-50-60 kg\nMarklyft 10-5-5 reps, 50-80-90 kg\nPress 10-8-4 reps, 20-25-30 kg\nTotalvolym: 4445 kg",
     "flags": {
       "commute": false,
       "trainer": true,
@@ -213,7 +241,7 @@
     "sufferScore": 7.0,
     "averageRunningCadenceInStepsPerMinute": null,
     "publicDescription": "",
-    "privateNote": "Baslyft helkropp, G5 light. Omnia. Bra pass! Glömde stoppa klockan efter…",
+    "privateNote": "Baslyft helkropp, G5 light. Omnia. Bra pass! Glömde stoppa klockan efter…\n\n=== Strengthlog ===\nExporterat från Strengthlog:\n\nGolden 5 light\nBänkpress 10-8-2 reps, 20-40-50 kg\nChins 5-3-3 reps, 75-75-75 kg\nKnäböj 10-8-5 reps, 20-52.5-57.5 kg\nMarklyft 8-4-3 reps, 60-80-92.5 kg\nPress 10-8-3 reps, 20-25-32.5 kg\nTotalvolym: 3927 kg",
     "flags": {
       "commute": false,
       "trainer": true,
