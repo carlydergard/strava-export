@@ -1,5 +1,6 @@
 import pandas as pd
 import json
+from zoneinfo import ZoneInfo
 
 # ================= CONFIG =================
 CSV_PATH = "strengthlog-export.csv"
@@ -11,8 +12,8 @@ STRENGTHLOG_HEADER = "=== Strengthlog ==="
 
 # ---------- LOAD CSV ----------
 df = pd.read_csv(CSV_PATH)
-df["start_dt"] = pd.to_datetime(df["start"], unit="ms")
-df["end_dt"] = pd.to_datetime(df["end"], unit="ms")
+df["start_dt"] = pd.to_datetime(df["start"], unit="ms", utc=True).dt.tz_convert("Europe/Stockholm")
+df["end_dt"] = pd.to_datetime(df["end"], unit="ms", utc=True).dt.tz_convert("Europe/Stockholm")
 
 workouts = []
 
