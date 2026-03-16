@@ -179,7 +179,7 @@ for act in activities:
         html.append(f'<div class="meta">📅 {format_datetime(start)}</div>')
 
     stats = []
-    if distance:
+    if distance is not None::
         stats.append(f"📏 {distance/1000:.2f} km")
 
         elapsed = act.get("elapsedDuration")
