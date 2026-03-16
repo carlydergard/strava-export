@@ -95,7 +95,15 @@ def main():
         emoji = EMOJI_BY_SPORT.get(sport, "❓")
 
         event = Event()
-        event.add("uid", f"strava-{a['activityId']}@carlydergard")
+        uid = a.get("activityId")
+
+        if uid:
+            uid = f"strava-{uid}@carlydergard"
+        else:
+            safe_time = a["startTimeLocal"].replace(" ", "T")
+            safe_name = a["activityName"].replace(" ", "_")
+            uid = f"strengthlog-{safe_time}-{safe_name}@carlydergard"
+        event.add("uid", uid)
         event.add("dtstart", start)
         event.add("dtend", end)
         event.add("summary", f"{emoji} {a['activityName']}")
