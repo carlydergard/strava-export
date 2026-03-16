@@ -40,8 +40,10 @@ def activity_icon_and_label(sport_type):
         return "🏃", "Run"
     if t == "ride":
         return "🚴", "Ride"
-    if t in ("weighttraining", "workout"):
+    if t == "weighttraining":
         return "🏋️", "Strength training"
+    if t == "workout":
+        return "💪", "Workout"
     if t in ("walk", "hike"):
         return "🥾", "Walk / Hike"
     if t == "swim":
