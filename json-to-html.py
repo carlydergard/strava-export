@@ -75,13 +75,19 @@ html_lines.append("""<!DOCTYPE html>
 <style>
 body {
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 900px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     padding: 16px;
     box-sizing: border-box;
     line-height: 1.6;
     color: #111;
+}
+
+@media (min-width: 900px) {
+    body {
+        max-width: 900px;
+        margin: 0 auto;
+    }
 }
 .activity {
     margin-bottom: 48px;
