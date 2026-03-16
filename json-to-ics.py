@@ -58,7 +58,7 @@ def build_description(a):
     if a.get("distance", 0) > 0:
         lines.append(f"Distance: {a['distance'] / 1000:.2f} km")
 
-    lines.append(f"Time: {seconds_to_hhmmss(a['elapsedDuration'])}")
+    lines.append(f"Time: {seconds_to_hhmmss(a.get('elapsedDuration', 0))}")
 
     pace = mps_to_min_per_km(a.get("averageSpeed"))
     if pace:
@@ -83,6 +83,7 @@ def main():
     cal = Calendar()
     cal.add("prodid", "-//Strava Calendar//EN")
     cal.add("version", "2.0")
+    cal.add("X-WR-CALNAME", "Training Log")
 
     for a in activities:
         start = datetime.strptime(
@@ -105,6 +106,7 @@ def main():
             safe_name = a["activityName"].replace(" ", "_")
             uid = f"strengthlog-{safe_time}-{safe_name}@carlydergard"
         event.add("uid", uid)
+        event.add("dtstamp", datetime.now(tz=TIMEZONE))
         event.add("dtstart", start)
         event.add("dtend", end)
         event.add("summary", f"{emoji} {a['activityName']}")
