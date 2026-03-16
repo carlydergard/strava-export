@@ -18,6 +18,7 @@ EMOJI_BY_SPORT = {
     "Hike": "🥾",
     "NordicSki": "🎿",
     "AlpineSki": "⛷️",
+    "Workout": "💪",
 }
 
 
