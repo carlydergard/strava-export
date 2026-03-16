@@ -69,12 +69,14 @@ html.append("""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Training Log</title>
 <style>
 body {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 900px;
-    margin: 40px auto;
+    margin: 20px auto;
+    padding: 0 14px;
     line-height: 1.6;
     color: #111;
 }
@@ -111,6 +113,29 @@ h2 {
 hr {
     margin-top: 24px;
 }
+
+@media (prefers-color-scheme: dark) {
+
+body {
+    background: #121212;
+    color: #e0e0e0;
+}
+
+.private {
+    background: #1e1e1e;
+    border-left: 4px solid #666;
+}
+
+.activity {
+    border-bottom: 1px solid #333;
+}
+
+a {
+    color: #8ab4f8;
+}
+
+}
+
 </style>
 </head>
 <body>
