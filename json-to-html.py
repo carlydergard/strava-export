@@ -91,6 +91,9 @@ body {
 p {
     white-space: pre-wrap;
 }
+h1 {
+    margin-top: 0;
+}
 h2 {
     margin-bottom: 2px;
 }
