@@ -144,8 +144,13 @@ for act in activities:
     stats = []
     if distance:
         stats.append(f"📏 {distance/1000:.2f} km")
-    if moving:
-        stats.append(f"⏱ {seconds_to_hms(moving)}")
+
+        elapsed = act.get("elapsedDuration")
+        if moving:
+            stats.append(f"⏱ {seconds_to_hms(moving)} moving")
+        if elapsed and elapsed != moving:
+            stats.append(f"🕒 {seconds_to_hms(elapsed)} elapsed")
+    
     pace = pace_min_per_km(distance, moving)
     if pace:
         stats.append(f"⚡ {pace}")
