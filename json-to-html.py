@@ -194,8 +194,6 @@ for act in activities:
         elapsed = act.get("elapsedDuration")
         if moving:
             stats.append(f"⏱ {seconds_to_hms(moving)} moving")
-        if elapsed and elapsed != moving:
-            stats.append(f"🕒 {seconds_to_hms(elapsed)} elapsed")
     
     pace = pace_min_per_km(distance, moving)
     if pace:
@@ -217,6 +215,9 @@ for act in activities:
         html.append("</div>")
 
     metrics = []
+    elapsed = act.get("elapsedDuration")
+    if elapsed:
+        metrics.append(f"Elapsed time: {seconds_to_hms(elapsed)}")
     if avg_hr:
         metrics.append(f"Avg HR: {int(avg_hr)} bpm")
     if max_hr:
