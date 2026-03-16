@@ -80,6 +80,11 @@ body {
 }
 .activity {
     margin-bottom: 48px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ddd;
+}
+p {
+    white-space: pre-wrap;
 }
 h2 {
     margin-bottom: 2px;
@@ -96,7 +101,7 @@ h2 {
     margin-top: 12px;
 }
 .private {
-    background: #f4f4f4;
+    background:  #f7f7f7;
     padding: 10px;
     border-left: 4px solid #999;
 }
