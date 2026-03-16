@@ -54,7 +54,8 @@ def countdown(seconds):
 
 
 def iso_to_local(s):
-    return datetime.strptime(s, "%Y-%m-%dT%H:%M:%SZ").strftime("%Y-%m-%d %H:%M:%S")
+    dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+    return dt.strftime("%Y-%m-%d %H:%M:%S")
 
 
 def workout_type_label(v):
