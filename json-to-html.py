@@ -76,8 +76,10 @@ html.append("""<!DOCTYPE html>
 body {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 900px;
-    margin: 20px auto;
-    padding: 0 14px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+    box-sizing: border-box;
     line-height: 1.6;
     color: #111;
 }
