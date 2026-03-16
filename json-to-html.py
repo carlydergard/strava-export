@@ -63,10 +63,10 @@ with open(INPUT_JSON, "r", encoding="utf-8") as f:
 
 print(f"✍ Writing HTML for {len(activities)} activities…")
 
-html = []
+html_lines = []
 
 # ---------- HTML HEADER ----------
-html.append("""<!DOCTYPE html>
+html_lines.append("""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -174,18 +174,18 @@ for act in activities:
     sport_type = act.get("sportType") or act.get("type")
     icon, type_label = activity_icon_and_label(sport_type)
 
-    html.append('<div class="activity">')
+    html_lines.append('<div class="activity">')
     if strava_link:
-        html.append(
+        html_lines.append(
             f'<h2>{icon} {name} '
             f'<a href="{strava_link}" target="_blank" style="font-size:0.7em">🔗</a></h2>'
         )
     else:
-        html.append(f"<h2>{icon} {name}</h2>")
-    html.append(f'<div class="type">{type_label}</div>')
+        html_lines.append(f"<h2>{icon} {name}</h2>")
+    html_lines.append(f'<div class="type">{type_label}</div>')
 
     if start:
-        html.append(f'<div class="meta">📅 {format_datetime(start)}</div>')
+        html_lines.append(f'<div class="meta">📅 {format_datetime(start)}</div>')
 
     stats = []
     if distance is not None:
@@ -200,19 +200,19 @@ for act in activities:
         stats.append(f"⚡ {pace}")
 
     if stats:
-        html.append(f'<div class="meta">{" · ".join(stats)}</div>')
+        html_lines.append(f'<div class="meta">{" · ".join(stats)}</div>')
 
     if public_note:
-        html.append('<div class="section">')
-        html.append("<strong>📝 Public note</strong><br>")
-        html.append(f"<p>{public_note.replace(chr(10), '<br>')}</p>")
-        html.append("</div>")
+        html_lines.append('<div class="section">')
+        html_lines.append("<strong>📝 Public note</strong><br>")
+        html_lines.append(f"<p>{public_note.replace(chr(10), '<br>')}</p>")
+        html_lines.append("</div>")
 
     if private_note:
-        html.append('<div class="section private">')
-        html.append("<strong>🔒 Private note</strong><br>")
-        html.append(f"<p>{private_note.replace(chr(10), '<br>')}</p>")
-        html.append("</div>")
+        html_lines.append('<div class="section private">')
+        html_lines.append("<strong>🔒 Private note</strong><br>")
+        html_lines.append(f"<p>{private_note.replace(chr(10), '<br>')}</p>")
+        html_lines.append("</div>")
 
     metrics = []
     elapsed = act.get("elapsedDuration")
@@ -230,25 +230,25 @@ for act in activities:
         metrics.append(f"Suffer score: {int(suffer)}")
 
     if metrics:
-        html.append('<div class="section metrics">')
-        html.append("<strong>📊 Metrics</strong>")
-        html.append("<ul>")
+        html_lines.append('<div class="section metrics">')
+        html_lines.append("<strong>📊 Metrics</strong>")
+        html_lines.append("<ul>")
         for m in metrics:
-            html.append(f"<li>{m}</li>")
-        html.append("</ul>")
-        html.append("</div>")
+            html_lines.append(f"<li>{m}</li>")
+        html_lines.append("</ul>")
+        html_lines.append("</div>")
 
-    html.append("<hr>")
-    html.append("</div>")
+    html_lines.append("<hr>")
+    html_lines.append("</div>")
 
 # ---------- HTML FOOTER ----------
-html.append("""
+html_lines.append("""
 </body>
 </html>
 """)
 
 with open(OUTPUT_HTML, "w", encoding="utf-8") as f:
-    f.write("\n".join(html))
+    f.write("\n".join(html_lines))
 
 print("✅ Done!")
 print(f"   Output file: {OUTPUT_HTML}")
