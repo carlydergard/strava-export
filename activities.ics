@@ -22,6 +22,15 @@ DESCRIPTION:Private:\nLong run 29 km\, målfart ca 5:15-5:25 min/km. Känd
  e: 5:21 min/km\nAvg HR: 156 bpm\nElevation gain: 219 m\nSuffer score: 81
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:🏋️ Lördag lunch: Chins
+DTSTART;TZID=Europe/Stockholm:20260314T131100
+DTEND;TZID=Europe/Stockholm:20260314T132800
+UID:strava-None@carlydergard
+DESCRIPTION:Private:\n=== Strengthlog ===\nExporterat från Strengthlog:\n
+ \nLördag lunch: Chins\nChins 4-3 reps\, 75-75 kg\nTotalvolym: 525 kg\n\nS
+ tats:\nTime: 17:00
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🏃 Recovery
 DTSTART;TZID=Europe/Stockholm:20260314T130218
 DTEND;TZID=Europe/Stockholm:20260314T134108
@@ -32,15 +41,6 @@ DESCRIPTION:Notes:\n⭕️\n\nPrivate:\nRecovery. Mål: Att ta det superlu
  lugnt tror jag!\n\nGlad π-dag! (2026-)03-14 ⭕️\nElapsed pace: 2xπ 
  🤯\n\nStats:\nDistance: 6.01 km\nTime: 38:50\nAvg pace: 6:03 min/km\nAvg
   HR: 143 bpm\nElevation gain: 83 m\nSuffer score: 9
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🏋️ Lördag lunch: Chins
-DTSTART;TZID=Europe/Stockholm:20260314T121100
-DTEND;TZID=Europe/Stockholm:20260314T122800
-UID:strava-None@carlydergard
-DESCRIPTION:Private:\n=== Strengthlog ===\nExporterat från Strengthlog:\n
- \nLördag lunch: Chins\nChins 4-3 reps\, 75-75 kg\nTotalvolym: 525 kg\n\nS
- tats:\nTime: 17:00
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏃 Med-long run 18 km
