@@ -147,6 +147,10 @@ a {
 # ---------- ACTIVITIES ----------
 for act in activities:
     name = act.get("activityName", "Untitled")
+    activity_id = act.get("activityId")
+    strava_link = None
+    if activity_id:
+        strava_link = f"https://www.strava.com/activities/{activity_id}"
     start = act.get("startTimeLocal")
     distance = act.get("distance")
     moving = act.get("movingDuration")
@@ -165,7 +169,10 @@ for act in activities:
     icon, type_label = activity_icon_and_label(sport_type)
 
     html.append('<div class="activity">')
-    html.append(f"<h2>{icon} {name}</h2>")
+    if strava_link:
+        html.append(f'<h2>{icon} <a href="{strava_link}" target="_blank">{name}</a></h2>')
+    else:
+        html.append(f"<h2>{icon} {name}</h2>")
     html.append(f'<div class="type">{type_label}</div>')
 
     if start:
