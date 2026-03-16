@@ -94,6 +94,11 @@ body {
     padding-bottom: 12px;
     border-bottom: 1px solid #ddd;
 }
+.meta {
+    font-weight: bold;
+    margin-bottom: 6px;
+    word-wrap: break-word;
+}
 p {
     white-space: pre-wrap;
 }
