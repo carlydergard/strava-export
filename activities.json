@@ -1,5 +1,33 @@
 [
   {
+    "activityId": 17730880165,
+    "activityName": "Long run 29 km",
+    "startTimeLocal": "2026-03-15 11:06:45",
+    "startTimeGMT": "2026-03-15 10:06:45",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "long_run",
+    "distance": 29031.3,
+    "movingDuration": 9307,
+    "elapsedDuration": 9410,
+    "elevationGain": 219.0,
+    "averageSpeed": 3.119,
+    "averageHR": 156.8,
+    "maxHR": 176.0,
+    "sufferScore": 81.0,
+    "averageRunningCadenceInStepsPerMinute": 172,
+    "publicDescription": "",
+    "privateNote": "Long run 29 km, målfart ca 5:15-5:25 min/km. Kändes liksom både lite pressat och helt rimligt på samma gång? Det gick ju bevisligen… Kollade inte pace jättemkt, hade navigation på klockan.\n\nFint att springa till Stenkullen! Bra destination. Särskilt idag då det blev en del medvind. \n\nDelade upp passet mentalt i ca 7km-delar, umara-gel (tot 3 st) mellan varje. \n\n0-7 km: Ganska seg start, lite stel. \n7-14 km: Platt och rak bit. Tiden gick snabbt! \n14-21 km: Viss trötthet började smyga sig på. Undulerande (?!) terräng. Lyssnade på Sabrina Carpenter - Mans best friend. Bra guilty-pleasure-springmusik!\n21-29 km: Stela ben, kändes tufft! Mer uppför än andra delar. Ganska matt på slutet. \n\n✅Första 80+ km-veckan på länge!\n\nSportdryck, lätt frukost och rödbetsjuice (har många i kylen, vill inte att de ska gå över bäst före!) innan. ",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true
+  },
+  {
     "activityId": 17718717315,
     "activityName": "Recovery",
     "startTimeLocal": "2026-03-14 13:02:18",

@@ -2,6 +2,26 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Strava Calendar//EN
 BEGIN:VEVENT
+SUMMARY:🏃 Long run 29 km
+DTSTART;TZID=Europe/Stockholm:20260315T110645
+DTEND;TZID=Europe/Stockholm:20260315T134335
+UID:strava-17730880165@carlydergard
+DESCRIPTION:Private:\nLong run 29 km\, målfart ca 5:15-5:25 min/km. Känd
+ es liksom både lite pressat och helt rimligt på samma gång? Det gick ju
+  bevisligen… Kollade inte pace jättemkt\, hade navigation på klockan.\
+ n\nFint att springa till Stenkullen! Bra destination. Särskilt idag då d
+ et blev en del medvind. \n\nDelade upp passet mentalt i ca 7km-delar\, uma
+ ra-gel (tot 3 st) mellan varje. \n\n0-7 km: Ganska seg start\, lite stel. 
+ \n7-14 km: Platt och rak bit. Tiden gick snabbt! \n14-21 km: Viss trötthe
+ t började smyga sig på. Undulerande (?!) terräng. Lyssnade på Sabrina 
+ Carpenter - Mans best friend. Bra guilty-pleasure-springmusik!\n21-29 km: 
+ Stela ben\, kändes tufft! Mer uppför än andra delar. Ganska matt på sl
+ utet. \n\n✅Första 80+ km-veckan på länge!\n\nSportdryck\, lätt fruko
+ st och rödbetsjuice (har många i kylen\, vill inte att de ska gå över 
+ bäst före!) innan.\n\nStats:\nDistance: 29.03 km\nTime: 2:36:50\nAvg pac
+ e: 5:21 min/km\nAvg HR: 156 bpm\nElevation gain: 219 m\nSuffer score: 81
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:🏃 Recovery
 DTSTART;TZID=Europe/Stockholm:20260314T130218
 DTEND;TZID=Europe/Stockholm:20260314T134108
