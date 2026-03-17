@@ -81,6 +81,7 @@ body {
     box-sizing: border-box;
     line-height: 1.6;
     color: #111;
+    overflow-x: hidden;
 }
 
 @media (min-width: 900px) {
@@ -89,44 +90,58 @@ body {
         margin: 0 auto;
     }
 }
+
 .activity {
     margin-bottom: 48px;
     padding-bottom: 12px;
     border-bottom: 1px solid #ddd;
 }
-.meta {
-    font-weight: bold;
-    margin-bottom: 6px;
-    word-wrap: break-word;
-}
-p {
-    white-space: pre-wrap;
-}
+
 h1 {
     margin-top: 0;
 }
+
 h2 {
     margin-bottom: 2px;
 }
+
 .type {
     font-style: italic;
     margin-bottom: 6px;
 }
+
 .meta {
     font-weight: bold;
     margin-bottom: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
 }
+
 .section {
     margin-top: 12px;
 }
+
 .private {
-    background:  #f7f7f7;
+    background: #f7f7f7;
     padding: 10px;
     border-left: 4px solid #999;
 }
+
 .metrics ul {
     margin: 6px 0 0 18px;
+    padding-left: 16px;
 }
+
+p {
+    white-space: pre-wrap;
+}
+
+.meta, p {
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
 hr {
     margin-top: 24px;
 }
@@ -152,7 +167,6 @@ a {
 }
 
 }
-
 </style>
 </head>
 <body>
