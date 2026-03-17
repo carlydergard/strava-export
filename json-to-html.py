@@ -213,17 +213,30 @@ for act in activities:
         html_lines.append(f'<div class="meta">📅 {format_datetime(start)}</div>')
 
     stats = []
-    if distance is not None:
+
+    elapsed = act.get("elapsedDuration")
+    has_distance = distance is not None and distance > 0
+    has_moving = moving is not None and moving > 0
+
+    # Distance → bara om det finns på riktigt
+    if has_distance:
         stats.append(f"📏 {distance/1000:.2f} km")
 
-        elapsed = act.get("elapsedDuration")
-        if moving:
+    # Time
+    if has_distance:
+        # typ löpning/cykel
+        if has_moving:
             stats.append(f"⏱ {seconds_to_hms(moving)} moving")
-    
-    pace = pace_min_per_km(distance, moving)
-    if pace:
-        stats.append(f"⚡ {pace}")
+    else:
+        # gym, yoga, osv
+        if elapsed:
+            stats.append(f"⏱ {seconds_to_hms(elapsed)}")
 
+    # Pace → bara om det är meningsfullt
+    pace = pace_min_per_km(distance, moving)
+    if pace and has_distance:
+        stats.append(f"⚡ {pace}")
+    
     if stats:
         html_lines.append(f'<div class="meta">{" · ".join(stats)}</div>')
 
