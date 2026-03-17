@@ -243,20 +243,20 @@ for act in activities:
     if public_note:
         html_lines.append('<div class="section">')
         html_lines.append("<strong>📝 Public note</strong><br>")
-        html_lines.append(f"<p>{public_note.replace(chr(10), '<br>')}</p>")
+        html_lines.append(f"<p>{html.escape(public_note).replace(chr(10), '<br>')}</p>")
         html_lines.append("</div>")
 
     if private_note:
         html_lines.append('<div class="section private">')
         html_lines.append("<strong>🔒 Private note</strong><br>")
-        html_lines.append(f"<p>{private_note.replace(chr(10), '<br>')}</p>")
+        html_lines.append(f"<p>{html.escape(private_note).replace(chr(10), '<br>')}</p>")
         html_lines.append("</div>")
 
     metrics = []
     elapsed = act.get("elapsedDuration")
-    if elapsed:
+    if elapsed is not None:
         metrics.append(f"Elapsed time: {seconds_to_hms(elapsed)}")
-    if avg_hr:
+    if avg_hr is not None:
         metrics.append(f"Avg HR: {int(avg_hr)} bpm")
     if max_hr:
         metrics.append(f"Max HR: {int(max_hr)} bpm")
