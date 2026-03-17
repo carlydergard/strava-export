@@ -111,7 +111,11 @@ def main():
         event.add("dtend", end)
         event.add("summary", f"{emoji} {a['activityName']}")
         event.add("description", build_description(a))
-
+        activity_id = a.get("activityId")
+        if activity_id:
+            strava_url = f"https://www.strava.com/activities/{activity_id}"
+            event.add("url", strava_url)
+            
         cal.add_component(event)
 
     with open(OUTPUT_ICS, "wb") as f:
