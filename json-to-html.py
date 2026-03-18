@@ -54,12 +54,14 @@ def activity_icon_and_label(sport_type):
         return "🎿", "Cross-country ski"
     if t == "alpineski":
         return "⛷", "Alpine ski"
+    if t == "yoga":
+        return "🧘", "Yoga"
 
     return "❓", sport_type
 
 def get_location_name(lat, lon):
     try:
-        result = rg.search((lat, lon))[0]
+        result = rg.search([(lat, lon)])[0]
         city = result.get("name")
         country = result.get("cc")
 
@@ -217,7 +219,7 @@ for act in activities:
     
     html_lines.append('<div class="activity">')
     
-# Titel  
+    # Titel  
     if strava_link:
         html_lines.append(
             f'<h2>{icon} {name} '
@@ -229,7 +231,7 @@ for act in activities:
     lat = act.get("startLat")
     lon = act.get("startLng")
     
-# Location + Type
+    # Location + Type
     location_text = None
 
     if lat is not None and lon is not None:
