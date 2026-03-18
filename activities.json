@@ -1,5 +1,33 @@
 [
   {
+    "activityId": 17756834502,
+    "activityName": "Med-long run 19 km",
+    "startTimeLocal": "2026-03-17 16:52:26",
+    "startTimeGMT": "2026-03-17 15:52:26",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "long_run",
+    "distance": 19052.7,
+    "movingDuration": 6305,
+    "elapsedDuration": 6426,
+    "elevationGain": 161.0,
+    "averageSpeed": 3.022,
+    "averageHR": 153.1,
+    "maxHR": 175.0,
+    "sufferScore": 38.0,
+    "averageRunningCadenceInStepsPerMinute": 171,
+    "publicDescription": "",
+    "privateNote": "Med-long run 19 km. Målfart ca 5:15-5:20min/km, dvs ”vanliga mlr-farten.\n\nVäldigt stel från knän och nedåt! Volymen börjar göra sig påmind. Kände inte att jag kunde jaga pace idag, handlade mer om överlevnad. Visste att det skulle bli medför/platt sista 5km så höll ut tills dess, lite mer stabilt sen. \n\nLandade på z2 hr och z2 pace nästan hela passet så ingen katastrof att landa på avg pace 5:31min/km. \n\nSov lite dåligt inatt (inte enl garmin, men riktigt zombieTRÖTT imorse) och har ev ätit lite lite sedan långpasset? Kan vara det som påverkar. Får snacksa lite extra ikväll!\n\nLyssnade på poddar och: \nTaylor Swift - Red: Skivan HAR hennes bästa låt (all to well 10 min version, masterpiece) och ngra andra hits. Men… också en del udda delar, särskilt texter, ”Dress up like hipsters, make fun of our exes” och ”bet you think about me when you're out at your cool indie music concerts EVERY WEEK!”. Eller den sjukaste: hon säger ”We Are Never Ever Getting Back Together” sin (ex)kille, han drar sig undan, hon blir sur för att han inte lyssnar på HENNES skiva utan ”some indie record that's MUCH cooler than mine”?! Varför hatar du indiekillar Taylor??\n\nOtroligt att kunna springa långpass efter jobbet och det är LJUST UTE!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true
+  },
+  {
     "activityId": 17730880165,
     "activityName": "Long run 29 km",
     "startTimeLocal": "2026-03-15 11:06:45",
