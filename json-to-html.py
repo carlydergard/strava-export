@@ -1,5 +1,6 @@
 import json
 import html
+import reverse_geocoder as rg
 from datetime import datetime
 
 INPUT_JSON = "activities.json"
@@ -56,6 +57,20 @@ def activity_icon_and_label(sport_type):
 
     return "❓", sport_type
 
+def get_location_name(lat, lon):
+    try:
+        result = rg.search((lat, lon))[0]
+        city = result.get("name")
+        country = result.get("cc")
+
+        if city and country:
+            return f"{city} {country}"
+        elif country:
+            return country
+        else:
+            return None
+    except:
+        return None
 
 print("Reading JSON…")
 with open(INPUT_JSON, "r", encoding="utf-8") as f:
@@ -176,6 +191,7 @@ a {
 """)
 
 # ---------- ACTIVITIES ----------
+location_cache = {}
 for act in activities:
     name = html.escape(act.get("activityName", "Untitled"))
     activity_id = act.get("activityId")
@@ -198,8 +214,10 @@ for act in activities:
     # ✅ FIX: use sportType / type
     sport_type = act.get("sportType") or act.get("type")
     icon, type_label = activity_icon_and_label(sport_type)
-
+    
     html_lines.append('<div class="activity">')
+    
+# Titel  
     if strava_link:
         html_lines.append(
             f'<h2>{icon} {name} '
@@ -207,8 +225,26 @@ for act in activities:
         )
     else:
         html_lines.append(f"<h2>{icon} {name}</h2>")
-    html_lines.append(f'<div class="type">{type_label}</div>')
 
+    lat = act.get("startLat")
+    lon = act.get("startLng")
+    
+# Location + Type
+    location_text = None
+
+    if lat is not None and lon is not None:
+        key = (round(lat, 3), round(lon, 3))
+
+        if key not in location_cache:
+            location_cache[key] = get_location_name(lat, lon)
+
+        location_text = location_cache[key]
+
+    if location_text:
+        html_lines.append(f'<div class="type">{type_label}, {location_text}</div>')
+    else:
+        html_lines.append(f'<div class="type">{type_label}</div>')
+    
     if start:
         html_lines.append(f'<div class="meta">📅 {format_datetime(start)}</div>')
 
@@ -258,11 +294,11 @@ for act in activities:
         metrics.append(f"Elapsed time: {seconds_to_hms(elapsed)}")
     if avg_hr is not None:
         metrics.append(f"Avg HR: {int(avg_hr)} bpm")
-    if max_hr:
+    if max_hr is not None:
         metrics.append(f"Max HR: {int(max_hr)} bpm")
-    if cadence:
+    if cadence is not None:
         metrics.append(f"Cadence: {cadence} spm")
-    if elev:
+    if elev is not None:
         metrics.append(f"Elevation gain: {int(elev)} m")
     if suffer is not None:
         metrics.append(f"Suffer score: {int(suffer)}")
