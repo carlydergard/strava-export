@@ -244,8 +244,15 @@ while True:
 
             "hasPhotos": act.get("photo_count", 0) > 0,
             "hasMap": bool(act.get("map", {}).get("summary_polyline"))
+
         }
 
+        start_latlng = act.get("start_latlng")
+        if start_latlng:
+            lat, lng = start_latlng
+            entry["startLat"] = lat
+            entry["startLng"] = lng
+        
         activities.append(entry)
         exported_ids.add(act_id)
         new_count += 1
