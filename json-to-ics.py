@@ -2,6 +2,7 @@ import json
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from icalendar import Calendar, Event
+import reverse_geocoder as rg
 
 TIMEZONE = ZoneInfo("Europe/Stockholm")
 
@@ -65,10 +66,10 @@ def build_description(a):
     if pace:
         lines.append(f"Avg pace: {pace}")
 
-    if a.get("averageHR"):
+    if a.get("averageHR") is not None:
         lines.append(f"Avg HR: {int(a['averageHR'])} bpm")
 
-    if a.get("elevationGain"):
+    if a.get("elevationGain") is not None:
         lines.append(f"Elevation gain: {int(a['elevationGain'])} m")
 
     if a.get("sufferScore") is not None:
@@ -76,6 +77,20 @@ def build_description(a):
 
     return "\n".join(lines)
 
+def get_location_name(lat, lon):
+    try:
+        result = rg.search((lat, lon))[0]
+        city = result.get("name")
+        country = result.get("cc")
+
+        if city and country:
+            return f"{city}, {country}"
+        elif country:
+            return country
+        else:
+            return None
+    except:
+        return None
 
 def main():
     with open(INPUT_JSON, "r", encoding="utf-8") as f:
@@ -86,6 +101,7 @@ def main():
     cal.add("version", "2.0")
     cal.add("X-WR-CALNAME", "Training Log")
 
+    location_cache = {}
     for a in activities:
         start = datetime.strptime(
             a["startTimeLocal"], "%Y-%m-%d %H:%M:%S"
@@ -104,14 +120,27 @@ def main():
             uid = f"strava-{uid}@carlydergard"
         else:
             safe_time = a["startTimeLocal"].replace(" ", "T")
-            safe_name = a["activityName"].replace(" ", "_")
+            safe_name = (a.get("activityName") or "workout").replace(" ", "_")
             uid = f"strengthlog-{safe_time}-{safe_name}@carlydergard"
         event.add("uid", uid)
         event.add("dtstamp", datetime.now(tz=TIMEZONE))
         event.add("dtstart", start)
         event.add("dtend", end)
-        event.add("summary", f"{emoji} {a['activityName']}")
+        name = a.get("activityName") or "Untitled"
+        event.add("summary", f"{emoji} {name}")
         event.add("description", build_description(a))
+        # --- LOCATION ---
+        lat = a.get("startLat")
+        lon = a.get("startLng")
+
+        if isinstance(lat, (int, float)) and isinstance(lon, (int, float)):
+            key = (round(lat, 3), round(lon, 3))
+            if key not in location_cache:
+                location_cache[key] = get_location_name(lat, lon)
+            location_name = location_cache[key]
+            
+            if location_name:
+                event.add("location", location_name)
         activity_id = a.get("activityId")
         if activity_id:
             strava_url = f"https://www.strava.com/activities/{activity_id}"
