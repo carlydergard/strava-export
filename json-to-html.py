@@ -2,10 +2,12 @@ import json
 import html
 import reverse_geocoder as rg
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 INPUT_JSON = "activities.json"
 OUTPUT_HTML = "activities.html"
 
+now = datetime.now(ZoneInfo("Europe/Stockholm"))
 
 def seconds_to_hms(seconds):
     if seconds is None:
@@ -17,6 +19,24 @@ def seconds_to_hms(seconds):
         return f"{h}:{m:02d}:{s:02d}"
     return f"{m}:{s:02d}"
 
+def normalize_city_name(name):
+    fixes = {
+        "Goeteborg": "Göteborg",
+        "Malmoe": "Malmö",
+        "Vaestervik": "Västervik",
+        "Kooen": "Marstrand",
+        "Kungaelv": "Kungälv",  
+        "Saelen": "Sälen",
+        "Boraas": "Borås", 
+        "Saeroe": "Särö",
+        "Joenkoeping": "Jönköping",
+        "Stora Askoe": "Stora Askö",
+        "Straengnaes": "Strängnäs",
+        "Branaes": "Branäs",
+        "Oestersund": "Östersund",
+        # lägg till fler orter när du stör dig på något
+    }
+    return fixes.get(name, name)
 
 def pace_min_per_km(distance_m, seconds):
     if not distance_m or not seconds or distance_m == 0:
@@ -62,7 +82,13 @@ def activity_icon_and_label(sport_type):
 def get_location_name(lat, lon):
     try:
         result = rg.search([(lat, lon)])[0]
-        city = result.get("name")
+
+        raw_city = result.get("name")
+
+        if raw_city and ("oe" in raw_city or "ae" in raw_cityor "aa" in raw_city):
+            print(f"⚠️ Possible fix needed: {raw_city}")
+
+        city = normalize_city_name(raw_city)
         country = result.get("cc")
 
         if city and country:
@@ -190,11 +216,10 @@ a {
 
 <h1>Training Log</h1>
 
-<hr>
 """)
 
 html_lines.append(
-    f"<p style='opacity:0.6;font-size:0.9em'>Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M')}</p>"
+    f"<p style='opacity:0.6;font-size:0.9em'>Last updated: {now.strftime('%Y-%m-%d %H:%M')}</p>"
 )
 
 html_lines.append("<hr>")
