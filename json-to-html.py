@@ -34,6 +34,8 @@ def normalize_city_name(name):
         "Straengnaes": "Strängnäs",
         "Branaes": "Branäs",
         "Oestersund": "Östersund",
+        "Flaam": "Flåm",
+        "Oeland": "Öland",
         # lägg till fler orter när du stör dig på något
     }
     return fixes.get(name, name)
