@@ -189,6 +189,9 @@ a {
 <body>
 
 <h1>Training Log</h1>
+html_lines.append(
+    f"<p style='opacity:0.6;font-size:0.9em'>Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M')}</p>"
+)
 <hr>
 """)
 
