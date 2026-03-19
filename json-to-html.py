@@ -348,7 +348,6 @@ for act in activities:
         html_lines.append("</ul>")
         html_lines.append("</div>")
 
-    html_lines.append("<hr>")
     html_lines.append("</div>")
 
 # ---------- HTML FOOTER ----------
