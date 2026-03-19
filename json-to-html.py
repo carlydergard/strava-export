@@ -87,7 +87,7 @@ def get_location_name(lat, lon):
 
         raw_city = result.get("name")
 
-        if raw_city and ("oe" in raw_city or "ae" in raw_cityor "aa" in raw_city):
+        if raw_city and ("oe" in raw_city or "ae" in raw_city or "aa" in raw_city):
             print(f"⚠️ Possible fix needed: {raw_city}")
 
         city = normalize_city_name(raw_city)
