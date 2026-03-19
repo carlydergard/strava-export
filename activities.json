@@ -1,5 +1,35 @@
 [
   {
+    "activityId": 17768781052,
+    "activityName": "Recovery",
+    "startTimeLocal": "2026-03-18 16:57:02",
+    "startTimeGMT": "2026-03-18 15:57:02",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 8018.1,
+    "movingDuration": 2999,
+    "elapsedDuration": 3153,
+    "elevationGain": 71.0,
+    "averageSpeed": 2.674,
+    "averageHR": 147.3,
+    "maxHR": 167.0,
+    "sufferScore": 13.0,
+    "averageRunningCadenceInStepsPerMinute": 164,
+    "publicDescription": "",
+    "privateNote": "Recovery 8km. Aikidopasset. \n\nFortf riktigt seg kropp! Stressad och hungrig (trots lunch på ullevi med tillhörande marängsvissefterrätt…) innan. Inte kul pass! Tog det riktigt såsigt men det sägs ju att recovery ”inte ska kännas som att man tränar” men detta kändes verkligen som träning… Ok i kroppen efteråt iaf.\n\nSka försöka äta mycket ikväll och sova ordentligt. 10 km @LT imorgon kommer bli hårt!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97
+  },
+  {
     "activityId": 17756834502,
     "activityName": "Med-long run 19 km",
     "startTimeLocal": "2026-03-17 16:52:26",
