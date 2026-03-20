@@ -184,7 +184,7 @@ html_lines.append(
 html_lines.append("<hr>")
 
 # ---------- ACTIVITIES ----------
-location_cache = {}
+
 for act in activities:
     name = html.escape(act.get("activityName", "Untitled"))
     activity_id = act.get("activityId")
