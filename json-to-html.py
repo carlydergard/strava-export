@@ -19,27 +19,6 @@ def seconds_to_hms(seconds):
         return f"{h}:{m:02d}:{s:02d}"
     return f"{m}:{s:02d}"
 
-def normalize_city_name(name):
-    fixes = {
-        "Goeteborg": "Göteborg",
-        "Malmoe": "Malmö",
-        "Vaestervik": "Västervik",
-        "Kooen": "Marstrand",
-        "Kungaelv": "Kungälv",  
-        "Saelen": "Sälen",
-        "Boraas": "Borås", 
-        "Saeroe": "Särö",
-        "Joenkoeping": "Jönköping",
-        "Stora Askoe": "Stora Askö",
-        "Straengnaes": "Strängnäs",
-        "Branaes": "Branäs",
-        "Oestersund": "Östersund",
-        "Flaam": "Flåm",
-        "Oeland": "Öland",
-        # lägg till fler orter när du stör dig på något
-    }
-    return fixes.get(name, name)
-
 def pace_min_per_km(distance_m, seconds):
     if not distance_m or not seconds or distance_m == 0:
         return ""
@@ -266,15 +245,7 @@ for act in activities:
     lon = act.get("startLng")
     
     # Location + Type
-    location_text = None
-
-    if lat is not None and lon is not None:
-        key = (round(lat, 3), round(lon, 3))
-
-        if key not in location_cache:
-            location_cache[key] = get_location_name(lat, lon)
-
-        location_text = location_cache[key]
+    location_text = act.get("locationName")
 
     if location_text:
         html_lines.append(f'<div class="type">{type_label}, {location_text}</div>')
