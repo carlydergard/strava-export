@@ -105,25 +105,15 @@ if os.path.exists(OUTPUT_JSON):
 
 print(f"📂 Existing activities: {len(exported_ids)}")
 
-# ================= Location fron LAT/LON =================
+# ================= LOCATION =================
 
 location_cache = {}
 
+with open("city_fixes.json", "r", encoding="utf-8") as f:
+    CITY_FIXES = json.load(f)
+
 def normalize_city_name(name):
-    fixes = {
-        "Goeteborg": "Göteborg",
-        "Malmoe": "Malmö",
-        "Kungaelv": "Kungälv",
-        "Joenkoeping": "Jönköping",
-        "Boraas": "Borås",
-        "Saeroe": "Särö",
-        "Oestersund": "Östersund",
-        "Straengnaes": "Strängnäs",
-        "Vaestervik": "Västervik",
-        "Skaenninge": "Skänninge",
-        "Saelen": "Sälen",
-    }
-    return fixes.get(name, name)
+    return CITY_FIXES.get(name, name)
 
 
 def get_location_name(lat, lon):
