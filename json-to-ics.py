@@ -77,21 +77,6 @@ def build_description(a):
 
     return "\n".join(lines)
 
-def get_location_name(lat, lon):
-    try:
-        result = rg.search((lat, lon))[0]
-        city = result.get("name")
-        country = result.get("cc")
-
-        if city and country:
-            return f"{city}, {country}"
-        elif country:
-            return country
-        else:
-            return None
-    except:
-        return None
-
 def main():
     with open(INPUT_JSON, "r", encoding="utf-8") as f:
         activities = json.load(f)
@@ -130,14 +115,9 @@ def main():
         event.add("summary", f"{emoji} {name}")
         event.add("description", build_description(a))
         # --- LOCATION ---
-        lat = a.get("startLat")
-        lon = a.get("startLng")
-
-        if isinstance(lat, (int, float)) and isinstance(lon, (int, float)):
-            key = (round(lat, 3), round(lon, 3))
-            if key not in location_cache:
-                location_cache[key] = get_location_name(lat, lon)
-            location_name = location_cache[key]
+        location_name = a.get("locationName")
+        if location_name:
+            event.add("location", location_name)
             
             if location_name:
                 event.add("location", location_name)
