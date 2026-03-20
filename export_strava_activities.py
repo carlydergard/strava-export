@@ -108,6 +108,7 @@ print(f"📂 Existing activities: {len(exported_ids)}")
 # ================= LOCATION =================
 
 location_cache = {}
+unknown_places = set()
 
 try:
     with open("city_fixes.json", "r", encoding="utf-8") as f:
@@ -126,7 +127,9 @@ def get_location_name(lat, lon):
             result = rg.search([(lat, lon)])[0]
             raw_city = result.get("name")
             if raw_city and ("oe" in raw_city or "ae" in raw_city or "aa" in raw_city):
-                print(f"⚠️ Possible fix needed: {raw_city}")
+                if raw_city not in unknown_places:
+                    print(f"⚠️ Possible fix needed: {raw_city}")
+                    unknown_places.add(raw_city)
             city = normalize_city_name(raw_city) if raw_city else None
             country = result.get("cc")
 
@@ -139,7 +142,8 @@ def get_location_name(lat, lon):
 
         return location_cache[key]
 
-    except:
+    except Exception as e:
+        print(f"⚠️ Geocoding error: {e}")
         return None
 
 # ================= FETCH =================
