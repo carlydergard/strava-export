@@ -109,8 +109,11 @@ print(f"📂 Existing activities: {len(exported_ids)}")
 
 location_cache = {}
 
-with open("city_fixes.json", "r", encoding="utf-8") as f:
-    CITY_FIXES = json.load(f)
+try:
+    with open("city_fixes.json", "r", encoding="utf-8") as f:
+        CITY_FIXES = json.load(f)
+except FileNotFoundError:
+    CITY_FIXES = {}
 
 def normalize_city_name(name):
     return CITY_FIXES.get(name, name)
