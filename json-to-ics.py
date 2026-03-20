@@ -2,7 +2,6 @@ import json
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from icalendar import Calendar, Event
-import reverse_geocoder as rg
 
 TIMEZONE = ZoneInfo("Europe/Stockholm")
 
@@ -86,7 +85,6 @@ def main():
     cal.add("version", "2.0")
     cal.add("X-WR-CALNAME", "Training Log")
 
-    location_cache = {}
     for a in activities:
         start = datetime.strptime(
             a["startTimeLocal"], "%Y-%m-%d %H:%M:%S"
@@ -118,9 +116,6 @@ def main():
         location_name = a.get("locationName")
         if location_name:
             event.add("location", location_name)
-            
-            if location_name:
-                event.add("location", location_name)
         activity_id = a.get("activityId")
         if activity_id:
             strava_url = f"https://www.strava.com/activities/{activity_id}"
