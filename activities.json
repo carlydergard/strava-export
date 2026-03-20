@@ -1,5 +1,33 @@
 [
   {
+    "activityId": 17789733335,
+    "activityName": "Baslyft helkropp",
+    "startTimeLocal": "2026-03-20 11:36:43",
+    "startTimeGMT": "2026-03-20 10:36:43",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 2433,
+    "elapsedDuration": 2433,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 96.8,
+    "maxHR": 146.0,
+    "sufferScore": 4.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "",
+    "privateNote": "Baslyft helkropp. Skippade tyngsta set:et knäböj pga hög löpvolym nu!",
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 17781999087,
     "activityName": "10km @MP",
     "startTimeLocal": "2026-03-19 17:23:43",
