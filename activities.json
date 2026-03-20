@@ -1,5 +1,35 @@
 [
   {
+    "activityId": 17781999087,
+    "activityName": "10km @MP",
+    "startTimeLocal": "2026-03-19 17:23:43",
+    "startTimeGMT": "2026-03-19 16:23:43",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "workout",
+    "distance": 16315.1,
+    "movingDuration": 5080,
+    "elapsedDuration": 5347,
+    "elevationGain": 86.0,
+    "averageSpeed": 3.212,
+    "averageHR": 158.8,
+    "maxHR": 180.0,
+    "sufferScore": 69.0,
+    "averageRunningCadenceInStepsPerMinute": 174,
+    "publicDescription": "",
+    "privateNote": "10km @LT, mål 4:45min/km. MEN: Väldigt sliten de senaste passen, tanken var att känna på kroppen under UV och sedan anpassa passet efter dagsform. \n\nOrolig för passet innan, kändes som det skulle bli riktigt hårt. Dålig mental inställning egentligen. Fast kanske också… mogen? \n\nKändes hursomhelst ganska ok under UV så bestämde mig att köra hela 10 km men gå mer på känsla än pace. Valde ovkså den lite roligare (men backigare och blåsigare) rundan via nua varvet ist för att bara köra platta säröbanan. \n\nLandade på 4:57min/km avg pace på LT-delen så blev ju snarare MP. Tappade en del i mitten och i backar. Låg på avg pace 5:00 efter 6 km och då bestämde jag mig för att öka lite för att iaf springa något snabbare än MP! Inte kättelyckat pass men kanske ingen katastrof om man zoomar ut. \n\nAdidas adios pro 3 på fötterna. Lätt! Mest för motivation. \n\nLyssnade på:\nThin Lizzy - Playlist som var typ Greatest hits-skivan jag hade på cd: Cowboy song är grym 🤠🎸 Det var ju ändå St Patricks day häromdagen. ",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.71,
+    "startLng": 11.99
+  },
+  {
     "activityId": 17768781052,
     "activityName": "Recovery",
     "startTimeLocal": "2026-03-18 16:57:02",
