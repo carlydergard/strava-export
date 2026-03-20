@@ -4,6 +4,7 @@
   "Vaestervik": "Västervik",
   "Kooen": "Marstrand",
   "Kungaelv": "Kungälv",  
+  "Moelndal": "Mölndal",  
   "Saelen": "Sälen",
   "Boraas": "Borås", 
   "Saeroe": "Särö",
@@ -14,5 +15,7 @@
   "Oestersund": "Östersund",
   "Flaam": "Flåm",
   "Oeland": "Öland",
+  "Oeckeroe": "Öckerö",
+  "Styrsoe": "Styrsö",
   "_comment": "OBS inget komma på sista raden!"
 }
