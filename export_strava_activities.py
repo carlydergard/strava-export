@@ -2,6 +2,7 @@ import os
 import json
 import time
 import requests
+import reverse_geocoder as rg
 from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
 
@@ -103,6 +104,48 @@ if os.path.exists(OUTPUT_JSON):
     exported_ids = {str(a["activityId"]) for a in activities}
 
 print(f"📂 Existing activities: {len(exported_ids)}")
+
+# ================= Location fron LAT/LON =================
+
+location_cache = {}
+
+def normalize_city_name(name):
+    fixes = {
+        "Goeteborg": "Göteborg",
+        "Malmoe": "Malmö",
+        "Kungaelv": "Kungälv",
+        "Joenkoeping": "Jönköping",
+        "Boraas": "Borås",
+        "Saeroe": "Särö",
+        "Oestersund": "Östersund",
+        "Straengnaes": "Strängnäs",
+        "Vaestervik": "Västervik",
+        "Skaenninge": "Skänninge",
+        "Saelen": "Sälen",
+    }
+    return fixes.get(name, name)
+
+
+def get_location_name(lat, lon):
+    try:
+        key = (round(lat, 3), round(lon, 3))
+
+        if key not in location_cache:
+            result = rg.search([(lat, lon)])[0]
+            city = normalize_city_name(result.get("name"))
+            country = result.get("cc")
+
+            if city and country:
+                location_cache[key] = f"{city} {country}"
+            elif country:
+                location_cache[key] = country
+            else:
+                location_cache[key] = None
+
+        return location_cache[key]
+
+    except:
+        return None
 
 # ================= FETCH =================
 
@@ -248,10 +291,14 @@ while True:
         }
 
         start_latlng = act.get("start_latlng")
-        if start_latlng:
-            lat, lng = start_latlng
+        if start_latlng and len(start_latlng) == 2:
+            lat, lon = start_latlng
             entry["startLat"] = lat
-            entry["startLng"] = lng
+            entry["startLng"] = lon
+
+            location_name = get_location_name(lat, lon)
+            if location_name:
+                entry["locationName"] = location_name
         
         activities.append(entry)
         exported_ids.add(act_id)
