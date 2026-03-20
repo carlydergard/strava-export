@@ -118,14 +118,16 @@ except FileNotFoundError:
 def normalize_city_name(name):
     return CITY_FIXES.get(name, name)
 
-
 def get_location_name(lat, lon):
     try:
         key = (round(lat, 3), round(lon, 3))
 
         if key not in location_cache:
             result = rg.search([(lat, lon)])[0]
-            city = normalize_city_name(result.get("name"))
+            raw_city = result.get("name")
+            if raw_city and ("oe" in raw_city or "ae" in raw_city or "aa" in raw_city):
+                print(f"⚠️ Possible fix needed: {raw_city}")
+            city = normalize_city_name(raw_city) if raw_city else None
             country = result.get("cc")
 
             if city and country:
