@@ -94,7 +94,7 @@ def main():
         end = start + timedelta(seconds=duration)
 
         sport = a.get("sportType")
-        emoji = EMOJI_BY_SPORT.get(sport, "❓")
+        emoji = EMOJI_BY_SPORT.get(sport) or EMOJI_BY_SPORT.get(a.get("type")) or "❓"
 
         event = Event()
         uid = a.get("activityId")
