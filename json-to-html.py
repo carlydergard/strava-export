@@ -1,6 +1,5 @@
 import json
 import html
-import reverse_geocoder as rg
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -59,27 +58,6 @@ def activity_icon_and_label(sport_type):
         return "🧘", "Yoga"
 
     return "❓", sport_type
-
-def get_location_name(lat, lon):
-    try:
-        result = rg.search([(lat, lon)])[0]
-
-        raw_city = result.get("name")
-
-        if raw_city and ("oe" in raw_city or "ae" in raw_city or "aa" in raw_city):
-            print(f"⚠️ Possible fix needed: {raw_city}")
-
-        city = normalize_city_name(raw_city)
-        country = result.get("cc")
-
-        if city and country:
-            return f"{city} {country}"
-        elif country:
-            return country
-        else:
-            return None
-    except:
-        return None
 
 print("Reading JSON…")
 with open(INPUT_JSON, "r", encoding="utf-8") as f:
@@ -240,9 +218,6 @@ for act in activities:
         )
     else:
         html_lines.append(f"<h2>{icon} {name}</h2>")
-
-    lat = act.get("startLat")
-    lon = act.get("startLng")
     
     # Location + Type
     location_text = act.get("locationName")
