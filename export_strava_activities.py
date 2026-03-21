@@ -8,6 +8,7 @@ from zoneinfo import ZoneInfo
 
 # ================= CONFIG =================
 
+PROGRESS_FILE = "progress.json"
 OUTPUT_JSON = "activities.json"
 MAX_NEW_ACTIVITIES = None     # set to None to export everything
 SAVE_EVERY = 25               # checkpoint frequency
@@ -105,6 +106,12 @@ if os.path.exists(OUTPUT_JSON):
 
 print(f"📂 Existing activities: {len(exported_ids)}")
 
+# ================= PROGRESS TRACKING REBUILD =================
+
+def save_page_progress(page):
+    with open(PROGRESS_FILE, "w") as f:
+        json.dump({"page": page}, f)
+
 # ================= LOCATION =================
 
 location_cache = {}
@@ -149,7 +156,13 @@ def get_location_name(lat, lon):
 
 # ================= FETCH =================
 
-page = 1
+if os.path.exists(PROGRESS_FILE):
+    with open(PROGRESS_FILE, "r") as f:
+        progress = json.load(f)
+    page = progress.get("page", 1)
+    print(f"🔁 Resuming from page {page}")
+else:
+    page = 1
 per_page = 50
 new_count = 0
 
@@ -170,6 +183,7 @@ while True:
 
     if r.status_code == 429:
         save_progress()
+        save_page_progress(page)
 
         reset_ts = int(r.headers.get("X-RateLimit-Reset", time.time() + 900))
         wait_time = max(reset_ts - int(time.time()), 0)
@@ -188,6 +202,7 @@ while True:
     if daily_u >= 950:
 
         save_progress()
+        save_page_progress(page)
 
         now = datetime.now(timezone.utc)
         reset = datetime(now.year, now.month, now.day, tzinfo=timezone.utc) + timedelta(days=1)
@@ -201,6 +216,7 @@ while True:
     if short_u >= 95:
 
         save_progress()
+        save_page_progress(page)
 
         reset_ts = int(r.headers.get("X-RateLimit-Reset", time.time() + 900))
         countdown(max(reset_ts - int(time.time()), 0))
@@ -240,6 +256,7 @@ while True:
             if detail.status_code == 429:
 
                 save_progress()
+                save_page_progress(page)
 
                 reset_ts = int(detail.headers.get("X-RateLimit-Reset", time.time() + 900))
                 wait_time = max(reset_ts - int(time.time()), 0)
@@ -308,18 +325,25 @@ while True:
 
         if new_count % SAVE_EVERY == 0:
             save_progress()
+            save_page_progress(page)
 
         time.sleep(1)
 
     if MAX_NEW_ACTIVITIES is not None and new_count >= MAX_NEW_ACTIVITIES:
         break
 
+    save_page_progress(page)
     page += 1
 
 # ================= FINAL SAVE =================
 
 save_progress()
+save_page_progress(page)
 
 print("\n🎉 Done!")
 print(f"   New activities added: {new_count}")
 print(f"   Total activities: {len(activities)}")
+
+if os.path.exists(PROGRESS_FILE):
+    os.remove(PROGRESS_FILE)
+    print("🧹 Progress file cleared (export complete)")
