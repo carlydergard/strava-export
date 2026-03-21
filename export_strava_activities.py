@@ -158,7 +158,13 @@ def get_location_name(lat, lon):
 
 if os.path.exists(PROGRESS_FILE):
     with open(PROGRESS_FILE, "r") as f:
-        progress = json.load(f)
+        try:
+            with open(PROGRESS_FILE, "r") as f:
+                progress = json.load(f)
+            page = progress.get("page", 1)
+        except Exception:
+            print("⚠️ progress.json invalid, starting from page 1")
+            page = 1
     page = progress.get("page", 1)
     print(f"🔁 Resuming from page {page}")
 else:
@@ -325,20 +331,19 @@ while True:
 
         if new_count % SAVE_EVERY == 0:
             save_progress()
-            save_page_progress(page)
 
         time.sleep(1)
 
     if MAX_NEW_ACTIVITIES is not None and new_count >= MAX_NEW_ACTIVITIES:
         break
-
-    save_page_progress(page)
+        
     page += 1
+    save_page_progress(page)
+
 
 # ================= FINAL SAVE =================
 
 save_progress()
-save_page_progress(page)
 
 print("\n🎉 Done!")
 print(f"   New activities added: {new_count}")
