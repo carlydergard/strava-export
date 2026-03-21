@@ -157,18 +157,17 @@ def get_location_name(lat, lon):
 # ================= FETCH =================
 
 if os.path.exists(PROGRESS_FILE):
-    with open(PROGRESS_FILE, "r") as f:
-        try:
-            with open(PROGRESS_FILE, "r") as f:
-                progress = json.load(f)
-            page = progress.get("page", 1)
-        except Exception:
-            print("⚠️ progress.json invalid, starting from page 1")
-            page = 1
-    page = progress.get("page", 1)
-    print(f"🔁 Resuming from page {page}")
+    try:
+        with open(PROGRESS_FILE, "r") as f:
+            progress = json.load(f)
+        page = progress.get("page", 1)
+        print(f"🔁 Resuming from page {page}")
+    except Exception:
+        print("⚠️ progress.json invalid, starting from page 1")
+        page = 1
 else:
     page = 1
+    
 per_page = 50
 new_count = 0
 
