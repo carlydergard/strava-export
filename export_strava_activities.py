@@ -346,6 +346,7 @@ while True:
 
         if new_count % SAVE_EVERY == 0:
             save_progress()
+            save_page_progress(page)
 
         time.sleep(1)
 
