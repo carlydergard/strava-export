@@ -13,6 +13,9 @@ OUTPUT_JSON = "activities.json"
 MAX_NEW_ACTIVITIES = None     # set to None to export everything
 SAVE_EVERY = 25               # checkpoint frequency
 
+START_TIME = time.time()
+MAX_RUNTIME = 5.5 * 3600  # 5.5 timmar
+
 CLIENT_ID = os.environ["STRAVA_CLIENT_ID"]
 CLIENT_SECRET = os.environ["STRAVA_CLIENT_SECRET"]
 refresh_token = os.environ["STRAVA_REFRESH_TOKEN"]
@@ -175,6 +178,12 @@ print("📥 Exporting Strava activities…")
 
 while True:
 
+    if time.time() - START_TIME > MAX_RUNTIME:
+        print("⏰ Max runtime reached, stopping early to allow commit...")
+        save_progress()
+        save_page_progress(page)
+        break
+    
     r = requests.get(
         "https://www.strava.com/api/v3/athlete/activities",
         headers=headers,
@@ -247,7 +256,14 @@ while True:
         # ---------- DETAIL FETCH ----------
 
         while True:
+            for act in batch:
 
+            if time.time() - START_TIME > MAX_RUNTIME:
+                print("⏰ Max runtime reached mid-batch, stopping...")
+                save_progress()
+                save_page_progress(page)
+                break
+            
             detail = requests.get(
                 f"https://www.strava.com/api/v3/activities/{act_id}",
                 headers=headers
