@@ -243,6 +243,12 @@ while True:
 
     for act in batch:
 
+        if time.time() - START_TIME > MAX_RUNTIME:
+            print("⏰ Max runtime reached mid-batch, stopping...")
+            save_progress()
+            save_page_progress(page)
+            break
+
         if MAX_NEW_ACTIVITIES is not None and new_count >= MAX_NEW_ACTIVITIES:
             print("🛑 Test limit reached, stopping early.")
             save_progress()
@@ -254,16 +260,8 @@ while True:
             continue
 
         # ---------- DETAIL FETCH ----------
-
         while True:
-            for act in batch:
 
-            if time.time() - START_TIME > MAX_RUNTIME:
-                print("⏰ Max runtime reached mid-batch, stopping...")
-                save_progress()
-                save_page_progress(page)
-                break
-            
             detail = requests.get(
                 f"https://www.strava.com/api/v3/activities/{act_id}",
                 headers=headers
@@ -275,7 +273,6 @@ while True:
                 continue
 
             if detail.status_code == 429:
-
                 save_progress()
                 save_page_progress(page)
 
