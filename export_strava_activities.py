@@ -215,17 +215,12 @@ while True:
 
     if daily_u >= 950:
 
+        print("🌙 Daily API limit reached, stopping for today...")
+
         save_progress()
         save_page_progress(page)
 
-        now = datetime.now(timezone.utc)
-        reset = datetime(now.year, now.month, now.day, tzinfo=timezone.utc) + timedelta(days=1)
-
-        countdown(int((reset - now).total_seconds()))
-
-        refresh_access_token()
-        headers["Authorization"] = f"Bearer {access_token}"
-        continue
+        break
 
     if short_u >= 95:
 
