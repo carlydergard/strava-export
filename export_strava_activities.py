@@ -22,6 +22,7 @@ refresh_token = os.environ["STRAVA_REFRESH_TOKEN"]
 
 access_token = None
 finished = False
+break_outer = False
 
 # ==========================================
 
@@ -183,6 +184,7 @@ while True:
         print("⏰ Max runtime reached, stopping early to allow commit...")
         save_progress()
         save_page_progress(page)
+        break_outer = True
         break
     
     r = requests.get(
