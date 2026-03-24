@@ -21,6 +21,7 @@ CLIENT_SECRET = os.environ["STRAVA_CLIENT_SECRET"]
 refresh_token = os.environ["STRAVA_REFRESH_TOKEN"]
 
 access_token = None
+finished = False
 
 # ==========================================
 
@@ -234,6 +235,7 @@ while True:
     batch = r.json()
 
     if not batch:
+        finished = True
         break
 
     for act in batch:
@@ -357,6 +359,6 @@ print("\n🎉 Done!")
 print(f"   New activities added: {new_count}")
 print(f"   Total activities: {len(activities)}")
 
-if os.path.exists(PROGRESS_FILE):
+if finished and os.path.exists(PROGRESS_FILE):
     os.remove(PROGRESS_FILE)
     print("🧹 Progress file cleared (export complete)")
