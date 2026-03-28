@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 17887168491,
+    "activityName": "Recovery",
+    "startTimeLocal": "2026-03-28 12:04:45",
+    "startTimeGMT": "2026-03-28 11:04:45",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 6006.4,
+    "movingDuration": 2184,
+    "elapsedDuration": 2482,
+    "elevationGain": 82.0,
+    "averageSpeed": 2.75,
+    "averageHR": 140.8,
+    "maxHR": 161.0,
+    "sufferScore": 8.0,
+    "averageRunningCadenceInStepsPerMinute": 166,
+    "publicDescription": "",
+    "privateNote": "Recovery. Helvila igår och lugnt tempo. Ändå stel och sliten i vaderna? \n\n3 pauser för chins. 5-4-4 reps. Stark där iaf, nu i fas med årets mål att 365 st chins totalt under 2026!\n\nLyssnade på:\nValter Nilsson - Högsbo Riviera: Första lyssningen! ”Buddy” känns som bästa låten (”släpp det som en ste-eeeen”😙👌). Den svåra andra skivan som helhet kanske inte lika bra som första? Eller så växer den! ",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 17868503646,
     "activityName": "Med-long run",
     "startTimeLocal": "2026-03-26 17:35:48",
