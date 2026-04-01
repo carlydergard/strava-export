@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 17927556707,
+    "activityName": "Gen-aerobic 13 km",
+    "startTimeLocal": "2026-03-31 17:51:58",
+    "startTimeGMT": "2026-03-31 15:51:58",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 13010.9,
+    "movingDuration": 4523,
+    "elapsedDuration": 4588,
+    "elevationGain": 122.0,
+    "averageSpeed": 2.877,
+    "averageHR": 146.2,
+    "maxHR": 173.0,
+    "sufferScore": 23.0,
+    "averageRunningCadenceInStepsPerMinute": 167,
+    "publicDescription": "🚘",
+    "privateNote": "Gen-aerobic 13 km. Kände mig ganska pigg och fräsch första km, bättre än på flera veckor, men sen slog stelheten och tröttheten till igen… Blev ännu ett segt pass med stela ben! \n\nMåste verkligen se till att detta blir en recoveryvecka. Ställer in morgondagens recovery!\n\nBilen hämtad iaf👍",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.71,
+    "startLng": 11.99,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 17900325867,
     "activityName": "10km @MP",
     "startTimeLocal": "2026-03-29 12:10:15",
