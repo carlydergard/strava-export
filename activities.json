@@ -1,5 +1,33 @@
 [
   {
+    "activityId": 17935626755,
+    "activityName": "Baslyft helkropp",
+    "startTimeLocal": "2026-04-01 11:34:57",
+    "startTimeGMT": "2026-04-01 09:34:57",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 2256,
+    "elapsedDuration": 2256,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 102.2,
+    "maxHR": 150.0,
+    "sufferScore": 4.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "💪💭🍻🍕",
+    "privateNote": "Baslyft helkropp. Omnia. \n\nDjupa men lätta squats, känns som jag tappat djupet lite igen. Mycket löpvolym nu dessutom…\n\nGeoteknik-gänget påpekade att jag är den enda de sett på gymmet från Hus!",
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 17927556707,
     "activityName": "Gen-aerobic 13 km",
     "startTimeLocal": "2026-03-31 17:51:58",
