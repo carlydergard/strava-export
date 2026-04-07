@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 17999336888,
+    "activityName": "Recovery",
+    "startTimeLocal": "2026-04-06 13:42:29",
+    "startTimeGMT": "2026-04-06 11:42:29",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 10024.7,
+    "movingDuration": 3690,
+    "elapsedDuration": 3740,
+    "elevationGain": 115.0,
+    "averageSpeed": 2.717,
+    "averageHR": 155.6,
+    "maxHR": 185.0,
+    "sufferScore": 36.0,
+    "averageRunningCadenceInStepsPerMinute": 166,
+    "publicDescription": "🌪️",
+    "privateNote": "Plan ”Recovery + speed 11 km with 6 x 100 m strides”. Blev något kortare och bara en stride. Fortf lite bekymrad efter senaste tidens extremt slitna kropp. Men en aggressiv recoveryvecka med ensast 19km löpning verkar ha hjälpt en del! Fortf lite stel i vader och löpsteget är inte direkt spänstigt. Men inte samma PLÅGADE känsla som för en vecka sedan iaf?\n\nBlåsigt ute (Stormen Dave igår…), riktigt mkt motvind hisingsbron-rambersvallen. Tog det megalugnt ändå. \n\nImorgon 18 km vara 11 @LT. Känns hårt, får ev justera ned LT. Detta är ju hårdaste veckan i hela programmet (88km!)…\n\nLyssnade på:\nHaruki Murakami - What i talk about when I talk about running: Länge har jag tänkt att jag borde läsa denna ”klassiker” inom löpning. Men kanske har den låtit lite pretenitös och tråkig? Eller filosofisk? Inte har det blivit av iaf. Men kanske var det Fredrik på jobbets rekommendation, eller möjligen Andreas som till svar glatt utbrast ”ljudboken är bara 4h!” som fick mig att till slut lyssna under denna vecka. Och jag måste säga att den var bättre och enklare än jag trodde! Murakami tänker på ungefär samma saker som jag när han springer. Tider, lopp, träning. Besvikelse över uteblivna resultat trots bra träning. Åldrande. Absolut värd 4h av livet! Men om jag själv ska rekommendera den till någon får jag nog ha i åtanke att den låter svårare än den är. PS. Kul detalj att jag och Murakami är ganska lika tränings- och prestationsmässigt. Liknande träningsvolym, siktar på 3:30 på marathon, kass på cykling i triathlon men ok på simning (1500m på 33min). Inte så intresserade av andra. ",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 17959056817,
     "activityName": "5x800m, avbröt",
     "startTimeLocal": "2026-04-03 10:26:34",
