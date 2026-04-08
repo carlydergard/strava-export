@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18014830123,
+    "activityName": "5km @LT",
+    "startTimeLocal": "2026-04-07 17:01:46",
+    "startTimeGMT": "2026-04-07 15:01:46",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "workout",
+    "distance": 9666.0,
+    "movingDuration": 3027,
+    "elapsedDuration": 3216,
+    "elevationGain": 65.0,
+    "averageSpeed": 3.193,
+    "averageHR": 155.9,
+    "maxHR": 172.0,
+    "sufferScore": 28.0,
+    "averageRunningCadenceInStepsPerMinute": 172,
+    "publicDescription": "",
+    "privateNote": "Det stod ”LT 18 km with 11 km at LT pace” men hade i samspel med CoachGPT bestämt att korta pga senaste veckornas kassa känsla. Tanken var 6km @LT men då sista hamnade i motvind och uppförsbacke valde jag att nöja mig med 5km @LT. lite slappt men också lite försiktigt/konservativt. Vill inte overreacha direkt när kroppen känns bättre! Planen är att ”glida” tillbaks in i Pfitzinger-planen…\n\nKlarade att hålla 4:46 min/km på LT ganska stabilt iaf. Men obs medvind! Trött på slutet. \n\nBra ben idag! Fortf nån slags allmän trötthet i kroppen. \n\nMasserade (bara) höger vad med massagepistol som nån slags experiment igår. Kändes bättre igår men idag ingen skillnad mot vänster! Stämmer m forskningen som finns än så länge…\n\nFörsta gången på länge jag klickade i ”😐 Normal” på Garmins självutvärdering efter passet. Fö ganska kul att man valt just 😐-smileyn för att illustrera normal. Normal är väl bra? Garmin har lite neggig stil iofs, ”🙂 Normal” känns väl för peppigt för deras brand. ",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.71,
+    "startLng": 11.99,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 17999336888,
     "activityName": "Recovery",
     "startTimeLocal": "2026-04-06 13:42:29",
