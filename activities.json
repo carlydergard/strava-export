@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18022560919,
+    "activityName": "Recovery",
+    "startTimeLocal": "2026-04-08 07:22:42",
+    "startTimeGMT": "2026-04-08 05:22:42",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 5570.2,
+    "movingDuration": 1956,
+    "elapsedDuration": 1994,
+    "elevationGain": 11.0,
+    "averageSpeed": 2.848,
+    "averageHR": 148.2,
+    "maxHR": 174.0,
+    "sufferScore": 9.0,
+    "averageRunningCadenceInStepsPerMinute": 169,
+    "publicDescription": "💤",
+    "privateNote": null,
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18014830123,
     "activityName": "5km @LT",
     "startTimeLocal": "2026-04-07 17:01:46",
