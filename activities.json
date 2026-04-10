@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18042545059,
+    "activityName": "MLR",
+    "startTimeLocal": "2026-04-09 16:24:51",
+    "startTimeGMT": "2026-04-09 14:24:51",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "long_run",
+    "distance": 16110.9,
+    "movingDuration": 5335,
+    "elapsedDuration": 5471,
+    "elevationGain": 89.0,
+    "averageSpeed": 3.02,
+    "averageHR": 160.0,
+    "maxHR": 182.0,
+    "sufferScore": 79.0,
+    "averageRunningCadenceInStepsPerMinute": 168,
+    "publicDescription": "",
+    "privateNote": "Plan ”Med-long run 19 km”, kortade till 16 pga sliten. Kändes iofs rätt bra första 5km, klarade att hålla 5:1x-fart ganska lätt. Tog det lugnare uppför Älvsborgsbron men då började benen stelna. Sugen på att bryta redan efter 10 km! Sen en kamp. Seg och stel i hela kroppen sista biten! Kunde liksom inte springa snabbare än typ 5:30 (vilket kändes som marafart…)\n\nSvårt läge nu, vill inte gräva mig djupare men samtidigt är det ju hårt att träna för marathon? Slutet på detta pass kändes som slutet på en mara i benen, eg bra att träna på det? Men blir liksom aldrig fräsch nog att hoppa på programmet på riktigt igen i detta läge? Känns som jag behöver vila mycket hårdare än jag tror för att återhämta mig…\n\nPlanen är 32km långpass på lördag men sen är det ju Kungsbackaloppet helgen efter. Får fundera lite på upplägget nu! Planen eg inte var att formtoppa inför kungsbacka vill jag ju iaf kunna springa hårt hela vägen… Men kanske är en lättare vecka med formtoppning ändå vad som behövs för att komma tillbaks!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.71,
+    "startLng": 11.99,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18022560919,
     "activityName": "Recovery",
     "startTimeLocal": "2026-04-08 07:22:42",
