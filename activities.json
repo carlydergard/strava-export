@@ -1,5 +1,33 @@
 [
   {
+    "activityId": 18054724024,
+    "activityName": "Discofredag",
+    "startTimeLocal": "2026-04-10 16:26:20",
+    "startTimeGMT": "2026-04-10 14:26:20",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 2436,
+    "elapsedDuration": 2436,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 92.9,
+    "maxHR": 143.0,
+    "sufferScore": 4.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "💪",
+    "privateNote": null,
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 18042545059,
     "activityName": "MLR",
     "startTimeLocal": "2026-04-09 16:24:51",
