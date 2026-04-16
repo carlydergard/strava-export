@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18119717643,
+    "activityName": "Gen-aerobic?",
+    "startTimeLocal": "2026-04-15 16:44:31",
+    "startTimeGMT": "2026-04-15 14:44:31",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 6512.7,
+    "movingDuration": 2263,
+    "elapsedDuration": 2459,
+    "elevationGain": 72.0,
+    "averageSpeed": 2.878,
+    "averageHR": 152.3,
+    "maxHR": 175.0,
+    "sufferScore": 18.0,
+    "averageRunningCadenceInStepsPerMinute": 167,
+    "publicDescription": "🤧🥋",
+    "privateNote": "Gen-aerobic? Oklart pass för att känna på kroppen efter slitna veckor och en helg med diffusa infektionssymptom. Kändes bra i 1km sen sämre. Mot slutet jättedåligt, fick stanna två gånger i backen upp från mossen för jag blev för trött! Både ben och flås som sa ifrån?\n\nSjuk, sliten eller nån slags bonk?  Lite av alla? \n\nKanske äter för lite, ska jag börja äta macka på jobbfikan?\n\nKungsbackaloppet på lördag hänger mycket löst!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18054724024,
     "activityName": "Discofredag",
     "startTimeLocal": "2026-04-10 16:26:20",
