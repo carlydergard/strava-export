@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18156128631,
+    "activityName": "Gen-aerobic",
+    "startTimeLocal": "2026-04-18 11:49:24",
+    "startTimeGMT": "2026-04-18 09:49:24",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 10018.7,
+    "movingDuration": 3487,
+    "elapsedDuration": 3558,
+    "elevationGain": 26.0,
+    "averageSpeed": 2.873,
+    "averageHR": 152.0,
+    "maxHR": 173.0,
+    "sufferScore": 19.0,
+    "averageRunningCadenceInStepsPerMinute": 166,
+    "publicDescription": "🥠",
+    "privateNote": "Gen-aerobic. Rätt beslut att skippa Kungsbackaloppet idag, men bättre känsla i kroppen! Inte den totala trötthet jag känt i hela kroppen längre, även om vaderna stelnade rätt mycket upp på Hisingsbron trots makligt tempo (Släppte lite sen).\n\n✅ 1/3 av Göteborg på citystrides. ",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18131585687,
     "activityName": "Överkropp",
     "startTimeLocal": "2026-04-16 11:45:20",
