@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18199929325,
+    "activityName": "Gen-aerobic + speed",
+    "startTimeLocal": "2026-04-21 17:38:04",
+    "startTimeGMT": "2026-04-21 15:38:04",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 8175.2,
+    "movingDuration": 2696,
+    "elapsedDuration": 2807,
+    "elevationGain": 43.0,
+    "averageSpeed": 3.032,
+    "averageHR": 155.4,
+    "maxHR": 184.0,
+    "sufferScore": 30.0,
+    "averageRunningCadenceInStepsPerMinute": 170,
+    "publicDescription": "6x100m strides\n\n🌿🫩",
+    "privateNote": "Gen-aerobic+Speed, 6x100m strides. \n\nOk feeling i benen äntligen! Känns som tåhävningar fick bort sista stelheten i vaderna. Nä är de lite stumma men det kommer nog mer från själva vadhävningarna, inte den osköna stela känslan jag haft mycket. ”😐 Normal”. \n\nÄr jag lite pollenallergisk? Har beställt receptfri anthistamin, ögonen rinner fett mycket så fort jag är utomhus? Känner mig seg. Testar i nån vecka om det hjälper!\n\nLyssnade på:\nWeird Al - Div. Hits: Inspirerad efter att ha sett biopicen med Daniel Radcliffe. Lite samma grej som Jimmy Buffet… Dvs otippat bra träningsmusik! 👨🏻‍🦱",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.71,
+    "startLng": 11.99,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18186101301,
     "activityName": "Recovery",
     "startTimeLocal": "2026-04-20 17:52:21",
