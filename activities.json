@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18227332288,
+    "activityName": "3x2km @MP",
+    "startTimeLocal": "2026-04-23 16:56:36",
+    "startTimeGMT": "2026-04-23 14:56:36",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "workout",
+    "distance": 9606.2,
+    "movingDuration": 3079,
+    "elapsedDuration": 3278,
+    "elevationGain": 45.0,
+    "averageSpeed": 3.12,
+    "averageHR": 161.1,
+    "maxHR": 179.0,
+    "sufferScore": 42.0,
+    "averageRunningCadenceInStepsPerMinute": 169,
+    "publicDescription": "",
+    "privateNote": "3x2km @MP. \n\nBlandade känslor: 3 veckor efter jag blev riktigt sliten är jag nu tillbaks? Men samtidigt, 5:00-tempo kändes väldigt jobbigt! Kanske är det dålig form, kanske är det pollen, kanske är det lite kvarvarande slitenhet (”det känns bättre innan det är bättre”)?\n\nLäste en AMA med Marius Bakken häromdagen, reagerade på detta (citerar ur minnet): Man kan inte bara träna race pace, man måste träna ”systemen bakom” race pace. Bra race pace är en följd av att man tränat bra annat (polariserat).\n\nLite trist att vara långsam men väljer nog att se på dagens pass som: We are so back!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.71,
+    "startLng": 11.99,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18199929325,
     "activityName": "Gen-aerobic + speed",
     "startTimeLocal": "2026-04-21 17:38:04",
