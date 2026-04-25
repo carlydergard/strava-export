@@ -1,5 +1,33 @@
 [
   {
+    "activityId": 18236698321,
+    "activityName": "Överkropp",
+    "startTimeLocal": "2026-04-24 11:33:42",
+    "startTimeGMT": "2026-04-24 09:33:42",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 2099,
+    "elapsedDuration": 2099,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 101.5,
+    "maxHR": 144.0,
+    "sufferScore": 4.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "💪",
+    "privateNote": "Överkropp. Riktigt bra pump! Eller är det bara belysningen på Omnias omklädningsrum som är väldigt smickrande?\n\nKörde superset Skivstångsrodd->bicepscurl m EZ-stång. Bra finisher!",
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 18227332288,
     "activityName": "3x2km @MP",
     "startTimeLocal": "2026-04-23 16:56:36",
