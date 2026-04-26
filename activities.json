@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18251430665,
+    "activityName": "Långpass",
+    "startTimeLocal": "2026-04-25 12:27:55",
+    "startTimeGMT": "2026-04-25 10:27:55",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "long_run",
+    "distance": 19171.6,
+    "movingDuration": 6579,
+    "elapsedDuration": 6704,
+    "elevationGain": 152.0,
+    "averageSpeed": 2.914,
+    "averageHR": 144.0,
+    "maxHR": 170.0,
+    "sufferScore": 38.0,
+    "averageRunningCadenceInStepsPerMinute": 168,
+    "publicDescription": "",
+    "privateNote": "Långpass. Målet var 18-22 km lugnt. \n\nGanska seg första 5 km. Släppte vid Älvsborgsbron, inspg att jag hade rätt låg puls ändå. Benen kändes ok. Fick tom feeling och la in en kort MP-fartökning (på känsla) runt 13km, ändå ett tecken på att den slitna känslan är borta att man öht kommer på idén. Landade på 1,6km i 5:00-tempo. Kändes lättare än i torsdags men: Nedförsbacke och stark medvind!\n\nInte lite trött mot slutet, iofs ganska normal långpasskänsla, men valde att avsluta efter 19km för att vara på säkra sidan. \n\nHar kört pollenmedicin i 2 dagar nu. Oklart än så länge! Vaga symptom och därmed vagt om det hjälper, särskilt efter endast 2 dagar… Får fortsätta och se. \n\nGlömt hörlursfordralet på jobbet så lyssnade på: Inget!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18236698321,
     "activityName": "Överkropp",
     "startTimeLocal": "2026-04-24 11:33:42",
