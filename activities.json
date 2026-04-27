@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18265533479,
+    "activityName": "Recovery",
+    "startTimeLocal": "2026-04-26 14:16:29",
+    "startTimeGMT": "2026-04-26 12:16:29",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 3239.5,
+    "movingDuration": 1099,
+    "elapsedDuration": 1209,
+    "elevationGain": 32.0,
+    "averageSpeed": 2.948,
+    "averageHR": 145.6,
+    "maxHR": 186.0,
+    "sufferScore": 6.0,
+    "averageRunningCadenceInStepsPerMinute": 165,
+    "publicDescription": "+Smart strides",
+    "privateNote": "Recovery. Målet var 5km men kortade ned pga orolig mage! Näsan rann rätt mycket också, pollen?\n\nVille testa Bakkens ”Smart strides”, inspirerad av Løping!-boken. Lätta strides med fokus på fint, spänstigt löpsteg strax över tröskel ska tydligen kunna ”resetta” systemet och leda t fräschare ben!\n\nFrångår nu officiellt Pfitzinger-planen. Har i praktigen inte följt det de senaste veckorna och efter 4 veckor sliten, sjuk, allmänt konstig samt missade kvalitetspass, långpass och veckovolym på 16-40km går det bara inte att hoppa på programmet igen. Får tänka om och försöka rädda det som räddas kan fram t sthlm! Fokusera på LR och MP-intervaller så jag iaf inte är HELT oförberedd på startlinjen… \n\nSprang förbi cortège-byggplatsen (nu vid A/V-huset), vårigt!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18251430665,
     "activityName": "Långpass",
     "startTimeLocal": "2026-04-25 12:27:55",
