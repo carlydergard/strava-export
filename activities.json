@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18294033306,
+    "activityName": "2x3km @MP",
+    "startTimeLocal": "2026-04-28 17:23:17",
+    "startTimeGMT": "2026-04-28 15:23:17",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "workout",
+    "distance": 9120.4,
+    "movingDuration": 2872,
+    "elapsedDuration": 3081,
+    "elevationGain": 24.0,
+    "averageSpeed": 3.176,
+    "averageHR": 160.2,
+    "maxHR": 181.0,
+    "sufferScore": 39.0,
+    "averageRunningCadenceInStepsPerMinute": 170,
+    "publicDescription": "",
+    "privateNote": "2x3km @MP. 5:00min/km känns fortfarande för hårt för MP men gick att genomför iaf! Ungefär lika jobbigt som förra veckans 3x2km… Det går åt rätt håll?\n\nMotvind, sol i ögonen och trafiljuspauser första intervallen. Medvind, sol i ryggen och oavtruten cykelbana andra. \n\nUngefär lika trött i ben som andning, brukar vara benen som tar slut först? Dålig kondition nu plötsligt?",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.71,
+    "startLng": 11.99,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18265533479,
     "activityName": "Recovery",
     "startTimeLocal": "2026-04-26 14:16:29",
