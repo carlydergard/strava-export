@@ -1,5 +1,33 @@
 [
   {
+    "activityId": 18303779236,
+    "activityName": "Överkropp",
+    "startTimeLocal": "2026-04-29 11:40:56",
+    "startTimeGMT": "2026-04-29 09:40:56",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 1816,
+    "elapsedDuration": 1816,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 107.9,
+    "maxHR": 149.0,
+    "sufferScore": 4.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "“The greatest feeling you can get in a gym, or the most satisfying feeling you can get in the gym, is the pump. [...]” - Arnold Schwarzenegger",
+    "privateNote": "Överkropp. Mkt bra pump, kör verkligen slut på armarna! Svårt att bära brickan stadigt på lunchen efter, bra betyg. Och äntligen lite framsteg i bänk, klarade äntligen 5 reps på 50 kg. Gött när löpningenn går trögt att iaf överkroppstyrkan är mkt bra. \r\n\r\nSuperset rodd->bicepscurls känns nice! Bra sätt att motivera bicepscurls som jag annars tkr är en för gym-bro:ig övning för min intelektuellt genomtänkta styrketräning. \r\n\r\n\"The greatest feeling you can get in a gym or the most satisfying feeling you can get in the gym is the pump. It feels fantastic. It's as satisfying to me as cumming is, you know, as in having sex with a woman and cumming. So can you believe how much I am in heaven? I am like getting the feeling of cumming in the gym; I'm getting the feeling of cumming at home; I'm getting the feeling of cumming backstage; when I pump up, when I pose out in front of 5000 people I get the same feeling, so I am cumming day and night. It's terrific, right? So you know, I am in heaven.\" - Arnold Schwarzenegger",
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 18294033306,
     "activityName": "2x3km @MP",
     "startTimeLocal": "2026-04-28 17:23:17",
