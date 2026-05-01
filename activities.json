@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18316618686,
+    "activityName": "Gen-aerobic",
+    "startTimeLocal": "2026-04-30 10:38:21",
+    "startTimeGMT": "2026-04-30 08:38:21",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 10053.0,
+    "movingDuration": 3379,
+    "elapsedDuration": 3530,
+    "elevationGain": 45.0,
+    "averageSpeed": 2.975,
+    "averageHR": 156.1,
+    "maxHR": 184.0,
+    "sufferScore": 31.0,
+    "averageRunningCadenceInStepsPerMinute": 168,
+    "publicDescription": "+ 6x100m strides\n\n🐳🏰",
+    "privateNote": "Gen-aerobic + strides 10 km. Kändes som ett vanligt segt/tråkigt distanspass. \n\n1:1- vila på stridesen, för att ibte springa dem för hårt. Max 5kP är målet (typ), fokus är bra löpsteg. \n\nSnorig på slutet!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18303779236,
     "activityName": "Överkropp",
     "startTimeLocal": "2026-04-29 11:40:56",
