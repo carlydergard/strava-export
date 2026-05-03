@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18344707350,
+    "activityName": "Långpass",
+    "startTimeLocal": "2026-05-02 10:58:40",
+    "startTimeGMT": "2026-05-02 08:58:40",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "long_run",
+    "distance": 24051.7,
+    "movingDuration": 8738,
+    "elapsedDuration": 8795,
+    "elevationGain": 257.0,
+    "averageSpeed": 2.753,
+    "averageHR": 156.5,
+    "maxHR": 181.0,
+    "sufferScore": 67.0,
+    "averageRunningCadenceInStepsPerMinute": 166,
+    "publicDescription": "Z2\n\n🪡🧵🏝️",
+    "privateNote": "Långpass, z2. Tanen var 22 km men rundan rubt Skräddarön var visst 24, mindes fel. Fick lite gåpaus vid 1/3 och 2/3 iofs. Funkade bra! \n\nFint sol och sydlig vind, bra förutsättningar! Ingen motvind men svalka från solen. \n\n2 gels (7/14) och vatten ur hamnslangen på nordön. \n\nSkönt med lugnare långpass. Lyssnade på podd och musik men man hunner också fundera på saker. Kreativ hjärna, kom på lite roliga grejer, högt och lågt!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.89,
+    "startLng": 11.59,
+    "locationName": "Marstrand SE"
+  },
+  {
     "activityId": 18331799076,
     "activityName": "Orientering med Märta",
     "startTimeLocal": "2026-05-01 13:24:16",
