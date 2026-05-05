@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18374302155,
+    "activityName": "3x3km @MP",
+    "startTimeLocal": "2026-05-04 17:31:45",
+    "startTimeGMT": "2026-05-04 15:31:45",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "workout",
+    "distance": 12641.4,
+    "movingDuration": 3997,
+    "elapsedDuration": 4201,
+    "elevationGain": 76.0,
+    "averageSpeed": 3.163,
+    "averageHR": 162.1,
+    "maxHR": 179.0,
+    "sufferScore": 59.0,
+    "averageRunningCadenceInStepsPerMinute": 171,
+    "publicDescription": "",
+    "privateNote": "3x3km @MP. Kändes bättre än 2x3km förra veckan men fortfarande för tufft för marafart!\n\nFörsta intervallen (som labdade på 4:59 min/km) var jobbigast, trots en del trafikljuspauser. Oxå en del uppför och motvind iofs. Mitt i andra (5:07 min/km) tänkte jag ”måste verkligen justera tidsmålet på sthlm marathon, 3:40?”. Sen fick jag medvind på sista och den gick i 4:57 och kändes betydligt lättare än de två andra? Idk. \n\n🤷‍♂️ ",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.71,
+    "startLng": 11.99,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18344707350,
     "activityName": "Långpass",
     "startTimeLocal": "2026-05-02 10:58:40",
