@@ -1,4 +1,119 @@
 workout,start,end,exercise,weight,bodyweight,extraWeight,assistingWeight,reps,time,warmup,max,fail,checked,setComment,workoutComment,form,sleep,calories,stress
+"Fredag lunch: axlar, bröst, rygg etc.",1778233606177,1778235632814,Bänkpress,20,,,,10,,true,false,false,1778233612811,,,5,6,5,2
+"Fredag lunch: axlar, bröst, rygg etc.",1778233606177,1778235632814,Bänkpress,40,,,,8,,false,false,false,1778233848830,,,5,6,5,2
+"Fredag lunch: axlar, bröst, rygg etc.",1778233606177,1778235632814,Bänkpress,50,,,,5,,false,false,false,1778233968284,,,5,6,5,2
+"Fredag lunch: axlar, bröst, rygg etc.",1778233606177,1778235632814,Chins,,"73,5",0,,3,,false,false,false,1778234087795,,,5,6,5,2
+"Fredag lunch: axlar, bröst, rygg etc.",1778233606177,1778235632814,Chins,,"73,5",0,,3,,false,false,false,1778234218674,,,5,6,5,2
+"Fredag lunch: axlar, bröst, rygg etc.",1778233606177,1778235632814,Chins,,"73,5",0,,3,,false,false,false,1778234378324,,,5,6,5,2
+"Fredag lunch: axlar, bröst, rygg etc.",1778233606177,1778235632814,Press,20,,,,10,,true,false,false,1778234421151,,,5,6,5,2
+"Fredag lunch: axlar, bröst, rygg etc.",1778233606177,1778235632814,Press,25,,,,8,,false,false,false,1778234609353,,,5,6,5,2
+"Fredag lunch: axlar, bröst, rygg etc.",1778233606177,1778235632814,Press,25,,,,4,,false,false,false,1778234758027,,,5,6,5,2
+"Fredag lunch: axlar, bröst, rygg etc.",1778233606177,1778235632814,Skivstångsrodd,40,,,,8,,false,false,false,1778234907910,,,5,6,5,2
+"Fredag lunch: axlar, bröst, rygg etc.",1778233606177,1778235632814,Bicepscurl med EZ-stång,15,,,,12,,false,false,false,1778234908157,,,5,6,5,2
+"Fredag lunch: axlar, bröst, rygg etc.",1778233606177,1778235632814,Skivstångsrodd,40,,,,8,,false,false,false,1778235130345,,,5,6,5,2
+"Fredag lunch: axlar, bröst, rygg etc.",1778233606177,1778235632814,Bicepscurl med EZ-stång,15,,,,7,,false,false,false,1778235130576,,,5,6,5,2
+"Fredag lunch: axlar, bröst, rygg etc.",1778233606177,1778235632814,Skivstångsrodd,40,,,,6,,false,false,false,1778235291744,,,5,6,5,2
+"Fredag lunch: axlar, bröst, rygg etc.",1778233606177,1778235632814,Bicepscurl med EZ-stång,15,,,,3,,false,false,false,1778235292062,,,5,6,5,2
+"Fredag lunch: axlar, bröst, rygg etc.",1778233606177,1778235632814,Dips,,"73,5",0,,8,,false,false,false,1778235453563,,,5,6,5,2
+"Fredag lunch: axlar, bröst, rygg etc.",1778233606177,1778235632814,Dips,,"73,5",0,,7,,false,false,false,1778235629413,,,5,6,5,2
+Överkropp,1777455723832,1777457485570,Bänkpress,20,,,,10,,true,false,false,1777455754085,,,7,4,6,5
+Överkropp,1777455723832,1777457485570,Bänkpress,40,,,,8,,false,false,false,1777455846670,,,7,4,6,5
+Överkropp,1777455723832,1777457485570,Bänkpress,50,,,,5,,false,false,false,1777456043226,,,7,4,6,5
+Överkropp,1777455723832,1777457485570,Chins,,"73,5",0,,5,,false,false,false,1777456134353,,,7,4,6,5
+Överkropp,1777455723832,1777457485570,Chins,,"73,5",0,,4,,false,false,false,1777456255842,,,7,4,6,5
+Överkropp,1777455723832,1777457485570,Chins,,"73,5",0,,3,,false,false,false,1777456395422,,,7,4,6,5
+Överkropp,1777455723832,1777457485570,Press,20,,,,10,,true,false,false,1777456471832,,,7,4,6,5
+Överkropp,1777455723832,1777457485570,Press,25,,,,8,,false,false,false,1777456605222,,,7,4,6,5
+Överkropp,1777455723832,1777457485570,Press,30,,,,2,,false,false,false,1777456853969,,,7,4,6,5
+Överkropp,1777455723832,1777457485570,Skivstångsrodd,40,,,,8,,false,false,false,1777456857854,,,7,4,6,5
+Överkropp,1777455723832,1777457485570,Skivstångsrodd,40,,,,8,,false,false,false,1777457057320,,,7,4,6,5
+Överkropp,1777455723832,1777457485570,Skivstångsrodd,40,,,,8,,false,false,false,1777457253815,,,7,4,6,5
+Överkropp,1777455723832,1777457485570,Bicepscurl med EZ-stång,15,,,,11,,false,false,false,1777457056020,,,7,4,6,5
+Överkropp,1777455723832,1777457485570,Bicepscurl med EZ-stång,15,,,,4,,false,false,false,1777457253132,,,7,4,6,5
+Överkropp,1777455723832,1777457485570,Dips,,"73,5",0,,8,,false,false,false,1777457308665,,,7,4,6,5
+Överkropp,1777455723832,1777457485570,Dips,,"73,5",0,,6,,false,false,false,1777457479836,,,7,4,6,5
+"Fredag lunch: axlar, bröst, rygg etc.",1777023124787,1777026051570,Liggande hantelpress,"12,5",,,,10,,true,false,false,1777023135805,,,8,7,5,6
+"Fredag lunch: axlar, bröst, rygg etc.",1777023124787,1777026051570,Bänkpress,20,,,,10,,true,false,false,1777023287850,,,8,7,5,6
+"Fredag lunch: axlar, bröst, rygg etc.",1777023124787,1777026051570,Bänkpress,40,,,,8,,false,false,false,1777023475922,,,8,7,5,6
+"Fredag lunch: axlar, bröst, rygg etc.",1777023124787,1777026051570,Bänkpress,50,,,,4,,false,false,false,1777023729006,,,8,7,5,6
+"Fredag lunch: axlar, bröst, rygg etc.",1777023124787,1777026051570,Chins,,"73,5",0,,5,,false,false,false,1777023777735,,,8,7,5,6
+"Fredag lunch: axlar, bröst, rygg etc.",1777023124787,1777026051570,Chins,,"73,5",0,,4,,false,false,false,1777023919364,,,8,7,5,6
+"Fredag lunch: axlar, bröst, rygg etc.",1777023124787,1777026051570,Chins,,"73,5",0,,3,,false,false,false,1777024200386,,,8,7,5,6
+"Fredag lunch: axlar, bröst, rygg etc.",1777023124787,1777026051570,Dips,,"73,5",0,,8,,false,false,false,1777024211340,,,8,7,5,6
+"Fredag lunch: axlar, bröst, rygg etc.",1777023124787,1777026051570,Dips,,"73,5",0,,5,,false,false,false,1777024366889,,,8,7,5,6
+"Fredag lunch: axlar, bröst, rygg etc.",1777023124787,1777026051570,Press,20,,,,8,,true,false,false,1777024451458,,,8,7,5,6
+"Fredag lunch: axlar, bröst, rygg etc.",1777023124787,1777026051570,Press,25,,,,6,,false,false,false,1777024576270,,,8,7,5,6
+"Fredag lunch: axlar, bröst, rygg etc.",1777023124787,1777026051570,Press,25,,,,4,,false,false,false,1777024794546,,,8,7,5,6
+"Fredag lunch: axlar, bröst, rygg etc.",1777023124787,1777026051570,Skivstångsrodd,40,,,,11,,false,false,false,1777024844624,,,8,7,5,6
+"Fredag lunch: axlar, bröst, rygg etc.",1777023124787,1777026051570,Skivstångsrodd,40,,,,8,,false,false,false,1777025078539,,,8,7,5,6
+"Fredag lunch: axlar, bröst, rygg etc.",1777023124787,1777026051570,Bicepscurl med EZ-stång,15,,,,10,,false,false,false,1777025082521,,,8,7,5,6
+"Fredag lunch: axlar, bröst, rygg etc.",1777023124787,1777026051570,Bicepscurl med EZ-stång,15,,,,7,,false,false,false,1777026045019,,,8,7,5,6
+Måndag kväll: Chins,1776701004553,1776701453026,Chins,,"73,5",0,,5,,false,false,false,1776701047103,,,,,,
+Måndag kväll: Chins,1776701004553,1776701453026,Chins,,"73,5",0,,4,,false,false,false,1776701452093,,,,,,
+Överkropp,1776332698484,1776335343948,Axelpress med hantlar,"12,5",,,,8,,false,false,false,1776332781515,,,7,5,5,5
+Överkropp,1776332698484,1776335343948,Axelpress med hantlar,15,,,,7,,false,false,false,1776332928063,,,7,5,5,5
+Överkropp,1776332698484,1776335343948,Axelpress med hantlar,15,,,,6,,false,false,false,1776333142013,,,7,5,5,5
+Överkropp,1776332698484,1776335343948,Liggande hantelpress,"12,5",,,,8,,true,false,false,1776333145547,,,7,5,5,5
+Överkropp,1776332698484,1776335343948,Liggande hantelpress,15,,,,6,,false,false,false,1776333327867,,,7,5,5,5
+Överkropp,1776332698484,1776335343948,Liggande hantelpress,15,,,,5,,false,false,false,1776333465213,,,7,5,5,5
+Överkropp,1776332698484,1776335343948,Chins,,"73,5",0,,5,,false,false,false,1776333614592,,,7,5,5,5
+Överkropp,1776332698484,1776335343948,Chins,,"73,5",0,,3,,false,false,false,1776333729482,,,7,5,5,5
+Överkropp,1776332698484,1776335343948,Chins,,"73,5",0,,3,,false,false,false,1776333860559,,,7,5,5,5
+Överkropp,1776332698484,1776335343948,Chins,,"73,5",0,,3,,false,false,false,1776333354774,"Fr löpning igår, mins inte exakt hur många? Ca 3-5",,7,5,5,5
+Överkropp,1776332698484,1776335343948,Dips,,"73,5",0,,5,,false,false,false,1776334005546,,,7,5,5,5
+Överkropp,1776332698484,1776335343948,Dips,,"73,5",0,,6,,false,false,false,1776334102966,,,7,5,5,5
+Överkropp,1776332698484,1776335343948,Dips,,"73,5",0,,4,,false,false,false,1776334252668,,,7,5,5,5
+Överkropp,1776332698484,1776335343948,Skivstångsrodd,40,,,,10,,false,false,false,1776334293025,,,7,5,5,5
+Överkropp,1776332698484,1776335343948,Skivstångsrodd,40,,,,8,,false,false,false,1776334411566,,,7,5,5,5
+Överkropp,1776332698484,1776335343948,Skivstångsrodd,40,,,,6,,false,false,false,1776335343047,,,7,5,5,5
+Discofredag,1775830972007,1775833773866,Bänkpress,20,,,,10,,true,false,false,1775831250868,,,7,4,7,6
+Discofredag,1775830972007,1775833773866,Bänkpress,40,,,,8,,false,false,false,1775831456388,,,7,4,7,6
+Discofredag,1775830972007,1775833773866,Bänkpress,50,,,,4,,false,false,false,1775831750245,,,7,4,7,6
+Discofredag,1775830972007,1775833773866,Chins,,"73,5",0,,5,,false,false,false,1775831752126,,,7,4,7,6
+Discofredag,1775830972007,1775833773866,Chins,,"73,5",0,,4,,false,false,false,1775831910626,,,7,4,7,6
+Discofredag,1775830972007,1775833773866,Chins,,"73,5",0,,3,,false,false,false,1775832080110,,,7,4,7,6
+Discofredag,1775830972007,1775833773866,Press,20,,,,10,,true,false,false,1775832304524,,,7,4,7,6
+Discofredag,1775830972007,1775833773866,Press,25,,,,8,,false,false,false,1775832720261,,,7,4,7,6
+Discofredag,1775830972007,1775833773866,Press,30,,,,5,,false,false,false,1775832720608,,,7,4,7,6
+Discofredag,1775830972007,1775833773866,Skivstångsrodd,50,,,,8,,false,false,false,1775832854322,,,7,4,7,6
+Discofredag,1775830972007,1775833773866,Skivstångsrodd,50,,,,5,,false,false,false,1775833008007,,,7,4,7,6
+Discofredag,1775830972007,1775833773866,Skivstångsrodd,50,,,,5,,false,false,false,1775833261827,,,7,4,7,6
+Discofredag,1775830972007,1775833773866,Dips,,"73,5",0,,6,,false,false,false,1775833262311,,,7,4,7,6
+Discofredag,1775830972007,1775833773866,Dips,,"73,5",0,,4,,false,false,false,1775833459276,,,7,4,7,6
+Discofredag,1775830972007,1775833773866,Bicepscurl med EZ-stång,20,,,,7,,false,false,false,1775833372509,,,7,4,7,6
+Discofredag,1775830972007,1775833773866,Bicepscurl med EZ-stång,20,,,,5,,false,false,false,1775833770312,,,7,4,7,6
+Golden 5 light,1775036183353,1775038345274,Bänkpress,20,,,,10,,true,false,false,1775036184303,,,,,,
+Golden 5 light,1775036183353,1775038345274,Bänkpress,40,,,,8,,false,false,false,1775036321768,,,,,,
+Golden 5 light,1775036183353,1775038345274,Bänkpress,50,,,,3,,false,false,false,1775036558857,,,,,,
+Golden 5 light,1775036183353,1775038345274,Marklyft,70,,,,8,,true,false,false,1775036656160,,,,,,
+Golden 5 light,1775036183353,1775038345274,Marklyft,80,,,,4,,true,false,false,1775037129701,,,,,,
+Golden 5 light,1775036183353,1775038345274,Marklyft,95,,,,2,,false,false,false,1775037129998,,,,,,
+Golden 5 light,1775036183353,1775038345274,Press,20,,,,10,,true,false,false,1775037208518,,,,,,
+Golden 5 light,1775036183353,1775038345274,Press,25,,,,8,,false,false,false,1775037617818,,,,,,
+Golden 5 light,1775036183353,1775038345274,Press,30,,,,4,,false,false,false,1775037618586,,,,,,
+Golden 5 light,1775036183353,1775038345274,Knäböj,20,,,,10,,true,false,false,1775037623603,,,,,,
+Golden 5 light,1775036183353,1775038345274,Knäböj,40,,,,8,,false,false,false,1775037870136,,,,,,
+Golden 5 light,1775036183353,1775038345274,Chins,,"73,5",0,,5,,false,false,false,1775038009460,,,,,,
+Golden 5 light,1775036183353,1775038345274,Chins,,"73,5",0,,3,,false,false,false,1775038114832,,,,,,
+Golden 5 light,1775036183353,1775038345274,Chins,,"73,5",0,,2,,false,false,false,1775038254576,,,,,,
+Golden 5 light,1775036183353,1775038345274,Dips,,"73,5",0,,5,,false,false,false,1775038342625,,,,,,
+Lördag lunch: Chins,1774696383512,1774697579169,Chins,,"73,5",0,,5,,false,false,false,1774696458459,,,,,,
+Lördag lunch: Chins,1774696383512,1774697579169,Chins,,"73,5",0,,4,,false,false,false,1774697156066,,,,,,
+Lördag lunch: Chins,1774696383512,1774697579169,Chins,,"73,5",0,,4,,false,false,false,1774697577411,,,,,,
+Golden 5 light,1774003022305,1774005427212,Bänkpress,20,,,,10,,true,false,false,1774003091740,,,,,,
+Golden 5 light,1774003022305,1774005427212,Bänkpress,40,,,,8,,false,false,false,1774003285978,,,,,,
+Golden 5 light,1774003022305,1774005427212,Bänkpress,50,,,,4,,false,false,false,1774003431762,,,,,,
+Golden 5 light,1774003022305,1774005427212,Marklyft,50,,,,10,,true,false,false,1774003531424,,,,,,
+Golden 5 light,1774003022305,1774005427212,Marklyft,80,,,,4,,true,false,false,1774003972181,,,,,,
+Golden 5 light,1774003022305,1774005427212,Marklyft,"92,5",,,,5,,false,false,false,1774004258635,,,,,,
+Golden 5 light,1774003022305,1774005427212,Press,20,,,,10,,true,false,false,1774004324881,,,,,,
+Golden 5 light,1774003022305,1774005427212,Press,25,,,,8,,false,false,false,1774004478830,,,,,,
+Golden 5 light,1774003022305,1774005427212,Press,30,,,,3,,false,false,false,1774004649607,,,,,,
+Golden 5 light,1774003022305,1774005427212,Knäböj,30,,,,10,,true,false,false,1774004737979,,,,,,
+Golden 5 light,1774003022305,1774005427212,Knäböj,50,,,,8,,false,false,false,1774005043436,,,,,,
+Golden 5 light,1774003022305,1774005427212,Chins,,"73,5",0,,5,,false,false,false,1774005168959,,,,,,
+Golden 5 light,1774003022305,1774005427212,Chins,,"73,5",0,,4,,false,false,false,1774005317608,,,,,,
+Golden 5 light,1774003022305,1774005427212,Chins,,"73,5",0,,2,,false,false,false,1774005425974,,,,,,
 Lördag lunch: Chins,1773490282301,1773491305417,Chins,,"73,5",0,,4,,false,false,false,1773490317984,,,,,,
 Lördag lunch: Chins,1773490282301,1773491305417,Chins,,"73,5",0,,3,,false,false,false,1773491303560,,,,,,
 Golden 5 light,1773311779165,1773314377038,Bänkpress,20,,,,10,,true,false,false,1773312069566,,,6,5,5,6
