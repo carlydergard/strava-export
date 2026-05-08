@@ -64,6 +64,8 @@ This file becomes the **main training database**.
 
 Imports **StrengthLog CSV export** and merges strength workouts into the JSON dataset.
 
+Export is done from the StrengthLog app: Inställningar -> Datadelning -> Exportera din data. E-mail it to yourself, rename it to "strengthlog-export.csv", and replace file. 
+
 Strength sessions then appear in:
 
 * HTML log
