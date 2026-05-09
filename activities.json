@@ -1,5 +1,33 @@
 [
   {
+    "activityId": 18423192277,
+    "activityName": "Överkropp",
+    "startTimeLocal": "2026-05-08 11:45:40",
+    "startTimeGMT": "2026-05-08 09:45:40",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 2086,
+    "elapsedDuration": 2086,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 100.6,
+    "maxHR": 150.0,
+    "sufferScore": 4.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "Discofredag!",
+    "privateNote": "Överkropp / Discofredag! \r\n\r\nÖm i armveck och sinne efter blodprov som visat 4,5 i ferritin-nivåer... Men styrketräning påverkas visst inte lika mkt av järnnivåer som löpning.\n\n=== Strengthlog ===\nExporterat från Strengthlog:\n\nFredag lunch: axlar, bröst, rygg etc.\nBicepscurl med EZ-stång 12-7-3 reps, 15-15-15 kg\nBänkpress 10-8-5 reps, 20-40-50 kg\nChins 3-3-3 reps, 75-75-75 kg\nDips 8-7 reps, 75-75 kg\nPress 10-8-4 reps, 20-25-25 kg\nSkivstångsrodd 8-8-6 reps, 40-40-40 kg\nTotalvolym: 4280 kg",
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 18374302155,
     "activityName": "3x3km @MP",
     "startTimeLocal": "2026-05-04 17:31:45",
@@ -141,7 +169,7 @@
     "sufferScore": 4.0,
     "averageRunningCadenceInStepsPerMinute": null,
     "publicDescription": "“The greatest feeling you can get in a gym, or the most satisfying feeling you can get in the gym, is the pump. [...]” - Arnold Schwarzenegger",
-    "privateNote": "Överkropp. Mkt bra pump, kör verkligen slut på armarna! Svårt att bära brickan stadigt på lunchen efter, bra betyg. Och äntligen lite framsteg i bänk, klarade äntligen 5 reps på 50 kg. Gött när löpningenn går trögt att iaf överkroppstyrkan är mkt bra. \r\n\r\nSuperset rodd->bicepscurls känns nice! Bra sätt att motivera bicepscurls som jag annars tkr är en för gym-bro:ig övning för min intelektuellt genomtänkta styrketräning. \r\n\r\n\"The greatest feeling you can get in a gym or the most satisfying feeling you can get in the gym is the pump. It feels fantastic. It's as satisfying to me as cumming is, you know, as in having sex with a woman and cumming. So can you believe how much I am in heaven? I am like getting the feeling of cumming in the gym; I'm getting the feeling of cumming at home; I'm getting the feeling of cumming backstage; when I pump up, when I pose out in front of 5000 people I get the same feeling, so I am cumming day and night. It's terrific, right? So you know, I am in heaven.\" - Arnold Schwarzenegger",
+    "privateNote": "Överkropp. Mkt bra pump, kör verkligen slut på armarna! Svårt att bära brickan stadigt på lunchen efter, bra betyg. Och äntligen lite framsteg i bänk, klarade äntligen 5 reps på 50 kg. Gött när löpningenn går trögt att iaf överkroppstyrkan är mkt bra. \r\n\r\nSuperset rodd->bicepscurls känns nice! Bra sätt att motivera bicepscurls som jag annars tkr är en för gym-bro:ig övning för min intelektuellt genomtänkta styrketräning. \r\n\r\n\"The greatest feeling you can get in a gym or the most satisfying feeling you can get in the gym is the pump. It feels fantastic. It's as satisfying to me as cumming is, you know, as in having sex with a woman and cumming. So can you believe how much I am in heaven? I am like getting the feeling of cumming in the gym; I'm getting the feeling of cumming at home; I'm getting the feeling of cumming backstage; when I pump up, when I pose out in front of 5000 people I get the same feeling, so I am cumming day and night. It's terrific, right? So you know, I am in heaven.\" - Arnold Schwarzenegger\n\n=== Strengthlog ===\nExporterat från Strengthlog:\n\nÖverkropp\nBicepscurl med EZ-stång 11-4 reps, 15-15 kg\nBänkpress 10-8-5 reps, 20-40-50 kg\nChins 5-4-3 reps, 75-75-75 kg\nDips 8-6 reps, 75-75 kg\nPress 10-8-2 reps, 20-25-30 kg\nSkivstångsrodd 8-8-8 reps, 40-40-40 kg\nTotalvolym: 4365 kg",
     "flags": {
       "commute": false,
       "trainer": true,
@@ -262,7 +290,7 @@
     "sufferScore": 4.0,
     "averageRunningCadenceInStepsPerMinute": null,
     "publicDescription": "💪",
-    "privateNote": "Överkropp. Riktigt bra pump! Eller är det bara belysningen på Omnias omklädningsrum som är väldigt smickrande?\n\nKörde superset Skivstångsrodd->bicepscurl m EZ-stång. Bra finisher!",
+    "privateNote": "Överkropp. Riktigt bra pump! Eller är det bara belysningen på Omnias omklädningsrum som är väldigt smickrande?\n\nKörde superset Skivstångsrodd->bicepscurl m EZ-stång. Bra finisher!\n\n=== Strengthlog ===\nExporterat från Strengthlog:\n\nFredag lunch: axlar, bröst, rygg etc.\nBicepscurl med EZ-stång 10-7 reps, 15-15 kg\nBänkpress 10-8-4 reps, 20-40-50 kg\nChins 5-4-3 reps, 75-75-75 kg\nDips 8-5 reps, 75-75 kg\nLiggande hantelpress 10 reps, 12.5 kg\nPress 8-6-4 reps, 20-25-25 kg\nSkivstångsrodd 11-8 reps, 40-40 kg\nTotalvolym: 4145 kg",
     "flags": {
       "commute": false,
       "trainer": true,
@@ -333,6 +361,34 @@
     "startLat": 57.71,
     "startLng": 11.99,
     "locationName": "Göteborg SE"
+  },
+  {
+    "activityId": null,
+    "activityName": "Måndag kväll: Chins",
+    "startTimeLocal": "2026-04-20 18:03:00",
+    "startTimeGMT": "2026-04-20 18:03:00",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 420,
+    "elapsedDuration": 420,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": null,
+    "maxHR": null,
+    "sufferScore": null,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "",
+    "privateNote": "=== Strengthlog ===\nExporterat från Strengthlog:\n\nMåndag kväll: Chins\nChins 5-4 reps, 75-75 kg\nTotalvolym: 675 kg",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": true,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
   },
   {
     "activityId": 18186101301,
@@ -414,7 +470,7 @@
     "sufferScore": 3.0,
     "averageRunningCadenceInStepsPerMinute": null,
     "publicDescription": "💪🪩",
-    "privateNote": "Överkropp. Press och bänk med hantlar, funkade bra. Mycket pump!💪💪💪\n\nKände inte alls av trötthet/slitenhet/ev infektion? ",
+    "privateNote": "Överkropp. Press och bänk med hantlar, funkade bra. Mycket pump!💪💪💪\n\nKände inte alls av trötthet/slitenhet/ev infektion?\n\n=== Strengthlog ===\nExporterat från Strengthlog:\n\nÖverkropp\nAxelpress med hantlar 8-7-6 reps, 12.5-15-15 kg\nChins 3-5-3-3 reps, 75-75-75-75 kg\nDips 5-6-4 reps, 75-75-75 kg\nLiggande hantelpress 8-6-5 reps, 12.5-15-15 kg\nSkivstångsrodd 10-8-6 reps, 40-40-40 kg\nTotalvolym: 3695 kg",
     "flags": {
       "commute": false,
       "trainer": true,
@@ -473,7 +529,7 @@
     "sufferScore": 4.0,
     "averageRunningCadenceInStepsPerMinute": null,
     "publicDescription": "💪",
-    "privateNote": null,
+    "privateNote": "=== Strengthlog ===\nExporterat från Strengthlog:\n\nDiscofredag\nBicepscurl med EZ-stång 7-5 reps, 20-20 kg\nBänkpress 10-8-4 reps, 20-40-50 kg\nChins 5-4-3 reps, 75-75-75 kg\nDips 6-4 reps, 75-75 kg\nPress 10-8-5 reps, 20-25-30 kg\nSkivstångsrodd 8-5-5 reps, 50-50-50 kg\nTotalvolym: 4060 kg",
     "flags": {
       "commute": false,
       "trainer": true,
@@ -656,7 +712,7 @@
     "sufferScore": 4.0,
     "averageRunningCadenceInStepsPerMinute": null,
     "publicDescription": "💪💭🍻🍕",
-    "privateNote": "Baslyft helkropp. Omnia. \n\nDjupa men lätta squats, känns som jag tappat djupet lite igen. Mycket löpvolym nu dessutom…\n\nGeoteknik-gänget påpekade att jag är den enda de sett på gymmet från Hus!",
+    "privateNote": "Baslyft helkropp. Omnia. \n\nDjupa men lätta squats, känns som jag tappat djupet lite igen. Mycket löpvolym nu dessutom…\n\nGeoteknik-gänget påpekade att jag är den enda de sett på gymmet från Hus!\n\n=== Strengthlog ===\nExporterat från Strengthlog:\n\nGolden 5 light\nBänkpress 10-8-3 reps, 20-40-50 kg\nChins 5-3-2 reps, 75-75-75 kg\nDips 5 reps, 75 kg\nKnäböj 10-8 reps, 20-40 kg\nMarklyft 8-4-2 reps, 70-80-95 kg\nPress 10-8-4 reps, 20-25-30 kg\nTotalvolym: 3905 kg",
     "flags": {
       "commute": false,
       "trainer": true,
@@ -746,7 +802,7 @@
     "sufferScore": null,
     "averageRunningCadenceInStepsPerMinute": null,
     "publicDescription": "",
-    "privateNote": null,
+    "privateNote": "=== Strengthlog ===\nExporterat från Strengthlog:\n\nLördag lunch: Chins\nChins 5-4-4 reps, 75-75-75 kg\nTotalvolym: 975 kg",
     "flags": {
       "commute": false,
       "trainer": false,
@@ -960,7 +1016,7 @@
     "sufferScore": 4.0,
     "averageRunningCadenceInStepsPerMinute": null,
     "publicDescription": "",
-    "privateNote": "Baslyft helkropp. Skippade tyngsta set:et knäböj pga hög löpvolym nu!",
+    "privateNote": "Baslyft helkropp. Skippade tyngsta set:et knäböj pga hög löpvolym nu!\n\n=== Strengthlog ===\nExporterat från Strengthlog:\n\nGolden 5 light\nBänkpress 10-8-4 reps, 20-40-50 kg\nChins 5-4-2 reps, 75-75-75 kg\nKnäböj 10-8 reps, 30-50 kg\nMarklyft 10-4-5 reps, 50-80-92.5 kg\nPress 10-8-3 reps, 20-25-30 kg\nTotalvolym: 4017 kg",
     "flags": {
       "commute": false,
       "trainer": true,
