@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18453458869,
+    "activityName": "?",
+    "startTimeLocal": "2026-05-10 15:58:23",
+    "startTimeGMT": "2026-05-10 13:58:23",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 4546.0,
+    "movingDuration": 1649,
+    "elapsedDuration": 1792,
+    "elevationGain": 76.0,
+    "averageSpeed": 2.757,
+    "averageHR": 148.1,
+    "maxHR": 178.0,
+    "sufferScore": 9.0,
+    "averageRunningCadenceInStepsPerMinute": 166,
+    "publicDescription": "😵‍💫🩸⚙️",
+    "privateNote": "Tänkte springa 8 km runt Safjället med lite strides på slutet. Blev tyvärr fett trött och lite snurrig efter typ 2 km? Vände om och joggade lugnt hem ist. \n\nFörsta passet sedan Ferritintest i måndags och vårdcentral i onsdags. Ganska mentalt stukad, löpmotivationen är i nuläget mycket låg även om det känns skönt att veta att det finns en lösbar förklaring till prestationstappet. Kanske har jag legat något lågt (>50 är optimalt enl Marius Bakken) länge men nu under våren kraschat totalt under nån slags gräns. \n\nHar bestämt mig för att skippa Stockholm marathon iaf. Känns inte smart att springa marathon med låga järnnivåer och även om jag skulle lyckas höja dem marginellt de närmsta tre veckorna har ju träningen hela våren blivit minst sagt suboptimal. Shit happens! \n\nMålet just nu är Stafettvarvet om 9 dagar med jobbet. Inte optimalt men känner ingen direkt press att prestera iaf! Hade varit bra att få in lite strides och korta intervaller i 3kP men då får man ju må bra först.\n\nSnurrig och trött. Ganska typiska symptom på låga järnvärden men känns som detta också är lite psykologist? Jag har liksom generellt känt mig extra trött/snurrig/nedstämd efter måndagens blodprov? ",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18423192277,
     "activityName": "Överkropp",
     "startTimeLocal": "2026-05-08 11:45:40",
