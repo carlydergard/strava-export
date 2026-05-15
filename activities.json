@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18504204040,
+    "activityName": "Trail",
+    "startTimeLocal": "2026-05-14 14:45:40",
+    "startTimeGMT": "2026-05-14 12:45:40",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 6581.4,
+    "movingDuration": 2368,
+    "elapsedDuration": 2368,
+    "elevationGain": 72.0,
+    "averageSpeed": 2.779,
+    "averageHR": 157.1,
+    "maxHR": 175.0,
+    "sufferScore": 24.0,
+    "averageRunningCadenceInStepsPerMinute": 167,
+    "publicDescription": "🦌",
+    "privateNote": "Trail, distans. Säsongsinvigning av ”Grill-Eric Trail”! \n\n3 dagar med järntabletter. Viss placeboeffekt men fortf väldigt tung löpning. Först om ngra veckor effekt kan tänkas märkas! Konsant lite trött och snurrig känsla i bakgrunden liksom?\n\nBra att komma ut ändå! Trots att motivationen för löpning är typ all time low fick man lite endorfiner efter. Och smart att hålla vanan inne - Jag är liksom en person som springer ngra gånger i veckan no matter what*!\n\n*Springer självklart inte om jag är sjuk på riktigt eller har massa mkt viktigare saker för mig",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.98,
+    "startLng": 16.78,
+    "locationName": "Västervik SE"
+  },
+  {
     "activityId": 18453458869,
     "activityName": "?",
     "startTimeLocal": "2026-05-10 15:58:23",
