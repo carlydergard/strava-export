@@ -1,5 +1,33 @@
 [
   {
+    "activityId": 18645636951,
+    "activityName": "Överkropp",
+    "startTimeLocal": "2026-05-25 11:57:07",
+    "startTimeGMT": "2026-05-25 09:57:07",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 1965,
+    "elapsedDuration": 1965,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 110.8,
+    "maxHR": 161.0,
+    "sufferScore": 4.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "",
+    "privateNote": "Överkropp. Omstart efter katastrofal träningsperiod! Järnbrist och förkylning... Fort lite snorig men påverkade nog inte. Kände inte av järnbristen (har iofs aldrig gjort det under styrketräning). \n\nEffektivt pass pga projmöte 13:15. ",
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 18504204040,
     "activityName": "Trail",
     "startTimeLocal": "2026-05-14 14:45:40",
