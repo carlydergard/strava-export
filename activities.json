@@ -1,5 +1,33 @@
 [
   {
+    "activityId": 18663894103,
+    "activityName": "Yoga",
+    "startTimeLocal": "2026-05-26 17:30:47",
+    "startTimeGMT": "2026-05-26 15:30:47",
+    "type": "Yoga",
+    "sportType": "Yoga",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 1800,
+    "elapsedDuration": 1800,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": null,
+    "maxHR": null,
+    "sufferScore": 8.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "Våning 32\n\n🧘‍♂️",
+    "privateNote": "Yoga, citygate våning 32 med Skanska. Är inte så stel som jag tror! Men ofta ljumskar, lår, hamstrings som sätter begränsning. Avslappnande!\n\nNamaste 🧘‍♂️",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": true,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 18645636951,
     "activityName": "Överkropp",
     "startTimeLocal": "2026-05-25 11:57:07",
