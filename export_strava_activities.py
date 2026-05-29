@@ -208,6 +208,10 @@ while True:
         print(f"⚠️ Rate limit hit on list fetch. Waiting {wait_time//60} min…")
         countdown(wait_time)
         continue
+    if r.status_code >= 500:
+        print(f"⚠️ Strava server error {r.status_code}, retrying in 60s...")
+        time.sleep(60)
+        continue
 
     r.raise_for_status()
 
@@ -280,6 +284,11 @@ while True:
 
                 print(f"⚠️ Rate limit hit on detail fetch. Waiting {wait_time//60} min…")
                 countdown(wait_time)
+                continue
+
+            if detail.status_code >= 500:
+                print(f"⚠️ Strava server error {detail.status_code}, retrying in 60s...")
+                time.sleep(60)
                 continue
 
             detail.raise_for_status()
