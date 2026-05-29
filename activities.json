@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18690700239,
+    "activityName": "Distans",
+    "startTimeLocal": "2026-05-28 17:17:22",
+    "startTimeGMT": "2026-05-28 15:17:22",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 6146.9,
+    "movingDuration": 1978,
+    "elapsedDuration": 2016,
+    "elevationGain": 87.0,
+    "averageSpeed": 3.108,
+    "averageHR": 152.2,
+    "maxHR": 185.0,
+    "sufferScore": 21.0,
+    "averageRunningCadenceInStepsPerMinute": 168,
+    "publicDescription": "🪻",
+    "privateNote": "Distans? Oklar plan. Nystart! Otroligt fint ute. Syrénen blommar. \n\n🪻🪻🪻🪻🪻\n\nKänslan i kroppen var oväntat bra! Typ ”😐 Normal”, eller som det brukar kännas efter en veckas förkylning? Två veckor med järntabletter, kanske börjar det göra lite skillnad?\n\nLyssnade på:\nJaco Pastorius - Jaco Pastorius (1976): Har börjat lyssna en del på jazz på sistone. Det är mysigt att lyssna på när man åker spårvagn genom stan en sommarkväll! Miles Davis - Kind of Blue, Sonny Rollins - Saxophone Colossus mest. Pastorius lyssnade jag ju på en del typ 2005, lite nostalgi men också nya ögon (öron?). Har ju gillat math rock och progressive metal men jazz är lite mer chill. Funkade helt ok att springa till också!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18663894103,
     "activityName": "Yoga",
     "startTimeLocal": "2026-05-26 17:30:47",
