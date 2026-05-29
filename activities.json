@@ -1,5 +1,33 @@
 [
   {
+    "activityId": 18700238745,
+    "activityName": "Baslyft helkropp",
+    "startTimeLocal": "2026-05-29 11:37:34",
+    "startTimeGMT": "2026-05-29 09:37:34",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 2240,
+    "elapsedDuration": 2240,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 112.1,
+    "maxHR": 162.0,
+    "sufferScore": 5.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "💥",
+    "privateNote": "Baslyft helkropp. Känns frl att träna ben på en fredag! Fick gå för den här gången. \n\nOväntat stark! Men kommer nog bli en del träningsvärk i helgen…",
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 18690700239,
     "activityName": "Distans",
     "startTimeLocal": "2026-05-28 17:17:22",
