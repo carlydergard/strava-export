@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18713751561,
+    "activityName": "Inte Stockholm Marathon",
+    "startTimeLocal": "2026-05-30 12:37:15",
+    "startTimeGMT": "2026-05-30 10:37:15",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 5300.7,
+    "movingDuration": 1797,
+    "elapsedDuration": 1805,
+    "elevationGain": 72.0,
+    "averageSpeed": 2.95,
+    "averageHR": 150.0,
+    "maxHR": 186.0,
+    "sufferScore": 15.0,
+    "averageRunningCadenceInStepsPerMinute": 169,
+    "publicDescription": "Men väl en lugn* jogg i ett somrigt gbg\n\n*enl självbild, inte puls",
+    "privateNote": "Inte Stockholm Marathon. Men väl en lugn* jogg i ett somrigt gbg\n\n*enl självbild, inte puls\n\nDålig form, hög puls och ansträngning upp från Vasaplatsen. Väntat mtp järnbrist, förkylning, träningsuppehåll. \n\nFortf lite snorig efter förkylning men annars 99% frisk.\n\nSjuk träningsvärk från mark och squats igår. ",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18700238745,
     "activityName": "Baslyft helkropp",
     "startTimeLocal": "2026-05-29 11:37:34",
