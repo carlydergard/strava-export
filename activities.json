@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18757951312,
+    "activityName": "20x45/15",
+    "startTimeLocal": "2026-06-02 17:58:29",
+    "startTimeGMT": "2026-06-02 15:58:29",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "workout",
+    "distance": 5804.4,
+    "movingDuration": 1882,
+    "elapsedDuration": 1971,
+    "elevationGain": 64.0,
+    "averageSpeed": 3.084,
+    "averageHR": 166.1,
+    "maxHR": 188.0,
+    "sufferScore": 35.0,
+    "averageRunningCadenceInStepsPerMinute": 167,
+    "publicDescription": "",
+    "privateNote": "20x45/15. Mål ca 4:39 min/km, dvs tröskelfart minus ca 7s. Landade på 4:37 min/km i snitt, men blev kanske lite hårt för norsk tröskel ändå? Väl optimistiskt att tänka att tröskelfarten är 4:45 efter de senaste månaderna? Får nog köra lite snällare farter nästa gång! Gick iofs att genomföra och blev nog bra träning.\n\nFörsta passet på ”Bakken 2026”-träningen fram till Göteborg halvmaraton 10 okt. Planen är typ:\nJuni: Bygga upp form och järnvärden, testa Bakken-träning, mest hovedkvalitetsøkt och støttekvalitetsøkt.\nJuli: Semesterträning med inslag av Bakken, väva in lite x-økter\nAug-Sept: Bakken med X-økt som är HM-anpassad.\nOkt: Göteborg halvmara och finalloppet",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18728010575,
     "activityName": "Komorebi i Änggårdsbergen",
     "startTimeLocal": "2026-05-31 12:08:47",
