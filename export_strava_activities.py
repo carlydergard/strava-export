@@ -39,6 +39,9 @@ def refresh_access_token():
         }
     )
 
+    print("Status:", r.status_code)
+    print("Response:", r.text)
+    
     r.raise_for_status()
     data = r.json()
 
