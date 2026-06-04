@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18786290774,
+    "activityName": "2x10’",
+    "startTimeLocal": "2026-06-04 18:08:56",
+    "startTimeGMT": "2026-06-04 16:08:56",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "workout",
+    "distance": 7509.6,
+    "movingDuration": 2432,
+    "elapsedDuration": 2553,
+    "elevationGain": 61.6,
+    "averageSpeed": 3.088,
+    "averageHR": 161.1,
+    "maxHR": 185.0,
+    "sufferScore": 39.0,
+    "averageRunningCadenceInStepsPerMinute": 169,
+    "publicDescription": "+4x100m strides",
+    "privateNote": "Hovedkvalitetsøkt: 2x10’ + 4x100m strides. Mål sub 5:00 på intervallerna (tröskelfart+10s). Genomförbart men känns sjukt att jag sprungit maran i detta tempo! Definitivt hårdare än MP just nu. \n\nVäldigt bra känsla på stridesen! Spänstig och stark, ökade tempot lite varje stride. \n\nBlodvärdena börjar bli bätte. Men stravas pulsgrafer matchar fortfarande inte pacegraferna särskilt bra! ",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.71,
+    "startLng": 11.99,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18757951312,
     "activityName": "20x45/15",
     "startTimeLocal": "2026-06-02 17:58:29",
