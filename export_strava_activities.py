@@ -41,6 +41,11 @@ def refresh_access_token():
 
     print("Status:", r.status_code)
     print("Response:", r.text)
+
+    if r.status_code != 200:
+        print("Status:", r.status_code)
+        print("Headers:", r.headers)
+        print("Response:", r.text[:1000])
     
     r.raise_for_status()
     data = r.json()
