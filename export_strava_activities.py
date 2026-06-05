@@ -47,6 +47,11 @@ def refresh_access_token():
         print(f"⚠️ Token refresh failed ({r.status_code}), retry {attempt+1}/5")
         time.sleep(60)
 
+    if r.status_code != 200:
+        print("Status:", r.status_code)
+        print("Headers:", dict(r.headers))
+        print("Response:", r.text[:1000])
+        
     r.raise_for_status()
 
     data = r.json()
