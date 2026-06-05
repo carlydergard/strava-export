@@ -33,6 +33,9 @@ def refresh_access_token():
 
         r = requests.post(
             "https://www.strava.com/oauth/token",
+            headers={
+                "User-Agent": "strava-export/1.0"
+            },
             data={
                 "client_id": CLIENT_ID,
                 "client_secret": CLIENT_SECRET,
