@@ -29,25 +29,26 @@ break_outer = False
 def refresh_access_token():
     global access_token, refresh_token
 
-    r = requests.post(
-        "https://www.strava.com/oauth/token",
-        data={
-            "client_id": CLIENT_ID,
-            "client_secret": CLIENT_SECRET,
-            "grant_type": "refresh_token",
-            "refresh_token": refresh_token
-        }
-    )
+    for attempt in range(5):
 
-    print("Status:", r.status_code)
-    print("Response:", r.text)
+        r = requests.post(
+            "https://www.strava.com/oauth/token",
+            data={
+                "client_id": CLIENT_ID,
+                "client_secret": CLIENT_SECRET,
+                "grant_type": "refresh_token",
+                "refresh_token": refresh_token
+            }
+        )
 
-    if r.status_code != 200:
-        print("Status:", r.status_code)
-        print("Headers:", r.headers)
-        print("Response:", r.text[:1000])
-    
+        if r.status_code == 200:
+            break
+
+        print(f"⚠️ Token refresh failed ({r.status_code}), retry {attempt+1}/5")
+        time.sleep(60)
+
     r.raise_for_status()
+
     data = r.json()
 
     access_token = data["access_token"]
