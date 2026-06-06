@@ -1,5 +1,33 @@
 [
   {
+    "activityId": 18794730135,
+    "activityName": "Baslyft helkropp",
+    "startTimeLocal": "2026-06-05 11:47:47",
+    "startTimeGMT": "2026-06-05 09:47:47",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 1884,
+    "elapsedDuration": 1884,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 107.5,
+    "maxHR": 151.0,
+    "sufferScore": 4.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "",
+    "privateNote": "Baslyft helkropp aka G5 light. Egentligen helt emot min ideologi att träna nåt annat än bröst&biceps på en fredag men det gick bra ändå. ",
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 18786290774,
     "activityName": "2x10’",
     "startTimeLocal": "2026-06-04 18:08:56",
