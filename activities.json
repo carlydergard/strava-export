@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18808003461,
+    "activityName": "MLR",
+    "startTimeLocal": "2026-06-06 11:26:39",
+    "startTimeGMT": "2026-06-06 09:26:39",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "long_run",
+    "distance": 14592.9,
+    "movingDuration": 5194,
+    "elapsedDuration": 5194,
+    "elevationGain": 152.0,
+    "averageSpeed": 2.81,
+    "averageHR": 161.7,
+    "maxHR": 174.0,
+    "sufferScore": 65.0,
+    "averageRunningCadenceInStepsPerMinute": 168,
+    "publicDescription": "☀️😎",
+    "privateNote": "Långpass. Egentligen ca 16 km men glömde starta klockan… Eg två identiskt spegelvända halvor. Störigt!\n\nSegt pass. Denna uppstartsfas är omotiverande. Känner mig långsam och kommer sannolikt vara det ett tag till. Mellanmjölkskänsla på nåt som borde vara lätt z2 är segt. \n\nSolig sommardag! Särskilt varmt i medvinden första halvan, något svalare i motvinden andra. \n\n🇸🇪",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.89,
+    "startLng": 11.6,
+    "locationName": "Marstrand SE"
+  },
+  {
     "activityId": 18794730135,
     "activityName": "Baslyft helkropp",
     "startTimeLocal": "2026-06-05 11:47:47",
