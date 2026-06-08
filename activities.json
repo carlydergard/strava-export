@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18826785113,
+    "activityName": "Älgrundan med Attila",
+    "startTimeLocal": "2026-06-07 17:28:59",
+    "startTimeGMT": "2026-06-07 15:28:59",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 7019.9,
+    "movingDuration": 2647,
+    "elapsedDuration": 2764,
+    "elevationGain": 138.0,
+    "averageSpeed": 2.652,
+    "averageHR": 152.0,
+    "maxHR": 178.0,
+    "sufferScore": 19.0,
+    "averageRunningCadenceInStepsPerMinute": 163,
+    "publicDescription": "",
+    "privateNote": "Älgrundan med Attila. Trevlig runda! \n\nHade eg inte tänkt springa idag men: Bra initiativ av Attila, bra att jag hängde på! Planen var 5-7 km lugnt, sprang mest och snackade typ hela tiden, tiden gick fort. Mkt trevligt! Fint sommarväder och fint i Änggårdsbergen. \n\nKände mig mycket piggare än igår! Testade tom att öka tempot lite på NV efter vi sagt hejdå, kroppen svarade bra. ",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18808003461,
     "activityName": "MLR",
     "startTimeLocal": "2026-06-06 11:26:39",
