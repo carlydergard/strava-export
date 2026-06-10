@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18852197452,
+    "activityName": "25x45/15",
+    "startTimeLocal": "2026-06-09 17:09:41",
+    "startTimeGMT": "2026-06-09 15:09:41",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "workout",
+    "distance": 7002.7,
+    "movingDuration": 2200,
+    "elapsedDuration": 2289,
+    "elevationGain": 52.0,
+    "averageSpeed": 3.183,
+    "averageHR": 160.5,
+    "maxHR": 176.0,
+    "sufferScore": 31.0,
+    "averageRunningCadenceInStepsPerMinute": 170,
+    "publicDescription": "🇳🇴",
+    "privateNote": "25x45/15. Målet var att ta det lugnare än förra veckan! Blev lugnare men också snabbare? Bättre form och blodvärden på en vecka? Eller förkylning som definitivt försvunnit ur systemet? \n\nPasset kändes superbra iaf! Hade absolut klarat 30 reps men behövde skynda hem till brf-årsmötet… \n\nPå intervallerna: 4:30min/km avg pace, 166 bpm avg puls. Iofs plattare runda än förra veckan. \n\nPrinsesstårta i magen 🚀\n\nWe are so back!!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.71,
+    "startLng": 11.99,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18826785113,
     "activityName": "Älgrundan med Attila",
     "startTimeLocal": "2026-06-07 17:28:59",
