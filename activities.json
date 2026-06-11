@@ -1,5 +1,33 @@
 [
   {
+    "activityId": 18862904084,
+    "activityName": "Baslyft helkropp",
+    "startTimeLocal": "2026-06-10 12:15:42",
+    "startTimeGMT": "2026-06-10 10:15:42",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 2424,
+    "elapsedDuration": 2424,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 106.1,
+    "maxHR": 151.0,
+    "sufferScore": 5.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "",
+    "privateNote": "Baslyft helkropp. Bra pass! Reps-pb på knöböj: 9 reps på 50kg, ganska strikt med bra djup. ",
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 18852197452,
     "activityName": "25x45/15",
     "startTimeLocal": "2026-06-09 17:09:41",
