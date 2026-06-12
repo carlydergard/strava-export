@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18881506040,
+    "activityName": "4x5’",
+    "startTimeLocal": "2026-06-11 19:32:50",
+    "startTimeGMT": "2026-06-11 17:32:50",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 7207.7,
+    "movingDuration": 2187,
+    "elapsedDuration": 2355,
+    "elevationGain": 26.0,
+    "averageSpeed": 3.296,
+    "averageHR": 155.8,
+    "maxHR": 178.0,
+    "sufferScore": 25.0,
+    "averageRunningCadenceInStepsPerMinute": 171,
+    "publicDescription": "",
+    "privateNote": "Norsk tröskel 4x5’. Sent pass pga mycket på jobbet. Vaknade tidigt för tidigt möte, sedan sent jobb. Eg lite trött?\n\nKistras efter första intervallen. Gjorde en ”John Ekman special” i en buske så var det löst (FRRRT!). Lite längre ”vila” blev det. (Missade att starta klockan efter, men sprang i ca 1 min innan jag upptäckte det, därför intervall 2 är 4 min!)\n\nKänslan är att jag plötsligt är i jättebra form? \n\n1 månad med järntabletter!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18862904084,
     "activityName": "Baslyft helkropp",
     "startTimeLocal": "2026-06-10 12:15:42",
