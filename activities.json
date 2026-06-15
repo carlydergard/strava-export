@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18918976894,
+    "activityName": "Safjället med Attila",
+    "startTimeLocal": "2026-06-14 16:27:01",
+    "startTimeGMT": "2026-06-14 14:27:01",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 8885.6,
+    "movingDuration": 3234,
+    "elapsedDuration": 3260,
+    "elevationGain": 166.0,
+    "averageSpeed": 2.748,
+    "averageHR": 153.9,
+    "maxHR": 175.0,
+    "sufferScore": 27.0,
+    "averageRunningCadenceInStepsPerMinute": 162,
+    "publicDescription": "Attila Fülöp",
+    "privateNote": null,
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18903196104,
     "activityName": "Långpass",
     "startTimeLocal": "2026-06-13 13:05:10",
