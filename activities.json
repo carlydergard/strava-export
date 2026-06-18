@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18960305209,
+    "activityName": "30x45/15",
+    "startTimeLocal": "2026-06-17 18:03:50",
+    "startTimeGMT": "2026-06-17 16:03:50",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "workout",
+    "distance": 7903.7,
+    "movingDuration": 2564,
+    "elapsedDuration": 2647,
+    "elevationGain": 43.0,
+    "averageSpeed": 3.083,
+    "averageHR": 164.9,
+    "maxHR": 187.0,
+    "sufferScore": 45.0,
+    "averageRunningCadenceInStepsPerMinute": 174,
+    "publicDescription": "🇳🇴",
+    "privateNote": "30x45/15, hovedkvalitetsøkt. Mål sub 4:40min/km, men svårt att pace:a på så korta drag, blev på känsla. \n\nAvg pace på intervallerna: 4:31min/km (lite fort)\nAvg hr på intervallerna: 171 bpm (ok)\n\nInga vattenpölar på banan idag men istället lite blåsigt. \n\nJobbigare än förra veckans pass. Inte bara pga fler reps, kände mig trött tidigt. Gick iofs att hålla ihop hela passet, jämn pace och höll z3 i puls hela vägen. Kanske mest mentalt?\n\nDåliga känslan kan ha berott på en händelserik vecka med mycket jobb, dålig sömn, kul besked i måndags. ",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.71,
+    "startLng": 11.99,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 18918976894,
     "activityName": "Safjället med Attila",
     "startTimeLocal": "2026-06-14 16:27:01",
