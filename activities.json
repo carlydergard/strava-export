@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 18981592578,
+    "activityName": "5x5’",
+    "startTimeLocal": "2026-06-19 10:15:07",
+    "startTimeGMT": "2026-06-19 08:15:07",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "workout",
+    "distance": 7979.9,
+    "movingDuration": 2552,
+    "elapsedDuration": 2616,
+    "elevationGain": 56.0,
+    "averageSpeed": 3.127,
+    "averageHR": 159.8,
+    "maxHR": 190.0,
+    "sufferScore": 35.0,
+    "averageRunningCadenceInStepsPerMinute": 169,
+    "publicDescription": "🌸🪻🌼🌹🌺🌻🌷\n\nGlad midsommar!",
+    "privateNote": "Norsk tröskel: 5x5’. Hovedkvalitetsøkt. Mål ca 4:45min/km, men kanske långsammare pga backig runda och VARMT midsommarväder!\n\nKände på UV att benen hade dålig tonus, ”gult ljus”, tänkte att jag ev skulle hoppa sista intervallen om det blev för stelt. Men benen kvivknade till, var absolut flåset som satte gränsen! Riktigt andfådd på slutet, sista intervallen blev lite väl hård (Uppför och högre fart på den iofs). Ovant, brukar alltid vara benen som tar slut först… \n\n🌸🪻🌼🌹🌺🌻🌷\n\nGlad midsommar!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.98,
+    "startLng": 16.78,
+    "locationName": "Västervik SE"
+  },
+  {
     "activityId": 18960305209,
     "activityName": "30x45/15",
     "startTimeLocal": "2026-06-17 18:03:50",
