@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 19009972093,
+    "activityName": "Omberg",
+    "startTimeLocal": "2026-06-21 13:06:25",
+    "startTimeGMT": "2026-06-21 11:06:25",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 12011.8,
+    "movingDuration": 5495,
+    "elapsedDuration": 5720,
+    "elevationGain": 400.0,
+    "averageSpeed": 2.186,
+    "averageHR": 147.1,
+    "maxHR": 180.0,
+    "sufferScore": 35.0,
+    "averageRunningCadenceInStepsPerMinute": 152,
+    "publicDescription": "",
+    "privateNote": "Omberg. \n\nFörsta 500m extremt brant. Ledtråden fanns i namnet: Om-BERG!!! \n\nJättefin utsikt på toppen.\n\nBlev mer lättsprunget senare men fortf många delar med ganska branta klättringar. \n\nRamlade runt 5km och slog i höger ringfinger. Aj! Men verkar ok.\n\nSoligt och varmt. Svettig runda!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 58.3,
+    "startLng": 14.65,
+    "locationName": "OEdeshoeg SE"
+  },
+  {
     "activityId": 18995556311,
     "activityName": "Till pizzerian",
     "startTimeLocal": "2026-06-20 13:06:06",
