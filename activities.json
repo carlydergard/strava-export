@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 19037402910,
+    "activityName": "30x45/15",
+    "startTimeLocal": "2026-06-23 17:12:21",
+    "startTimeGMT": "2026-06-23 15:12:21",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "workout",
+    "distance": 7851.1,
+    "movingDuration": 2485,
+    "elapsedDuration": 2584,
+    "elevationGain": 58.8,
+    "averageSpeed": 3.159,
+    "averageHR": 162.2,
+    "maxHR": 180.0,
+    "sufferScore": 37.0,
+    "averageRunningCadenceInStepsPerMinute": 169,
+    "publicDescription": "😎",
+    "privateNote": "30x45/15, støttekvalitetsøkt. Mål sub 4:40 min/km på dragen. Landade på 4:30 i snitt. \n\nVarmt ute! Första 10 var jobbigast. Kanske pga uppförsbacke? Inte alls lika slut efter passet som förra veckan. Kanske paceade mig bättre?\n\nFlippig gps precis i början. Förvirrad av Citygates spegliga fasad? Löste sig nu när jag croppade bort första 5s på passet. ",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.71,
+    "startLng": 11.99,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 19009972093,
     "activityName": "Omberg",
     "startTimeLocal": "2026-06-21 13:06:25",
