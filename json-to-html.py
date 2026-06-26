@@ -76,6 +76,8 @@ html_lines.append("""<!DOCTYPE html>
 <title>Training Log</title>
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="apple-touch-icon" href="favicon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <style>
 body {
     font-family: Arial, Helvetica, sans-serif;
