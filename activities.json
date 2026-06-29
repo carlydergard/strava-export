@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 19096138929,
+    "activityName": "Distans",
+    "startTimeLocal": "2026-06-28 11:30:04",
+    "startTimeGMT": "2026-06-28 09:30:04",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 6079.1,
+    "movingDuration": 2162,
+    "elapsedDuration": 2234,
+    "elevationGain": 13.0,
+    "averageSpeed": 2.812,
+    "averageHR": 139.9,
+    "maxHR": 159.0,
+    "sufferScore": 8.0,
+    "averageRunningCadenceInStepsPerMinute": 166,
+    "publicDescription": "",
+    "privateNote": "Distans. Lugnt ned till stan för lite ärenden! ",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 19082986561,
     "activityName": "Långpass",
     "startTimeLocal": "2026-06-27 09:30:15",
