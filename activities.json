@@ -1,5 +1,33 @@
 [
   {
+    "activityId": 19112384391,
+    "activityName": "Baslyft helkropp",
+    "startTimeLocal": "2026-06-29 17:22:36",
+    "startTimeGMT": "2026-06-29 15:22:36",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 3335,
+    "elapsedDuration": 3335,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 86.3,
+    "maxHR": 132.0,
+    "sufferScore": 4.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "",
+    "privateNote": null,
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 19096138929,
     "activityName": "Distans",
     "startTimeLocal": "2026-06-28 11:30:04",
