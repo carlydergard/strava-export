@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 19126312418,
+    "activityName": "20x45/15",
+    "startTimeLocal": "2026-06-30 18:32:43",
+    "startTimeGMT": "2026-06-30 16:32:43",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 5288.8,
+    "movingDuration": 1672,
+    "elapsedDuration": 1714,
+    "elevationGain": 54.0,
+    "averageSpeed": 3.163,
+    "averageHR": 157.4,
+    "maxHR": 176.0,
+    "sufferScore": 19.0,
+    "averageRunningCadenceInStepsPerMinute": 167,
+    "publicDescription": "",
+    "privateNote": "20x45/15. Støttekvalitetsøkt. Målet var 30 reps sub 4:40 min/km. Kortade till 20 pga orolig mage. Avg pace på intervaller: 4:27 min/km. Låter snabbt men sprang ganska avslappnat!\n\nDen 2 juni körde jag samma pass på samma runda och skrev ”Landade på 4:37 min/km i snitt, men blev kanske lite hårt för norsk tröskel ändå?”. \n\nHade tänkt springa hem från jobbet men hade glömt shorts… Extremt störigt! Hade mkt svårt att motivera mig att gå ut efter jag kommit hem. Dessutom hungrig så fick äta lite innan, inte bra för magen. \n\nNya skor: Nike Vomero plus. Riktigt sköna, bra!\n\nTagga gastroskopi imorgon! #fml",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 19112384391,
     "activityName": "Baslyft helkropp",
     "startTimeLocal": "2026-06-29 17:22:36",
