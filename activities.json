@@ -1,5 +1,33 @@
 [
   {
+    "activityId": 19164326644,
+    "activityName": "Discogym",
+    "startTimeLocal": "2026-07-03 16:16:48",
+    "startTimeGMT": "2026-07-03 14:16:48",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 1657,
+    "elapsedDuration": 1657,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 100.9,
+    "maxHR": 147.0,
+    "sufferScore": 3.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "🏖️",
+    "privateNote": null,
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 19126312418,
     "activityName": "20x45/15",
     "startTimeLocal": "2026-06-30 18:32:43",
