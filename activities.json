@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 19176442692,
+    "activityName": "Backe: 10x200m",
+    "startTimeLocal": "2026-07-04 14:28:09",
+    "startTimeGMT": "2026-07-04 12:28:09",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "workout",
+    "distance": 7197.9,
+    "movingDuration": 2677,
+    "elapsedDuration": 2694,
+    "elevationGain": 141.0,
+    "averageSpeed": 2.689,
+    "averageHR": 142.6,
+    "maxHR": 185.0,
+    "sufferScore": 16.0,
+    "averageRunningCadenceInStepsPerMinute": 161,
+    "publicDescription": "📈",
+    "privateNote": "Backe: 10x200m, X-økt. Lite seg i början men kom in i det sen, kunde progressivt öka farten på dragen. \n\nHårda tunna skor, lite jobbigt? Van vid superskor nu…",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 19164326644,
     "activityName": "Discogym",
     "startTimeLocal": "2026-07-03 16:16:48",
