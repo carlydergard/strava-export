@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 19246089099,
+    "activityName": "Bodensee OW",
+    "startTimeLocal": "2026-07-09 19:24:59",
+    "startTimeGMT": "2026-07-09 17:24:59",
+    "type": "Swim",
+    "sportType": "Swim",
+    "workoutType": null,
+    "distance": 515.1,
+    "movingDuration": 827,
+    "elapsedDuration": 985,
+    "elevationGain": 0.0,
+    "averageSpeed": 0.623,
+    "averageHR": 127.7,
+    "maxHR": 155.0,
+    "sufferScore": 2.0,
+    "averageRunningCadenceInStepsPerMinute": 56,
+    "publicDescription": "🏊‍♂️",
+    "privateNote": "Bodensee OW. Fin kväll! Långgrunt och lite halt på stenarna. \n\nWurstsalat och Grosses Radler i magen, funkade ändå ok!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 47.56,
+    "startLng": 9.65,
+    "locationName": "Bodolz DE"
+  },
+  {
     "activityId": 19239808211,
     "activityName": "Lindau",
     "startTimeLocal": "2026-07-09 10:41:53",
