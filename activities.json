@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 19257232805,
+    "activityName": "Wasserfall",
+    "startTimeLocal": "2026-07-10 16:33:11",
+    "startTimeGMT": "2026-07-10 14:33:11",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 6828.5,
+    "movingDuration": 2505,
+    "elapsedDuration": 2611,
+    "elevationGain": 244.0,
+    "averageSpeed": 2.726,
+    "averageHR": 153.3,
+    "maxHR": 169.0,
+    "sufferScore": 18.0,
+    "averageRunningCadenceInStepsPerMinute": 161,
+    "publicDescription": "🏔️",
+    "privateNote": "Wasserfall Pitze. Brantare än jag kom ihåg upp! Tanken var att springa till vattenfallet men nöjde mig med Gletscherstube. Vägen var dessutom avstängd vid bron över floden (har inget minne av denna bro?).\n\nFlow running (årets trend?) nedför! Ganska avslappnat, pushade inte särskilt hårt. \n\nLite pinsamt att detta blev årets snabbaste 2-mile på strava… Brand bedförsbacke liksom! Lol. ",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 46.97,
+    "startLng": 10.87,
+    "locationName": "Sölden AT"
+  },
+  {
     "activityId": 19246089099,
     "activityName": "Bodensee OW",
     "startTimeLocal": "2026-07-09 19:24:59",
