@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 19266728500,
+    "activityName": "Rifflsee-Mandarfen",
+    "startTimeLocal": "2026-07-11 11:41:49",
+    "startTimeGMT": "2026-07-11 09:41:49",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 4424.0,
+    "movingDuration": 2053,
+    "elapsedDuration": 2093,
+    "elevationGain": 3.0,
+    "averageSpeed": 2.155,
+    "averageHR": 128.1,
+    "maxHR": 150.0,
+    "sufferScore": 6.0,
+    "averageRunningCadenceInStepsPerMinute": 161,
+    "publicDescription": "Alexander Hedin",
+    "privateNote": "Rifflsee - Mandarfen med Alex! Oplanerat pass, ganska lugnt. Go runda!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 46.96,
+    "startLng": 10.85,
+    "locationName": "Sölden AT"
+  },
+  {
     "activityId": 19257232805,
     "activityName": "Wasserfall",
     "startTimeLocal": "2026-07-10 16:33:11",
