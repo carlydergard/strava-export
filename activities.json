@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 19280440690,
+    "activityName": "Taschachhaus",
+    "startTimeLocal": "2026-07-12 09:53:56",
+    "startTimeGMT": "2026-07-12 07:53:56",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "long_run",
+    "distance": 18353.3,
+    "movingDuration": 10215,
+    "elapsedDuration": 11562,
+    "elevationGain": 570.0,
+    "averageSpeed": 1.797,
+    "averageHR": 148.2,
+    "maxHR": 177.0,
+    "sufferScore": 59.0,
+    "averageRunningCadenceInStepsPerMinute": 154,
+    "publicDescription": "🐑🐑🐑🐑",
+    "privateNote": "Tascachhaus\n\nDel 1: Fuldauer höhenweg\n\nHög risk/reward! Nära att snubbla ngra gånger men gick bra.\n\nStannade och drack i två alpbäckar. \n\nLite trafikstockning i början, fyra får på vägen 🐑 🐑🐑🐑\n\nStor Almdudler på Taschach haus, gott!\n\nBrantare än jag mindes vid 6-7 km. KBT höjdrädsla att klättra vid vajern, men undvek att titta ned. Nästan jobbigare att det var så fett brant att ländryggen blev helt slut efter en stund. Flashbacks till Gaustatoppen. Höll på ganska länge också? Fett jobbig etapp.\n\nRätt mycket skav på stortårna? Tejpade innan, hjälpte ngt. Men hade också missat lite? Får se hur detta går på nedvägen…\n\nDel 2: Tascachhaus-Mandarfen\n\nBra energi från Almdudlern!\n\nDrog åt skorna och fixade lite med tejpen på tårna. Vet inte om det hjälpte så mycket, men skavet blev iaf inte värre. \n\nMamma hade sagt att första biten ned från huset är lite längre och mer ”ö-ste-ri-ke” än man minns. Visade sig stämma!\n\nGanska matt när jag väl kom ned på den lätta grusvägen till de sista 6 km. Där hade jag väl tänkt att jag skulle kunna ösa på rätt bra men blev ganska lugn jogg hela vägen. \n\nBlåsband som spelade after-ski hits när jag sprang förbi Taschach Alm aka knödelnisse. \n\nRikigt matt och sugen på Jause efteråt! Men också en bra strapats avklarad. Gött!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 46.97,
+    "startLng": 10.85,
+    "locationName": "Sölden AT"
+  },
+  {
     "activityId": 19266728500,
     "activityName": "Rifflsee-Mandarfen",
     "startTimeLocal": "2026-07-11 11:41:49",
