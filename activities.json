@@ -1,5 +1,33 @@
 [
   {
+    "activityId": 19296198530,
+    "activityName": "Helkropp",
+    "startTimeLocal": "2026-07-13 16:56:38",
+    "startTimeGMT": "2026-07-13 14:56:38",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 2660,
+    "elapsedDuration": 2660,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 104.9,
+    "maxHR": 154.0,
+    "sufferScore": 5.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "Wildspitze",
+    "privateNote": "Hotellgymmet på Wildspitze. Välutrustat gym. Det mesta funkade! Skippade marklyft pga vinylträgolvet bara… \n\nSvullen högertå? Trodde det var skavsår men verkar vara nån slags blåsa eller blåmärke under huden?",
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 19280440690,
     "activityName": "Taschachhaus",
     "startTimeLocal": "2026-07-12 09:53:56",
