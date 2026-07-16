@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 19320846810,
+    "activityName": "Mandarfen - Sankt Leonhard",
+    "startTimeLocal": "2026-07-15 11:11:14",
+    "startTimeGMT": "2026-07-15 09:11:14",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "workout",
+    "distance": 12014.6,
+    "movingDuration": 3599,
+    "elapsedDuration": 3778,
+    "elevationGain": 63.0,
+    "averageSpeed": 3.338,
+    "averageHR": 163.2,
+    "maxHR": 183.0,
+    "sufferScore": 59.0,
+    "averageRunningCadenceInStepsPerMinute": 172,
+    "publicDescription": "🐐",
+    "privateNote": "Mandarfen - Sankt Leonhard. Planen var att köra nån slags tröskel! Tänkte först 2km uv, 8 km th, 2km nv. Men allt blev typ lika snabbt, dvs ca 4:59-tempo. \n\nFick springa på ansträngning, oklara förutsättningar med tunn luft och nedförsbacke (med ett fåtal branta uppförsbackar ibland). Dessutom massa pauser för elstängsel och färister!\n\nTre hästar var väldigt sociala (?), fick pausa klockan och försöka smita runt…\n\nBra pass, blev trött. Lite störigt att det landade på 5:00 och inte 4:59 men ärligt talat beror det best på den FETT branta backen sista 200m… \n\nSkavet på tån typ 90% läkt, funkade bra med compeed och nike vomero. Kändes lite sista 3km, men blir lite löpvila pga akriviteter, resdagar osv tills på lördag. \n\nMötte familjen på steinbockzentrum i st leonhard. Bra upplägg!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 46.97,
+    "startLng": 10.87,
+    "locationName": "Sölden AT"
+  },
+  {
     "activityId": 19296198530,
     "activityName": "Helkropp",
     "startTimeLocal": "2026-07-13 16:56:38",
