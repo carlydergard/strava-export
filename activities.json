@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 19363270216,
+    "activityName": "Schwanseebad",
+    "startTimeLocal": "2026-07-18 14:43:45",
+    "startTimeGMT": "2026-07-18 12:43:45",
+    "type": "Swim",
+    "sportType": "Swim",
+    "workoutType": null,
+    "distance": 515.7,
+    "movingDuration": 649,
+    "elapsedDuration": 918,
+    "elevationGain": 0.0,
+    "averageSpeed": 0.795,
+    "averageHR": 110.3,
+    "maxHR": 149.0,
+    "sufferScore": 1.0,
+    "averageRunningCadenceInStepsPerMinute": 57,
+    "publicDescription": "10x50m \n\n☀️🥰",
+    "privateNote": "Schwanseebad Weimar. Fin dag! \n\nBra fart, fokus på att ”ta med frånskjuter” hela längden och att inte såsa med ”draghanden” när jag andades. Tror särskilt det sista gjorde stor skillnad, tappar nog annars en del fart under andningen…",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 50.98,
+    "startLng": 11.32,
+    "locationName": "Weimar DE"
+  },
+  {
     "activityId": 19320846810,
     "activityName": "Mandarfen - Sankt Leonhard",
     "startTimeLocal": "2026-07-15 11:11:14",
