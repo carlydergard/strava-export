@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 19372871470,
+    "activityName": "Weimar",
+    "startTimeLocal": "2026-07-19 09:03:32",
+    "startTimeGMT": "2026-07-19 07:03:32",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "long_run",
+    "distance": 17447.8,
+    "movingDuration": 6222,
+    "elapsedDuration": 7194,
+    "elevationGain": 203.0,
+    "averageSpeed": 2.804,
+    "averageHR": 150.4,
+    "maxHR": 177.0,
+    "sufferScore": 41.0,
+    "averageRunningCadenceInStepsPerMinute": 166,
+    "publicDescription": "12 Jahre später!\n\n🔵🟥⚠️",
+    "privateNote": "Weimar, 12 Jahre später! Sprang förbi (typ) alla gamla ställen. \n\nToapaus på bauhaus. 🔵🟥⚠️\n\nKonstigt hur mycket jag glömt? Kände knapp igen mig på v upp till Belvedere, hittade inte min gamla dörr på Rudolf Breitsheidstrasse och kunde inte avgöra var Zum Falken låg… ",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 50.98,
+    "startLng": 11.33,
+    "locationName": "Weimar DE"
+  },
+  {
     "activityId": 19363270216,
     "activityName": "Schwanseebad",
     "startTimeLocal": "2026-07-18 14:43:45",
