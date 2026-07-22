@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 19400047842,
+    "activityName": "30x45/15",
+    "startTimeLocal": "2026-07-21 10:40:17",
+    "startTimeGMT": "2026-07-21 08:40:17",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "workout",
+    "distance": 10427.5,
+    "movingDuration": 3340,
+    "elapsedDuration": 3812,
+    "elevationGain": 33.0,
+    "averageSpeed": 3.122,
+    "averageHR": 161.5,
+    "maxHR": 184.0,
+    "sufferScore": 47.0,
+    "averageRunningCadenceInStepsPerMinute": 170,
+    "publicDescription": "",
+    "privateNote": "30x45/15. Kände mig seg i början, eg för tidigt på förmiddagen för att prestera imo. Men bevisligen kunde jag hålla rätt bra tempo? Intervallerna landade på 4:24/km i snitt… \n\nHade kartan på klockan så sprang på känsla. Målet var tröskel dvs typ 4:38/km? Svårt att ”känna” sig till iofs. \n\nNice att springa i Tiergarten! Fick en lång setvila vid Siegessäule pga trafik. Sen en till pga avspärrningar runt Friedrichstraße med 2 intervaller kvar. Sånt som händer när man springer i storstan!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 52.52,
+    "startLng": 13.39,
+    "locationName": "Mitte DE"
+  },
+  {
     "activityId": 19372871470,
     "activityName": "Weimar",
     "startTimeLocal": "2026-07-19 09:03:32",
