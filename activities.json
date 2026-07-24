@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 19429287854,
+    "activityName": "Distans",
+    "startTimeLocal": "2026-07-23 10:29:34",
+    "startTimeGMT": "2026-07-23 08:29:34",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 14204.1,
+    "movingDuration": 4857,
+    "elapsedDuration": 5320,
+    "elevationGain": 109.0,
+    "averageSpeed": 2.924,
+    "averageHR": 150.7,
+    "maxHR": 171.0,
+    "sufferScore": 29.0,
+    "averageRunningCadenceInStepsPerMinute": 170,
+    "publicDescription": "⭕️",
+    "privateNote": "Distans. Berlin-sightseeing: Mauerpark, velodrom, bunkerberg. Kul platser men ganska lång och tråkig väg mellan! Mycket trafikljus. \n\nKroppen kändes ok. Morgonseg? Drack lite club mate zero innan. ",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 52.53,
+    "startLng": 13.39,
+    "locationName": "Mitte DE"
+  },
+  {
     "activityId": 19400047842,
     "activityName": "30x45/15",
     "startTimeLocal": "2026-07-21 10:40:17",
