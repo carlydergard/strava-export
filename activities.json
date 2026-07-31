@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 19530161971,
+    "activityName": "Björboholm banvall",
+    "startTimeLocal": "2026-07-30 16:11:48",
+    "startTimeGMT": "2026-07-30 14:11:48",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 6821.4,
+    "movingDuration": 2132,
+    "elapsedDuration": 2188,
+    "elevationGain": 29.0,
+    "averageSpeed": 3.2,
+    "averageHR": 152.1,
+    "maxHR": 170.0,
+    "sufferScore": 13.0,
+    "averageRunningCadenceInStepsPerMinute": 170,
+    "publicDescription": "🚇",
+    "privateNote": "Björboholm banvall. Omväg till Sanna från badplatsen. Drömsemestern 2026! De flesta märkte knappt att jag var borta. Avslutade med bad på bryggan! Gött. ",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.88,
+    "startLng": 12.33,
+    "locationName": "Grabo SE"
+  },
+  {
     "activityId": 19497005253,
     "activityName": "30x45/15",
     "startTimeLocal": "2026-07-28 11:02:15",
