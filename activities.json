@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 19543017538,
+    "activityName": "4x6’",
+    "startTimeLocal": "2026-07-31 15:30:08",
+    "startTimeGMT": "2026-07-31 13:30:08",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "workout",
+    "distance": 6009.2,
+    "movingDuration": 1958,
+    "elapsedDuration": 1984,
+    "elevationGain": 61.0,
+    "averageSpeed": 3.069,
+    "averageHR": 156.4,
+    "maxHR": 184.0,
+    "sufferScore": 18.0,
+    "averageRunningCadenceInStepsPerMinute": 174,
+    "publicDescription": "",
+    "privateNote": "Norsk tröskel 4x6’. Stabilt! Opepp innan men blev ett ganska effektivt pass. \n\nSkumt att första intervallen var jobbigast och högst puls? Alla gick ju typ lika snabbt och på exakt samma runda…\n\nDrog åt skosnörena nike vomero plus lite hårdare, väldigt sköna!",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE"
+  },
+  {
     "activityId": 19530161971,
     "activityName": "Björboholm banvall",
     "startTimeLocal": "2026-07-30 16:11:48",
