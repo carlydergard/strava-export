@@ -337,6 +337,7 @@ while True:
 
             "publicDescription": d.get("description"),
             "privateNote": d.get("private_note"),
+            "perceivedExertion": d.get("perceived_exertion"),
 
             "flags": {
                 "commute": act.get("commute"),
