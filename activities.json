@@ -1,5 +1,36 @@
 [
   {
+    "activityId": 19553200451,
+    "activityName": "Långpass",
+    "startTimeLocal": "2026-08-01 10:18:32",
+    "startTimeGMT": "2026-08-01 08:18:32",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "long_run",
+    "distance": 16141.4,
+    "movingDuration": 5927,
+    "elapsedDuration": 6071,
+    "elevationGain": 268.0,
+    "averageSpeed": 2.723,
+    "averageHR": 152.9,
+    "maxHR": 178.0,
+    "sufferScore": 42.0,
+    "averageRunningCadenceInStepsPerMinute": 166,
+    "publicDescription": "",
+    "privateNote": "Långpass. Alla rundor på koön typ? \n\nGanska opepp, orkade inte springa t Tjuvkik och tillbaks igen. Blev en del backar och trail ist! Fick lite feeling på slutet och körde en ”ay-intervall”, dvs 1km max i nedförsbacke. Inte relativt jättebra tid på segmentet ned från hareslätt (har klarat 3:45/km, idag 4:07…) men längsedan jag sprang snabbare än typ 4:30-fart…\n\nSoligt men svalkande vind! Mötte familjen vid Hedvig. \n\nDags att börja öka långpasslängden mot HM? 10 miles alt 90 min är ju min minimigräns för långpass men har inte legat särskilt långt över den på länge…",
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.89,
+    "startLng": 11.59,
+    "locationName": "Marstrand SE"
+  },
+  {
     "activityId": 19543017538,
     "activityName": "4x6’",
     "startTimeLocal": "2026-07-31 15:30:08",
