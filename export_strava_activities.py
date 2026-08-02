@@ -339,6 +339,11 @@ while True:
             "privateNote": d.get("private_note"),
             "perceivedExertion": d.get("perceived_exertion"),
 
+            "calories": d.get("calories"),
+            "deviceName": d.get("device_name"),
+            "averageTemp": d.get("average_temp"),
+            "athleteCount": act.get("athlete_count"),
+
             "flags": {
                 "commute": act.get("commute"),
                 "trainer": act.get("trainer"),
