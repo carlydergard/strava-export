@@ -1,5 +1,38 @@
 [
   {
+    "activityId": 19737027936,
+    "activityName": "Discogym",
+    "startTimeLocal": "2026-08-14 11:36:08",
+    "startTimeGMT": "2026-08-14 09:36:08",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 2032,
+    "elapsedDuration": 2032,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 97.1,
+    "maxHR": 144.0,
+    "sufferScore": 3.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "",
+    "privateNote": "Discogym. Lite seg efter Way out west igår! \n\nLyssnade på: \nAnna von Hauswolff - Iconoclasts: Inspirerad av väldigt bra konsert igår! Cool skiva. Mörk, kräver några lyssningar. Kanske därför jag inte lyssnade så mycket på den så mycket när den kom för ca ett år sedan?",
+    "perceivedExertion": 4.0,
+    "calories": 189.0,
+    "deviceName": "Garmin Forerunner 955",
+    "averageTemp": null,
+    "athleteCount": 1,
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 19715271157,
     "activityName": "Rolig",
     "startTimeLocal": "2026-08-12 19:31:41",
