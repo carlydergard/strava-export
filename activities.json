@@ -1,5 +1,38 @@
 [
   {
+    "activityId": 20021383174,
+    "activityName": "3x10’",
+    "startTimeLocal": "2026-09-03 16:39:29",
+    "startTimeGMT": "2026-09-03 14:39:29",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "workout",
+    "distance": 8000.0,
+    "movingDuration": 2548,
+    "elapsedDuration": 2548,
+    "elevationGain": 0,
+    "averageSpeed": 3.14,
+    "averageHR": 159.1,
+    "maxHR": 185.0,
+    "sufferScore": 35.0,
+    "averageRunningCadenceInStepsPerMinute": 162,
+    "publicDescription": "",
+    "privateNote": "3x10’, hovedkvalitetsøkt. Ösregn ute, blev löpband på Omnia. Tempo: 12,6km/h dvs 4:45/km rakt igenom. \r\n\r\nGanska lagom ansträngningsnivå tror jag! Kändes hanterbart. Det värsta var tristessen, 10 minuter är ganska långa intervaller på löpband. \r\n\r\nLöpbandet på Omnia är lite studsigt och svampigt men jag tror farten stämmer bra. En udda grej är att man får en ganska stark elstöt om man nuddar ”pulsmätningshandtagen”. Inte helt ovanligt hos löpband in my experience, säkert statiskt. Blev tvungen att testa ngra gånger, medt pga tristess under de långa intervallerna. Kom att tänka på studien ”Just Think: The Challenges of the Disengaged Mind” (Wilson, 2014): Personer fick sitta och ha tråkigt i 6-15 minuter och den enda underhållningen som erbjöds var en smärtsam elstöt: ” 67% of male participants and 25% of female participants chose to press the button to shock themselves at least once.”. Trodde inte jag tillhörde dessa 67% män men kul att man kan hitta nya sidor hos sig själv efter 37 år…",
+    "perceivedExertion": 7.0,
+    "calories": 605.0,
+    "deviceName": "Garmin Forerunner 955",
+    "averageTemp": 27,
+    "athleteCount": 1,
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 20007027117,
     "activityName": "Rolig",
     "startTimeLocal": "2026-09-02 16:44:16",
