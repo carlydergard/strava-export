@@ -1,5 +1,38 @@
 [
   {
+    "activityId": 20071900814,
+    "activityName": "Överkropp",
+    "startTimeLocal": "2026-09-07 11:31:39",
+    "startTimeGMT": "2026-09-07 09:31:39",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 1616,
+    "elapsedDuration": 1616,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 91.0,
+    "maxHR": 156.0,
+    "sufferScore": 2.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "",
+    "privateNote": "Överkropp. Effektivt pass! Blev lite utfall på slutet också…",
+    "perceivedExertion": null,
+    "calories": 131.0,
+    "deviceName": "Garmin Forerunner 955",
+    "averageTemp": null,
+    "athleteCount": 1,
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 20058639804,
     "activityName": "Långpass",
     "startTimeLocal": "2026-09-06 10:28:09",
