@@ -312,7 +312,39 @@ while True:
             break
 
         d = detail.json()
+        # ---------- LAP FETCH ----------
+        while True:
+            laps_response = requests.get(
+                f"https://www.strava.com/api/v3/activities/{act_id}/laps",
+                headers=headers
+            )
 
+            if laps_response.status_code == 401:
+                refresh_access_token()
+                headers["Authorization"] = f"Bearer {access_token}"
+                continue
+
+            if laps_response.status_code == 429:
+                save_progress()
+                save_page_progress(page)
+
+                reset_ts = int(laps_response.headers.get("X-RateLimit-Reset", time.time() + 900))
+                wait_time = max(reset_ts - int(time.time()), 0)
+
+                print(f"⚠️ Rate limit hit on lap fetch. Waiting {wait_time//60} min…")
+                countdown(wait_time)
+                continue
+
+            if laps_response.status_code >= 500:
+                print(f"⚠️ Strava server error {laps_response.status_code}, retrying in 60s...")
+                time.sleep(60)
+                continue
+
+            laps_response.raise_for_status()
+            break
+
+        laps = laps_response.json()
+        
         entry = {
             "activityId": act["id"],
             "activityName": act.get("name"),
@@ -343,6 +375,7 @@ while True:
             "deviceName": d.get("device_name"),
             "averageTemp": d.get("average_temp"),
             "athleteCount": act.get("athlete_count"),
+            "laps": laps,
 
             "flags": {
                 "commute": act.get("commute"),
