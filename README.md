@@ -179,7 +179,7 @@ Steps:
 4. Replace:
 
 ```
-strengthlog.csv
+strengthlog-export.csv
 ```
 
 in the repository.
