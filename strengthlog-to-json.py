@@ -375,4 +375,3 @@ if (
     print(f"Skipped: {skipped_count}")
 
 print("Done merging StrengthLog into activities.json")
-```
