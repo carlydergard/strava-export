@@ -8,6 +8,8 @@ from zoneinfo import ZoneInfo
 CSV_PATH = "strengthlog-export.csv"
 ACTIVITIES_PATH = "activities.json"
 PROGRESS_PATH = "progress.json"
+CHINS_PATH = "chins_2018_2019.json"
+HISTORICAL_CHINS_SOURCE = "historical_chins"
 
 BODYWEIGHT = 75
 BODYWEIGHT_EXERCISES = ["Chins", "Pullups", "Dips"]
@@ -135,10 +137,98 @@ workouts.sort(
 
 with open(ACTIVITIES_PATH, "r", encoding="utf-8") as f:
     activities = json.load(f)
+    
+# ---------- LOAD HISTORICAL CHINS ----------
 
+historical_chins = []
+
+if os.path.exists(CHINS_PATH):
+    with open(CHINS_PATH, "r", encoding="utf-8") as f:
+        chins_data = json.load(f)
+
+    historical_chins = chins_data.get("sessions", [])
+
+    print(f"Loaded {len(historical_chins)} historical chin sessions.")
+else:
+    print("Historical chins file not found. Skipping.")
 
 def get_date(dt_string):
     return dt_string.split(" ")[0]
+
+def is_historical_chins_activity(activity):
+    return activity.get("source") == HISTORICAL_CHINS_SOURCE
+
+activities = [
+    activity
+    for activity in activities
+    if not is_historical_chins_activity(activity)
+]
+
+# ---------- MERGE HISTORICAL CHINS ----------
+
+historical_chins_created = 0
+
+for session in historical_chins:
+    date = session["date"]
+
+    sets = session.get("sets", [])
+    total_reps = session.get("total_reps")
+    bodyweight = session.get("bodyweight_kg")
+
+    set_text = "-".join(
+        str(reps) for reps in sets if reps is not None
+    )
+
+    summary = (
+        "Historiska chins från CHINS 2018_2019.xlsx\n\n"
+        f"Chins: {set_text} reps\n"
+        f"Totalt: {total_reps} reps\n"
+        f"Kroppsvikt: {bodyweight} kg"
+    )
+
+    activities.append({
+        "activityId": None,
+        "activityName": "Chins",
+        "startTimeLocal": date,
+        "startTimeGMT": date,
+        "type": "WeightTraining",
+        "sportType": "WeightTraining",
+        "workoutType": None,
+
+        "distance": 0.0,
+        "movingDuration": None,
+        "elapsedDuration": None,
+
+        "elevationGain": 0,
+        "averageSpeed": 0.0,
+        "averageHR": None,
+        "maxHR": None,
+        "sufferScore": None,
+        "averageRunningCadenceInStepsPerMinute": None,
+
+        "publicDescription": "",
+        "privateNote": summary,
+
+        "source": HISTORICAL_CHINS_SOURCE,
+
+        "dateOnly": True,
+        "calendarEligible": False,
+
+        "flags": {
+            "commute": False,
+            "trainer": False,
+            "manual": True,
+            "private": False
+        },
+
+        "hasPhotos": False,
+        "hasMap": False
+    })
+
+    historical_chins_created += 1
+
+print(f"Historical chins imported: {historical_chins_created}")
+
 
 
 def is_strengthlog_activity(activity):
@@ -341,10 +431,12 @@ for workout in workouts:
 # ---------- SORT ----------
 
 def parse_dt(activity):
-    return datetime.strptime(
-        activity["startTimeLocal"],
-        "%Y-%m-%d %H:%M:%S"
-    )
+    value = activity["startTimeLocal"]
+
+    if len(value) == 10:
+        return datetime.strptime(value, "%Y-%m-%d")
+
+    return datetime.strptime(value, "%Y-%m-%d %H:%M:%S")
 
 
 activities.sort(key=parse_dt, reverse=True)
