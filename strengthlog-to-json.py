@@ -190,7 +190,7 @@ for session in historical_chins:
         "activityId": None,
         "activityName": "Chins",
         "startTimeLocal": date,
-        "startTimeGMT": date,
+        "startTimeGMT": None,
         "type": "WeightTraining",
         "sportType": "WeightTraining",
         "workoutType": None,
