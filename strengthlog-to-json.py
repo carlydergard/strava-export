@@ -203,89 +203,6 @@ activities = [
     if not is_historical_chins_activity(activity)
 ]
 
-# ---------- MERGE HISTORICAL CHINS ----------
-
-historical_chins_created = 0
-historical_chins_skipped = 0
-
-for session in historical_chins:
-    date = session["date"]
-
-    duplicate_strava_matches = [
-        activity
-        for activity in activities
-        if (
-            get_date(activity["startTimeLocal"]) == date
-            and is_real_strava_weight_activity(activity)
-            and has_chins_in_strengthlog(activity)
-        )
-    ]
-
-    if duplicate_strava_matches:
-        historical_chins_skipped += 1
-        continue
-
-    sets = session.get("sets", [])
-    total_reps = session.get("total_reps")
-    bodyweight = session.get("bodyweight_kg")
-
-    set_text = "-".join(
-        str(reps) for reps in sets if reps is not None
-    )
-
-    summary = (
-        "Historiska chins från CHINS 2018_2019.xlsx\n\n"
-        f"Chins: {set_text} reps\n"
-        f"Totalt: {total_reps} reps\n"
-        f"Kroppsvikt: {bodyweight} kg"
-    )
-
-    activities.append({
-        "activityId": None,
-        "activityName": "Chins",
-        "startTimeLocal": date,
-        "startTimeGMT": None,
-        "type": "WeightTraining",
-        "sportType": "WeightTraining",
-        "workoutType": None,
-
-        "distance": 0.0,
-        "movingDuration": None,
-        "elapsedDuration": None,
-
-        "elevationGain": 0,
-        "averageSpeed": 0.0,
-        "averageHR": None,
-        "maxHR": None,
-        "sufferScore": None,
-        "averageRunningCadenceInStepsPerMinute": None,
-
-        "publicDescription": "",
-        "privateNote": summary,
-
-        "source": HISTORICAL_CHINS_SOURCE,
-
-        "dateOnly": True,
-        "calendarEligible": False,
-
-        "flags": {
-            "commute": False,
-            "trainer": False,
-            "manual": True,
-            "private": False
-        },
-
-        "hasPhotos": False,
-        "hasMap": False
-    })
-
-    historical_chins_created += 1
-
-print("Historical chins:")
-print(f"  Imported: {historical_chins_created}")
-print(f"  Skipped as duplicate of Strava activity: {historical_chins_skipped}")
-
-
 # ---------- MERGE ----------
 
 merged_count = 0
@@ -460,6 +377,91 @@ for workout in workouts:
             f"WARNING multiple real Strava matches: "
             f"{workout_date} ({len(real_matches)} activities)"
         )
+
+
+# ---------- MERGE HISTORICAL CHINS ----------
+
+historical_chins_created = 0
+historical_chins_skipped = 0
+
+for session in historical_chins:
+    date = session["date"]
+
+    duplicate_strava_matches = [
+        activity
+        for activity in activities
+        if (
+            get_date(activity["startTimeLocal"]) == date
+            and is_real_strava_weight_activity(activity)
+            and has_chins_in_strengthlog(activity)
+        )
+    ]
+
+    if duplicate_strava_matches:
+        historical_chins_skipped += 1
+        continue
+
+    sets = session.get("sets", [])
+    total_reps = session.get("total_reps")
+    bodyweight = session.get("bodyweight_kg")
+
+    set_text = "-".join(
+        str(reps) for reps in sets if reps is not None
+    )
+
+    summary = (
+        "Historiska chins från CHINS 2018_2019.xlsx\n\n"
+        f"Chins: {set_text} reps\n"
+        f"Totalt: {total_reps} reps\n"
+        f"Kroppsvikt: {bodyweight} kg"
+    )
+
+    activities.append({
+        "activityId": None,
+        "activityName": "Chins",
+        "startTimeLocal": date,
+        "startTimeGMT": None,
+        "type": "WeightTraining",
+        "sportType": "WeightTraining",
+        "workoutType": None,
+
+        "distance": 0.0,
+        "movingDuration": None,
+        "elapsedDuration": None,
+
+        "elevationGain": 0,
+        "averageSpeed": 0.0,
+        "averageHR": None,
+        "maxHR": None,
+        "sufferScore": None,
+        "averageRunningCadenceInStepsPerMinute": None,
+
+        "publicDescription": "",
+        "privateNote": summary,
+
+        "source": HISTORICAL_CHINS_SOURCE,
+
+        "dateOnly": True,
+        "calendarEligible": False,
+
+        "flags": {
+            "commute": False,
+            "trainer": False,
+            "manual": True,
+            "private": False
+        },
+
+        "hasPhotos": False,
+        "hasMap": False
+    })
+
+    historical_chins_created += 1
+
+print("Historical chins:")
+print(f"  Imported: {historical_chins_created}")
+print(f"  Skipped as duplicate of Strava activity: {historical_chins_skipped}")
+
+
 
 
 # ---------- SORT ----------
