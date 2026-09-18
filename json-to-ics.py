@@ -86,11 +86,21 @@ def main():
     cal.add("X-WR-CALNAME", "Training Log")
 
     for a in activities:
-        start = datetime.strptime(
-            a["startTimeLocal"], "%Y-%m-%d %H:%M:%S"
-        ).replace(tzinfo=TIMEZONE)
+        start_time = a["startTimeLocal"]
 
-        duration = a.get("elapsedDuration", 0)
+        if len(start_time) == 10:
+            start = datetime.strptime(
+                start_time, "%Y-%m-%d"
+            ).replace(tzinfo=TIMEZONE)
+        else:
+            start = datetime.strptime(
+                start_time, "%Y-%m-%d %H:%M:%S"
+            ).replace(tzinfo=TIMEZONE)
+
+        duration = a.get("elapsedDuration")
+        if duration is None:
+            duration = 0
+
         end = start + timedelta(seconds=duration)
 
         sport = a.get("sportType")
