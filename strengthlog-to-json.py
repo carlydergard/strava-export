@@ -158,6 +158,24 @@ def get_date(dt_string):
 def is_historical_chins_activity(activity):
     return activity.get("source") == HISTORICAL_CHINS_SOURCE
 
+def has_chins_in_strengthlog(activity):
+    """
+    Checks whether a real Strava activity contains imported
+    StrengthLog data with Chins as an exercise.
+    """
+    note = activity.get("privateNote", "") or ""
+
+    if STRENGTHLOG_HEADER not in note:
+        return False
+
+    strengthlog_part = note.split(STRENGTHLOG_HEADER, 1)[1]
+
+    return any(
+        line.startswith("Chins ")
+        or line == "Chins"
+        for line in strengthlog_part.splitlines()
+    )
+
 activities = [
     activity
     for activity in activities
@@ -167,9 +185,24 @@ activities = [
 # ---------- MERGE HISTORICAL CHINS ----------
 
 historical_chins_created = 0
+historical_chins_skipped = 0
 
 for session in historical_chins:
     date = session["date"]
+
+    duplicate_strava_matches = [
+        activity
+        for activity in activities
+        if (
+            get_date(activity["startTimeLocal"]) == date
+            and is_real_strava_weight_activity(activity)
+            and has_chins_in_strengthlog(activity)
+        )
+    ]
+
+    if duplicate_strava_matches:
+        historical_chins_skipped += 1
+        continue
 
     sets = session.get("sets", [])
     total_reps = session.get("total_reps")
@@ -227,8 +260,9 @@ for session in historical_chins:
 
     historical_chins_created += 1
 
-print(f"Historical chins imported: {historical_chins_created}")
-
+print("Historical chins:")
+print(f"  Imported: {historical_chins_created}")
+print(f"  Skipped as duplicate of Strava activity: {historical_chins_skipped}")
 
 
 def is_strengthlog_activity(activity):
