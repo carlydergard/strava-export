@@ -138,6 +138,27 @@ workouts.sort(
 with open(ACTIVITIES_PATH, "r", encoding="utf-8") as f:
     activities = json.load(f)
     
+def is_strengthlog_activity(activity):
+    """
+    Identifies synthetic activities previously created by this script.
+    These have activityId=None and contain the StrengthLog header.
+    """
+    return (
+        activity.get("activityId") is None
+        and STRENGTHLOG_HEADER in (activity.get("privateNote", "") or "")
+    )
+
+
+def is_real_strava_weight_activity(activity):
+    """
+    Identifies a real Strava WeightTraining activity.
+    """
+    return (
+        activity.get("activityId") is not None
+        and activity.get("sportType", "") == "WeightTraining"
+    )
+
+
 # ---------- LOAD HISTORICAL CHINS ----------
 
 historical_chins = []
@@ -263,27 +284,6 @@ for session in historical_chins:
 print("Historical chins:")
 print(f"  Imported: {historical_chins_created}")
 print(f"  Skipped as duplicate of Strava activity: {historical_chins_skipped}")
-
-
-def is_strengthlog_activity(activity):
-    """
-    Identifies synthetic activities previously created by this script.
-    These have activityId=None and contain the StrengthLog header.
-    """
-    return (
-        activity.get("activityId") is None
-        and STRENGTHLOG_HEADER in (activity.get("privateNote", "") or "")
-    )
-
-
-def is_real_strava_weight_activity(activity):
-    """
-    Identifies a real Strava WeightTraining activity.
-    """
-    return (
-        activity.get("activityId") is not None
-        and activity.get("sportType", "") == "WeightTraining"
-    )
 
 
 # ---------- MERGE ----------
