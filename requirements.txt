@@ -1,0 +1,4 @@
+requests==2.32.5
+icalendar==6.3.2
+pandas==2.3.3
+reverse_geocoder==1.5.1
