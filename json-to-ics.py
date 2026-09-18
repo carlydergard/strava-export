@@ -59,7 +59,11 @@ def build_description(a):
     if a.get("distance", 0) > 0:
         lines.append(f"Distance: {a['distance'] / 1000:.2f} km")
 
-    lines.append(f"Time: {seconds_to_hhmmss(a.get('elapsedDuration', 0))}")
+    elapsed_duration = a.get("elapsedDuration")
+    if elapsed_duration is None:
+        elapsed_duration = 0
+
+    lines.append(f"Time: {seconds_to_hhmmss(elapsed_duration)}")
 
     pace = mps_to_min_per_km(a.get("averageSpeed"))
     if pace:
