@@ -95,7 +95,8 @@ def workout_type_label(v):
 def sort_activities():
     activities.sort(
         key=lambda a: datetime.strptime(
-            a["startTimeLocal"], "%Y-%m-%d %H:%M:%S"
+            a["startTimeLocal"],
+            "%Y-%m-%d" if len(a["startTimeLocal"]) == 10 else "%Y-%m-%d %H:%M:%S"
         ),
         reverse=True
     )
