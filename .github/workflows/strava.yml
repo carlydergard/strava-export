@@ -35,7 +35,7 @@ jobs:
 
       - run: |
           pip install --upgrade pip
-          pip install --no-cache-dir requests icalendar pandas reverse_geocoder
+          pip install --no-cache-dir -r requirements.txt
 
       - run: |
           echo "Running Strava export..."
