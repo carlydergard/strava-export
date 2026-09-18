@@ -28,6 +28,9 @@ def pace_min_per_km(distance_m, seconds):
 
 
 def format_datetime(dt_str):
+    if len(dt_str) == 10:
+        dt = datetime.strptime(dt_str, "%Y-%m-%d")
+        return dt.strftime("%Y-%m-%d")
     dt = datetime.strptime(dt_str, "%Y-%m-%d %H:%M:%S")
     return dt.strftime("%Y-%m-%d · %H:%M")
 
