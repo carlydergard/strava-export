@@ -401,6 +401,13 @@ for session in historical_chins:
         historical_chins_skipped += 1
         continue
 
+    # If Strava export is incomplete, wait for the real activity
+    # before importing historical chins. Otherwise a historical
+    # session could temporarily duplicate a Strava activity that
+    # has not been exported yet.
+    if strava_export_incomplete:
+        continue
+
     sets = session.get("sets", [])
     total_reps = session.get("total_reps")
     bodyweight = session.get("bodyweight_kg")
