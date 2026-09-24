@@ -132,20 +132,13 @@ print(f"📂 Existing activities: {len(exported_ids)}")
 # ================= PROGRESS TRACKING REBUILD =================
 
 def save_page_progress(page):
+    # During the one-off latest-page check, preserve the real
+    # historical resume position instead of saving page 1.
+    progress_page = resume_page if latest_check else page
+
     with open(PROGRESS_FILE, "w") as f:
-        json.dump({"page": page}, f)
+        json.dump({"page": progress_page}, f)
 
-# ================= LOCATION =================
-
-location_cache = {}
-unknown_places = set()
-
-try:
-    with open("city_fixes.json", "r", encoding="utf-8") as f:
-        CITY_FIXES = json.load(f)
-except (FileNotFoundError, json.JSONDecodeError):
-    print("⚠️ city_fixes.json missing or invalid - using empty fixes")
-    CITY_FIXES = {}
 
 def normalize_city_name(name):
     return CITY_FIXES.get(name, name)
@@ -190,7 +183,14 @@ if os.path.exists(PROGRESS_FILE):
         page = 1
 else:
     page = 1
-    
+
+resume_page = page
+latest_check = page > 1
+
+if latest_check:
+    print(f"🔎 Checking latest activities on page 1 before resuming from page {resume_page}")
+    page = 1
+
 per_page = 50
 new_count = 0
 
@@ -259,6 +259,11 @@ while True:
     batch = r.json()
 
     if not batch:
+        if latest_check:
+            latest_check = False
+            page = resume_page
+            continue
+
         finished = True
         break
 
@@ -384,6 +389,12 @@ while True:
     if MAX_NEW_ACTIVITIES is not None and new_count >= MAX_NEW_ACTIVITIES:
         break
         
+    if latest_check:
+        latest_check = False
+        page = resume_page
+        save_page_progress(page)
+        continue
+
     page += 1
     save_page_progress(page)
 
