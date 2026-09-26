@@ -9,7 +9,7 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "33 1 * * *"
 
 concurrency:
   group: strava-export
