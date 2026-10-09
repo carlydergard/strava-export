@@ -140,6 +140,18 @@ def save_page_progress(page):
         json.dump({"page": progress_page}, f)
 
 
+# ================= LOCATION =================
+
+location_cache = {}
+unknown_places = set()
+
+try:
+    with open("city_fixes.json", "r", encoding="utf-8") as f:
+        CITY_FIXES = json.load(f)
+except (FileNotFoundError, json.JSONDecodeError):
+    print("⚠️ city_fixes.json missing or invalid - using empty fixes")
+    CITY_FIXES = {}
+
 def normalize_city_name(name):
     return CITY_FIXES.get(name, name)
 
