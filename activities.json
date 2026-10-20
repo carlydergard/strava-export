@@ -1,5 +1,71 @@
 [
   {
+    "activityId": 20647119732,
+    "activityName": "Överkropp",
+    "startTimeLocal": "2026-10-19 12:04:01",
+    "startTimeGMT": "2026-10-19 10:04:01",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 1656,
+    "elapsedDuration": 1656,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 95.2,
+    "maxHR": 140.0,
+    "sufferScore": 2.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "",
+    "privateNote": null,
+    "perceivedExertion": null,
+    "calories": 150.0,
+    "deviceName": "Garmin Forerunner 955",
+    "averageTemp": null,
+    "athleteCount": 1,
+    "laps": [
+      {
+        "id": 73667554259,
+        "resource_state": 2,
+        "name": "Lap 0",
+        "activity": {
+          "id": 20647119732,
+          "id_str": "20647119732",
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 7377949,
+          "id_str": "7377949",
+          "resource_state": 1
+        },
+        "elapsed_time": 1656,
+        "moving_time": 1656,
+        "start_date": "2026-10-19T10:04:01Z",
+        "start_date_local": "2026-10-19T12:04:01Z",
+        "distance": 0.0,
+        "average_speed": 0.0,
+        "max_speed": 0.0,
+        "lap_index": 0,
+        "split": 0,
+        "start_index": 0,
+        "end_index": 915,
+        "total_elevation_gain": 0,
+        "device_watts": false,
+        "average_heartrate": 95.2,
+        "max_heartrate": 140.0
+      }
+    ],
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 20633549411,
     "activityName": "Med Märta och Elli",
     "startTimeLocal": "2026-10-18 10:37:27",
