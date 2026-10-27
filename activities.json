@@ -1,5 +1,71 @@
 [
   {
+    "activityId": 20735843640,
+    "activityName": "Överkropp",
+    "startTimeLocal": "2026-10-26 11:35:05",
+    "startTimeGMT": "2026-10-26 10:35:05",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 1895,
+    "elapsedDuration": 1895,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 91.5,
+    "maxHR": 131.0,
+    "sufferScore": 3.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "",
+    "privateNote": "",
+    "perceivedExertion": 3.0,
+    "calories": 150.0,
+    "deviceName": "Garmin Forerunner 955",
+    "averageTemp": null,
+    "athleteCount": 1,
+    "laps": [
+      {
+        "id": 73976535482,
+        "resource_state": 2,
+        "name": "Lap 0",
+        "activity": {
+          "id": 20735843640,
+          "id_str": "20735843640",
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 7377949,
+          "id_str": "7377949",
+          "resource_state": 1
+        },
+        "elapsed_time": 1895,
+        "moving_time": 1895,
+        "start_date": "2026-10-26T10:35:05Z",
+        "start_date_local": "2026-10-26T11:35:05Z",
+        "distance": 0.0,
+        "average_speed": 0.0,
+        "max_speed": 0.0,
+        "lap_index": 0,
+        "split": 0,
+        "start_index": 0,
+        "end_index": 1036,
+        "total_elevation_gain": 0,
+        "device_watts": false,
+        "average_heartrate": 91.5,
+        "max_heartrate": 131.0
+      }
+    ],
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false
+  },
+  {
     "activityId": 20728455994,
     "activityName": "Rolig",
     "startTimeLocal": "2026-10-25 16:41:48",
