@@ -1,2 +1,3 @@
-# Private Garmin health data (never commit to this public repository)
-/garmin/data/
+# Python
+__pycache__/
+*.py[cod]
