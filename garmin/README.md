@@ -58,3 +58,29 @@ python garmin/export_weight.py --start-date 2012-01-01
 
 By default, the output is written to
 `garmin/data/weight-measurements.json`.
+
+
+## Daily series and activity enrichment
+
+`process_weight.py` converts the raw Garmin response into
+`garmin/data/daily-weight.json`:
+- Individual weights are converted from grams to kilograms.
+- Multiple weigh-ins on one local calendar date are averaged.
+- Missing dates are linearly interpolated only when the surrounding actual
+  measurements are no more than 14 days apart.
+- Longer gaps remain explicit `null` values with source `missing`.
+- No values are extrapolated before the first or after the last measurement.
+
+Each daily entry contains `date`, `weightKg`, `source`, and
+`measurementCount`.
+
+`enrich_activities.py` joins the daily series to `activities.json` using
+`startTimeLocal`'s calendar date. It adds:
+- `weightKg`
+- `weightSource` (`measured`, `averaged`, `interpolated`, or `missing`)
+- `weightMeasurementCount`
+
+The nightly Strava workflow runs both processing steps after the StrengthLog
+merge and before regenerating the HTML and calendar outputs. The Garmin export
+workflow refreshes the raw and daily JSON files; the next Strava workflow run
+then refreshes the weight fields in `activities.json`.
