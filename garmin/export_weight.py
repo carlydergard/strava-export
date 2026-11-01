@@ -53,7 +53,12 @@ def fetch_with_fallback(client: GarminPersonalApiClient, start: date, end: date)
     try:
         print(f"  Fetching {start.isoformat()} to {end.isoformat()}")
         return [client.get_weight_measurements(start.isoformat(), end.isoformat())]
-    except Exception:
+    except Exception as exc:
+        # Only split server/response-size failures. Authentication and other
+        # client errors should fail immediately rather than trigger many calls.
+        message = str(exc)
+        if not any(code in message for code in ("HTTP 500", "HTTP 413", "HTTP 504")):
+            raise
         days = (end - start).days + 1
         if days <= 1:
             raise
