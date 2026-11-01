@@ -48,11 +48,14 @@ jobs:
             "${END_ARGS[@]}" \
             --output garmin/data/weight-measurements.json
 
+      - name: Build daily weight series
+        run: python garmin/process_weight.py
+
       - name: Commit updated weight history
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add garmin/data/weight-measurements.json
+          git add garmin/data/weight-measurements.json garmin/data/daily-weight.json
           if git diff --cached --quiet; then
             echo "No weight-data changes to commit."
           else
