@@ -25,6 +25,10 @@ activities.json (training archive)
     ↓
 strengthlog-to-json.py
     ↓
+garmin/process_weight.py
+    ↓
+garmin/enrich_activities.py
+    ↓
 json-to-html.py
 json-to-ics.py
     ↓
