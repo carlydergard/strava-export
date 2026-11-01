@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Export Garmin Connect weight measurements to a private local JSON file.
+"""Export Garmin Connect weight measurements to a date-stamped JSON archive.
 
-The parent repository is public, so never commit the output file.
+The repository is public by user choice; credentials are never written to output.
 """
 from __future__ import annotations
 
@@ -77,7 +77,7 @@ def main() -> int:
     parser.add_argument(
         "--output",
         default="garmin/data/weight-measurements.json",
-        help="Private local output path (default: garmin/data/weight-measurements.json)",
+        help="JSON output path (default: garmin/data/weight-measurements.json)",
     )
     args = parser.parse_args()
 
