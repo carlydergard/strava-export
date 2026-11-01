@@ -41,6 +41,8 @@ jobs:
           echo "Running Strava export..."
           python export_strava_activities.py
           python strengthlog-to-json.py
+          python garmin/process_weight.py
+          python garmin/enrich_activities.py
           python json-to-html.py
           python json-to-ics.py
 
