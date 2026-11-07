@@ -478,9 +478,9 @@
     "startLat": 57.69,
     "startLng": 11.97,
     "locationName": "Göteborg SE",
-    "weightKg": null,
-    "weightSource": "missing",
-    "weightMeasurementCount": 0
+    "weightKg": 74.339,
+    "weightSource": "measured",
+    "weightMeasurementCount": 1
   },
   {
     "activityId": 20840872252,
