@@ -31384,5 +31384,17 @@
     "weightKg": 74.555,
     "source": "averaged",
     "measurementCount": 2
+  },
+  {
+    "date": "2026-11-07",
+    "weightKg": 74.657,
+    "source": "interpolated",
+    "measurementCount": 0
+  },
+  {
+    "date": "2026-11-08",
+    "weightKg": 74.76,
+    "source": "measured",
+    "measurementCount": 1
   }
 ]
