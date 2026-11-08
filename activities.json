@@ -1,5 +1,80 @@
 [
   {
+    "activityId": 20906360427,
+    "activityName": "Distans",
+    "startTimeLocal": "2026-11-08 10:46:04",
+    "startTimeGMT": "2026-11-08 09:46:04",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": null,
+    "distance": 14024.3,
+    "movingDuration": 4821,
+    "elapsedDuration": 4874,
+    "elevationGain": 133.0,
+    "averageSpeed": 2.909,
+    "averageHR": 145.0,
+    "maxHR": 164.0,
+    "sufferScore": 21.0,
+    "averageRunningCadenceInStepsPerMinute": 170,
+    "publicDescription": "",
+    "privateNote": "Distans/kort långpass. Stabilt pass, ska börja trappa upp långpasslängden kontrollerat nu. Kallt och grått ute, höst! \n\nIngen frukost. Inte optimalt för längre långpass, blev lite matt och hungrig mot slutet…\n\nTrampade lite snett så utsida höger fotled ”knakade till” lite i början. Sprang vidare utan problem och känns inget nu efter, men får väl hålla lite koll. Risken med att vara i bra form: Lättare att bli skadad?",
+    "perceivedExertion": 4.0,
+    "calories": 1068.0,
+    "deviceName": "Garmin Forerunner 955",
+    "averageTemp": 20,
+    "athleteCount": 1,
+    "laps": [
+      {
+        "id": 74573012279,
+        "resource_state": 2,
+        "name": "Lap 0",
+        "activity": {
+          "id": 20906360427,
+          "id_str": "20906360427",
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 7377949,
+          "id_str": "7377949",
+          "resource_state": 1
+        },
+        "elapsed_time": 4874,
+        "moving_time": 4821,
+        "start_date": "2026-11-08T09:46:04Z",
+        "start_date_local": "2026-11-08T10:46:04Z",
+        "distance": 14024.3,
+        "average_speed": 2.91,
+        "max_speed": 3.7,
+        "lap_index": 0,
+        "split": 0,
+        "start_index": 0,
+        "end_index": 4823,
+        "total_elevation_gain": 143.0,
+        "average_cadence": 85.2,
+        "device_watts": true,
+        "average_watts": 315.5,
+        "average_heartrate": 145.0,
+        "max_heartrate": 164.0,
+        "pace_zone": 2
+      }
+    ],
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE",
+    "weightKg": 74.76,
+    "weightSource": "measured",
+    "weightMeasurementCount": 1
+  },
+  {
     "activityId": 20893976879,
     "activityName": "20x45/15",
     "startTimeLocal": "2026-11-07 12:32:29",
@@ -1532,8 +1607,8 @@
     "startLat": 57.69,
     "startLng": 11.97,
     "locationName": "Göteborg SE",
-    "weightKg": null,
-    "weightSource": "missing",
+    "weightKg": 74.657,
+    "weightSource": "interpolated",
     "weightMeasurementCount": 0
   },
   {
