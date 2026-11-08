@@ -66,6 +66,27 @@ def refresh_access_token():
 
 LOCAL_TZ = ZoneInfo("Europe/Stockholm")
 
+def get_with_retry(url, **kwargs):
+    """Retry temporary network failures when calling the Strava API."""
+    kwargs.setdefault("timeout", 30)
+    max_attempts = 5
+
+    for attempt in range(max_attempts):
+        try:
+            return requests.get(url, **kwargs)
+        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as e:
+            if attempt == max_attempts - 1:
+                print(f"❌ Strava connection failed after {max_attempts} attempts: {e}")
+                raise
+
+            wait_time = min(5 * (2 ** attempt), 60)
+            print(
+                f"⚠️ Strava connection error ({e}), "
+                f"retrying in {wait_time}s ({attempt + 1}/{max_attempts})..."
+            )
+            time.sleep(wait_time)
+
+
 def countdown(seconds):
     end_utc = datetime.now(timezone.utc) + timedelta(seconds=seconds)
     end_local = end_utc.astimezone(LOCAL_TZ)
@@ -217,7 +238,7 @@ while True:
         break_outer = True
         break
     
-    r = requests.get(
+    r = get_with_retry(
         "https://www.strava.com/api/v3/athlete/activities",
         headers=headers,
         params={"page": page, "per_page": per_page}
@@ -300,7 +321,7 @@ while True:
         # ---------- DETAIL FETCH ----------
         while True:
 
-            detail = requests.get(
+            detail = get_with_retry(
                 f"https://www.strava.com/api/v3/activities/{act_id}",
                 headers=headers
             )
