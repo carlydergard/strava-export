@@ -31387,14 +31387,14 @@
   },
   {
     "date": "2026-11-07",
-    "weightKg": 74.657,
+    "weightKg": 74.588,
     "source": "interpolated",
     "measurementCount": 0
   },
   {
     "date": "2026-11-08",
-    "weightKg": 74.76,
-    "source": "measured",
-    "measurementCount": 1
+    "weightKg": 74.62,
+    "source": "averaged",
+    "measurementCount": 2
   }
 ]
