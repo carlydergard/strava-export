@@ -68126,6 +68126,90 @@
       ]
     },
     {
+      "summaryDate": "2026-11-10",
+      "numOfWeightEntries": 1,
+      "minWeight": 74410.0,
+      "maxWeight": 74410.0,
+      "latestWeight": {
+        "samplePk": 1794292792304,
+        "date": 1794296369000,
+        "calendarDate": "2026-11-10",
+        "weight": 74410.0,
+        "bmi": 22.0,
+        "bodyFat": 18.8,
+        "bodyWater": 59.3,
+        "boneMass": 4760,
+        "muscleMass": 32080,
+        "physiqueRating": null,
+        "visceralFat": null,
+        "metabolicAge": null,
+        "sourceType": "INDEX_SCALE",
+        "timestampGMT": 1794292769000,
+        "weightDelta": -699.9999999999886
+      },
+      "allWeightMetrics": [
+        {
+          "samplePk": 1794292792304,
+          "date": 1794296369000,
+          "calendarDate": "2026-11-10",
+          "weight": 74410.0,
+          "bmi": 22.0,
+          "bodyFat": 18.8,
+          "bodyWater": 59.3,
+          "boneMass": 4760,
+          "muscleMass": 32080,
+          "physiqueRating": null,
+          "visceralFat": null,
+          "metabolicAge": null,
+          "sourceType": "INDEX_SCALE",
+          "timestampGMT": 1794292769000,
+          "weightDelta": -699.9999999999886
+        }
+      ]
+    },
+    {
+      "summaryDate": "2026-11-09",
+      "numOfWeightEntries": 1,
+      "minWeight": 75050.0,
+      "maxWeight": 75050.0,
+      "latestWeight": {
+        "samplePk": 1794262172359,
+        "date": 1794265755000,
+        "calendarDate": "2026-11-09",
+        "weight": 75050.0,
+        "bmi": 22.200000762939453,
+        "bodyFat": 19.0,
+        "bodyWater": 59.1,
+        "boneMass": 4800,
+        "muscleMass": 32240,
+        "physiqueRating": null,
+        "visceralFat": null,
+        "metabolicAge": null,
+        "sourceType": "INDEX_SCALE",
+        "timestampGMT": 1794262155000,
+        "weightDelta": 599.9999999999943
+      },
+      "allWeightMetrics": [
+        {
+          "samplePk": 1794262172359,
+          "date": 1794265755000,
+          "calendarDate": "2026-11-09",
+          "weight": 75050.0,
+          "bmi": 22.200000762939453,
+          "bodyFat": 19.0,
+          "bodyWater": 59.1,
+          "boneMass": 4800,
+          "muscleMass": 32240,
+          "physiqueRating": null,
+          "visceralFat": null,
+          "metabolicAge": null,
+          "sourceType": "INDEX_SCALE",
+          "timestampGMT": 1794262155000,
+          "weightDelta": 599.9999999999943
+        }
+      ]
+    },
+    {
       "summaryDate": "2026-11-08",
       "numOfWeightEntries": 2,
       "minWeight": 74480.0,
