@@ -1,5 +1,74 @@
 [
   {
+    "activityId": 20918490521,
+    "activityName": "Överkropp",
+    "startTimeLocal": "2026-11-09 11:29:59",
+    "startTimeGMT": "2026-11-09 10:29:59",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 1868,
+    "elapsedDuration": 1868,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 99.1,
+    "maxHR": 162.0,
+    "sufferScore": 3.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "",
+    "privateNote": "",
+    "perceivedExertion": 4.0,
+    "calories": 179.0,
+    "deviceName": "Garmin Forerunner 955",
+    "averageTemp": null,
+    "athleteCount": 1,
+    "laps": [
+      {
+        "id": 74617148663,
+        "resource_state": 2,
+        "name": "Lap 0",
+        "activity": {
+          "id": 20918490521,
+          "id_str": "20918490521",
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 7377949,
+          "id_str": "7377949",
+          "resource_state": 1
+        },
+        "elapsed_time": 1868,
+        "moving_time": 1868,
+        "start_date": "2026-11-09T10:29:59Z",
+        "start_date_local": "2026-11-09T11:29:59Z",
+        "distance": 0.0,
+        "average_speed": 0.0,
+        "max_speed": 0.0,
+        "lap_index": 0,
+        "split": 0,
+        "start_index": 0,
+        "end_index": 1069,
+        "total_elevation_gain": 0,
+        "device_watts": false,
+        "average_heartrate": 99.1,
+        "max_heartrate": 162.0
+      }
+    ],
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false,
+    "weightKg": null,
+    "weightSource": "missing",
+    "weightMeasurementCount": 0
+  },
+  {
     "activityId": 20906360427,
     "activityName": "Distans",
     "startTimeLocal": "2026-11-08 10:46:04",
@@ -70,9 +139,9 @@
     "startLat": 57.69,
     "startLng": 11.97,
     "locationName": "Göteborg SE",
-    "weightKg": 74.76,
-    "weightSource": "measured",
-    "weightMeasurementCount": 1
+    "weightKg": 74.62,
+    "weightSource": "averaged",
+    "weightMeasurementCount": 2
   },
   {
     "activityId": 20893976879,
@@ -1607,7 +1676,7 @@
     "startLat": 57.69,
     "startLng": 11.97,
     "locationName": "Göteborg SE",
-    "weightKg": 74.657,
+    "weightKg": 74.588,
     "weightSource": "interpolated",
     "weightMeasurementCount": 0
   },
