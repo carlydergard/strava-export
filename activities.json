@@ -271,9 +271,9 @@
     },
     "hasPhotos": false,
     "hasMap": false,
-    "weightKg": 73.589,
-    "weightSource": "measured",
-    "weightMeasurementCount": 1
+    "weightKg": 73.815,
+    "weightSource": "averaged",
+    "weightMeasurementCount": 2
   },
   {
     "activityId": 20950690108,
