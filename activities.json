@@ -1,5 +1,80 @@
 [
   {
+    "activityId": 20999255946,
+    "activityName": "Långpass",
+    "startTimeLocal": "2026-11-15 15:00:22",
+    "startTimeGMT": "2026-11-15 14:00:22",
+    "type": "Run",
+    "sportType": "Run",
+    "workoutType": "long_run",
+    "distance": 16378.9,
+    "movingDuration": 5719,
+    "elapsedDuration": 5728,
+    "elevationGain": 132.0,
+    "averageSpeed": 2.864,
+    "averageHR": 156.3,
+    "maxHR": 170.0,
+    "sufferScore": 43.0,
+    "averageRunningCadenceInStepsPerMinute": 167,
+    "publicDescription": "",
+    "privateNote": "Långpass. Upptrappningen av distans fortsätter! Ganska seg på slutet. Låg energi? \n\nStel i vänster rumpa/ländrygg på morgonen. Lättade med lite massageboll och stretch, gick i stort sett helt bort under löpningen. \n\nBra genomförd vecka, helt enl. plan. ",
+    "perceivedExertion": 5.0,
+    "calories": 1283.0,
+    "deviceName": "Garmin Forerunner 955",
+    "averageTemp": 20,
+    "athleteCount": 1,
+    "laps": [
+      {
+        "id": 74904998711,
+        "resource_state": 2,
+        "name": "Lap 0",
+        "activity": {
+          "id": 20999255946,
+          "id_str": "20999255946",
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 7377949,
+          "id_str": "7377949",
+          "resource_state": 1
+        },
+        "elapsed_time": 5728,
+        "moving_time": 5719,
+        "start_date": "2026-11-15T14:00:22Z",
+        "start_date_local": "2026-11-15T15:00:22Z",
+        "distance": 16378.9,
+        "average_speed": 2.86,
+        "max_speed": 4.96,
+        "lap_index": 0,
+        "split": 0,
+        "start_index": 0,
+        "end_index": 5721,
+        "total_elevation_gain": 140.2,
+        "average_cadence": 83.7,
+        "device_watts": true,
+        "average_watts": 310.9,
+        "average_heartrate": 156.3,
+        "max_heartrate": 170.0,
+        "pace_zone": 2
+      }
+    ],
+    "flags": {
+      "commute": false,
+      "trainer": false,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": true,
+    "startLat": 57.69,
+    "startLng": 11.97,
+    "locationName": "Göteborg SE",
+    "weightKg": 73.41,
+    "weightSource": "measured",
+    "weightMeasurementCount": 1
+  },
+  {
     "activityId": 20985882794,
     "activityName": "25x45/15",
     "startTimeLocal": "2026-11-14 15:46:14",
@@ -1838,8 +1913,8 @@
     "startLat": 57.69,
     "startLng": 11.97,
     "locationName": "Göteborg SE",
-    "weightKg": null,
-    "weightSource": "missing",
+    "weightKg": 73.67,
+    "weightSource": "interpolated",
     "weightMeasurementCount": 0
   },
   {
