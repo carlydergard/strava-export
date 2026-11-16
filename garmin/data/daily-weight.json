@@ -31429,14 +31429,14 @@
   },
   {
     "date": "2026-11-14",
-    "weightKg": 73.67,
+    "weightKg": 73.705,
     "source": "interpolated",
     "measurementCount": 0
   },
   {
     "date": "2026-11-15",
-    "weightKg": 73.41,
-    "source": "measured",
-    "measurementCount": 1
+    "weightKg": 73.48,
+    "source": "averaged",
+    "measurementCount": 2
   }
 ]
