@@ -146,7 +146,17 @@ if os.path.exists(OUTPUT_JSON):
     with open(OUTPUT_JSON, "r", encoding="utf-8") as f:
         activities = json.load(f)
 
-    exported_ids = {str(a["activityId"]) for a in activities}
+    # Store Strava activity IDs as strings to avoid precision loss in
+    # JavaScript consumers and remain compatible with Strava's 64-bit IDs.
+    for activity in activities:
+        if activity.get("activityId") is not None:
+            activity["activityId"] = str(activity["activityId"])
+
+    exported_ids = {
+        activity["activityId"]
+        for activity in activities
+        if activity.get("activityId") is not None
+    }
 
 print(f"📂 Existing activities: {len(exported_ids)}")
 
@@ -313,7 +323,9 @@ while True:
             save_progress()
             break
 
-        act_id = str(act["id"])
+        # Prefer Strava's string representation of the ID. The fallback
+        # keeps the exporter compatible if id_str is absent.
+        act_id = str(act.get("id_str") or act["id"])
 
         if act_id in exported_ids:
             continue
@@ -354,7 +366,7 @@ while True:
         laps = d.get("laps", [])
         
         entry = {
-            "activityId": act["id"],
+            "activityId": act_id,
             "activityName": act.get("name"),
             "startTimeLocal": iso_to_local(act["start_date_local"]),
             "startTimeGMT": iso_to_local(act["start_date"]),
