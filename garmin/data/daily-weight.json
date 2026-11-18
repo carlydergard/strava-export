@@ -31444,5 +31444,11 @@
     "weightKg": 73.69,
     "source": "measured",
     "measurementCount": 1
+  },
+  {
+    "date": "2026-11-17",
+    "weightKg": 74.949,
+    "source": "measured",
+    "measurementCount": 1
   }
 ]
