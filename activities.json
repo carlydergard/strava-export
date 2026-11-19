@@ -1,5 +1,74 @@
 [
   {
+    "activityId": "21032844417",
+    "activityName": "Överkropp",
+    "startTimeLocal": "2026-11-18 11:39:48",
+    "startTimeGMT": "2026-11-18 10:39:48",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 1831,
+    "elapsedDuration": 1831,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 93.4,
+    "maxHR": 159.0,
+    "sufferScore": 3.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "",
+    "privateNote": "Överkropp. Extremt kass sömn? Lite tuff dag igår med tidigt ögonläkarbesök, kort tröskel på lunchen, aw med the gang hos Johan (2 öl…). Dessutom mkt på jobbet!\r\n\r\nDålig känsla i vänster armbåge under chins? Tog det försiktigt! ",
+    "perceivedExertion": 3.0,
+    "calories": 162.0,
+    "deviceName": "Garmin Forerunner 955",
+    "averageTemp": null,
+    "athleteCount": 1,
+    "laps": [
+      {
+        "id": 75017010564,
+        "resource_state": 2,
+        "name": "Lap 0",
+        "activity": {
+          "id": 21032844417,
+          "id_str": "21032844417",
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 7377949,
+          "id_str": "7377949",
+          "resource_state": 1
+        },
+        "elapsed_time": 1831,
+        "moving_time": 1831,
+        "start_date": "2026-11-18T10:39:48Z",
+        "start_date_local": "2026-11-18T11:39:48Z",
+        "distance": 0.0,
+        "average_speed": 0.0,
+        "max_speed": 0.0,
+        "lap_index": 0,
+        "split": 0,
+        "start_index": 0,
+        "end_index": 993,
+        "total_elevation_gain": 0,
+        "device_watts": false,
+        "average_heartrate": 93.4,
+        "max_heartrate": 159.0
+      }
+    ],
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false,
+    "weightKg": null,
+    "weightSource": "missing",
+    "weightMeasurementCount": 0
+  },
+  {
     "activityId": "21019731288",
     "activityName": "6x3'",
     "startTimeLocal": "2026-11-17 11:38:11",
@@ -478,9 +547,9 @@
     "startLat": 57.69,
     "startLng": 11.97,
     "locationName": "Göteborg SE",
-    "weightKg": null,
-    "weightSource": "missing",
-    "weightMeasurementCount": 0
+    "weightKg": 74.949,
+    "weightSource": "measured",
+    "weightMeasurementCount": 1
   },
   {
     "activityId": "20999255946",
