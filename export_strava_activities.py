@@ -453,6 +453,10 @@ while True:
             new_count += 1
             print(f"✅ Exported {entry['activityName']} ({entry['startTimeLocal']})")
 
+            if new_count % SAVE_EVERY == 0:
+                save_progress()
+                save_page_progress(page)
+
         time.sleep(1)
 
     if MAX_NEW_ACTIVITIES is not None and new_count >= MAX_NEW_ACTIVITIES:
