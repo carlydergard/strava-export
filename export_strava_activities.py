@@ -12,6 +12,7 @@ PROGRESS_FILE = "progress.json"
 OUTPUT_JSON = "activities.json"
 MAX_NEW_ACTIVITIES = None     # set to None to export everything
 SAVE_EVERY = 25               # checkpoint frequency
+REPROCESS_RECENT_ACTIVITIES = 7  # refresh recent Strava activities to capture later edits
 
 START_TIME = time.time()
 MAX_RUNTIME = 5.5 * 3600  # 5.5 timmar
@@ -236,6 +237,7 @@ if latest_check:
 
 per_page = 50
 new_count = 0
+recent_ids_to_refresh = set()
 
 print("📥 Exporting Strava activities…")
 
@@ -301,6 +303,15 @@ while True:
 
     batch = r.json()
 
+    # The first page contains the newest activities. Re-fetch the details for
+    # the newest N already-exported activities so later Strava edits are saved.
+    if page == 1 and not recent_ids_to_refresh:
+        recent_ids_to_refresh = {
+            str(item.get("id_str") or item["id"])
+            for item in batch[:REPROCESS_RECENT_ACTIVITIES]
+        }
+        print(f"🔄 Reprocessing up to {len(recent_ids_to_refresh)} most recent activities")
+
     if not batch:
         if latest_check:
             latest_check = False
@@ -327,40 +338,48 @@ while True:
         # keeps the exporter compatible if id_str is absent.
         act_id = str(act.get("id_str") or act["id"])
 
-        if act_id in exported_ids:
+        is_existing = act_id in exported_ids
+        should_refresh = is_existing and act_id in recent_ids_to_refresh
+        if is_existing and not should_refresh:
             continue
 
         # ---------- DETAIL FETCH ----------
-        while True:
+        try:
+            while True:
 
-            detail = get_with_retry(
-                f"https://www.strava.com/api/v3/activities/{act_id}",
-                headers=headers
-            )
+                detail = get_with_retry(
+                    f"https://www.strava.com/api/v3/activities/{act_id}",
+                    headers=headers
+                )
 
-            if detail.status_code == 401:
-                refresh_access_token()
-                headers["Authorization"] = f"Bearer {access_token}"
+                if detail.status_code == 401:
+                    refresh_access_token()
+                    headers["Authorization"] = f"Bearer {access_token}"
+                    continue
+
+                if detail.status_code == 429:
+                    save_progress()
+                    save_page_progress(page)
+
+                    reset_ts = int(detail.headers.get("X-RateLimit-Reset", time.time() + 900))
+                    wait_time = max(reset_ts - int(time.time()), 0)
+
+                    print(f"⚠️ Rate limit hit on detail fetch. Waiting {wait_time//60} min…")
+                    countdown(wait_time)
+                    continue
+
+                if detail.status_code >= 500:
+                    print(f"⚠️ Strava server error {detail.status_code}, retrying in 60s...")
+                    time.sleep(60)
+                    continue
+
+                detail.raise_for_status()
+                break
+        except Exception as e:
+            if should_refresh:
+                print(f"⚠️ Could not refresh {act_id}; keeping the existing JSON entry: {e}")
                 continue
-
-            if detail.status_code == 429:
-                save_progress()
-                save_page_progress(page)
-
-                reset_ts = int(detail.headers.get("X-RateLimit-Reset", time.time() + 900))
-                wait_time = max(reset_ts - int(time.time()), 0)
-
-                print(f"⚠️ Rate limit hit on detail fetch. Waiting {wait_time//60} min…")
-                countdown(wait_time)
-                continue
-
-            if detail.status_code >= 500:
-                print(f"⚠️ Strava server error {detail.status_code}, retrying in 60s...")
-                time.sleep(60)
-                continue
-
-            detail.raise_for_status()
-            break
+            raise
 
         d = detail.json()
         laps = d.get("laps", [])
@@ -419,15 +438,20 @@ while True:
             if location_name:
                 entry["locationName"] = location_name
         
-        activities.append(entry)
-        exported_ids.add(act_id)
-        new_count += 1
-
-        print(f"✅ Exported {entry['activityName']} ({entry['startTimeLocal']})")
-
-        if new_count % SAVE_EVERY == 0:
-            save_progress()
-            save_page_progress(page)
+        if is_existing:
+            # Preserve downstream enrichment and any additional fields, while
+            # allowing freshly fetched Strava fields to replace old values.
+            existing_index = next(
+                i for i, activity in enumerate(activities)
+                if activity.get("activityId") == act_id
+            )
+            activities[existing_index] = {**activities[existing_index], **entry}
+            print(f"🔄 Refreshed {entry['activityName']} ({entry['startTimeLocal']})")
+        else:
+            activities.append(entry)
+            exported_ids.add(act_id)
+            new_count += 1
+            print(f"✅ Exported {entry['activityName']} ({entry['startTimeLocal']})")
 
         time.sleep(1)
 
