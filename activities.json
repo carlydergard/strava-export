@@ -1,5 +1,74 @@
 [
   {
+    "activityId": "21093776914",
+    "activityName": "Överkropp",
+    "startTimeLocal": "2026-11-23 12:30:23",
+    "startTimeGMT": "2026-11-23 11:30:23",
+    "type": "WeightTraining",
+    "sportType": "WeightTraining",
+    "workoutType": null,
+    "distance": 0.0,
+    "movingDuration": 1639,
+    "elapsedDuration": 1639,
+    "elevationGain": 0,
+    "averageSpeed": 0.0,
+    "averageHR": 82.3,
+    "maxHR": 156.0,
+    "sufferScore": 2.0,
+    "averageRunningCadenceInStepsPerMinute": null,
+    "publicDescription": "",
+    "privateNote": "Överkropp. Skippade chins pga fortf ngt dålig känsla i vänster axel? ",
+    "perceivedExertion": null,
+    "calories": 113.0,
+    "deviceName": "Garmin Forerunner 955",
+    "averageTemp": null,
+    "athleteCount": 1,
+    "laps": [
+      {
+        "id": 75236919807,
+        "resource_state": 2,
+        "name": "Lap 0",
+        "activity": {
+          "id": 21093776914,
+          "id_str": "21093776914",
+          "visibility": "everyone",
+          "resource_state": 1
+        },
+        "athlete": {
+          "id": 7377949,
+          "id_str": "7377949",
+          "resource_state": 1
+        },
+        "elapsed_time": 1639,
+        "moving_time": 1639,
+        "start_date": "2026-11-23T11:30:23Z",
+        "start_date_local": "2026-11-23T12:30:23Z",
+        "distance": 0.0,
+        "average_speed": 0.0,
+        "max_speed": 0.0,
+        "lap_index": 0,
+        "split": 0,
+        "start_index": 0,
+        "end_index": 959,
+        "total_elevation_gain": 0,
+        "device_watts": false,
+        "average_heartrate": 82.3,
+        "max_heartrate": 156.0
+      }
+    ],
+    "flags": {
+      "commute": false,
+      "trainer": true,
+      "manual": false,
+      "private": false
+    },
+    "hasPhotos": false,
+    "hasMap": false,
+    "weightKg": 73.989,
+    "weightSource": "measured",
+    "weightMeasurementCount": 1
+  },
+  {
     "activityId": "21084719232",
     "activityName": "Långpass",
     "startTimeLocal": "2026-11-22 13:54:05",
@@ -104,9 +173,9 @@
     "startLat": 57.69,
     "startLng": 11.97,
     "locationName": "Göteborg SE",
-    "weightKg": 74.225,
+    "weightKg": 74.383,
     "weightSource": "averaged",
-    "weightMeasurementCount": 2
+    "weightMeasurementCount": 3
   },
   {
     "activityId": "21069842291",
