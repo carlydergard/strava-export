@@ -5,11 +5,12 @@ env:
 
 permissions:
   contents: write
-  
+
 on:
   workflow_dispatch:
   schedule:
     - cron: "45 0 * * *"
+    - cron: "45 6 * * *"
 
 concurrency:
   group: strava-export
