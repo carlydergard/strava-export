@@ -271,8 +271,8 @@
     },
     "hasPhotos": false,
     "hasMap": false,
-    "weightKg": null,
-    "weightSource": "missing",
+    "weightKg": 74.82,
+    "weightSource": "interpolated",
     "weightMeasurementCount": 0
   },
   {
